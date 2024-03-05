@@ -1,4 +1,4 @@
-# Título do Projeto
+# Rótulo Certo
 
 `CURSO: Sistemas de Informação`
 
@@ -6,20 +6,21 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+uma ferramenta inovadora que visa aumentar a compreensão da população sobre os rótulos de alimentos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Fernando de Souza Colini Taioba
+* Gabriel Carvalho de Almeida Silva
+* Italo Rangel Penaforte Mendes
+* Lucas Alves de Medeiros Ferreira
+* Marcus Paulo Oliveira Silva
+* Raul Duarte Torres de Oliveira
 
 ## Orientador
 
-* Nome completo do professor 1
-
+* Luciana de Nardin
+  
 # Planejamento
 
 | Etapa         | Atividades |
