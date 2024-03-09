@@ -8,19 +8,8 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+1ª Persona: <br />
+Dona Maria da Silva, uma mulher de 75 anos, residente em Belo Horizonte, Brasil, e anteriormente faxineira, agora aposentada, mantém um estilo de vida ativo e saudável, apesar de sua deficiência de cálcio. Com um interesse pela culinária e jardinagem, ela dedica seu tempo livre a cozinhar para a família e cuidar de seu jardim. Valorizando mais a qualidade do que o preço, ela procura por alimentos seguros e nutritivos para melhorar sua saúde óssea. Sua personalidade gentil e generosa reflete-se em sua crença na importância da integridade, solidariedade e manutenção de um estilo de vida saudável, demonstrando determinação e otimismo diante dos desafios.
 
 ## Histórias de Usuários
 
@@ -30,6 +19,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Usuária do sistema, uma senhora idosa com deficiência de cálcio | De uma maneira fácil e acessível de entender os rótulos dos alimentos | Identificar os produtos ricos em cálcio e outros nutrientes essenciais para mim. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
