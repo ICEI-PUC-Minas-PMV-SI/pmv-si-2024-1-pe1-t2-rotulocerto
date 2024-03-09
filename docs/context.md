@@ -32,14 +32,9 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Diante do cenário atual de saúde pública, onde a crescente preocupação com a alimentação saudável e seus impactos no bem-estar é evidente, um estudo conduzido pela UNICEF, revela a alarmante falta de consciência dos consumidores em relação aos alimentos que consomem, em que apenas 52% das famílias se sentiam confiantes para interpretar os rótulos dos alimentos antes da compra, analisando famílias menos favorecidas, num grupo de 1.343 pessoas, responsáveis por 1.647 crianças, em 21 estados (UNICEF, 2021). Esta lacuna na compreensão dos rótulos alimentares pode levar a escolhas inadequadas, resultando em impactos negativos na saúde e qualidade de vida das pessoas. Portanto, torna-se imperativo fornecer uma ferramenta como o Rótulo Certo, que visa informar e educar a população de forma acessível e didática sobre a leitura e interpretação dos rótulos dos alimentos. 
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Esse projeto surge com base na necessidade de fornecer informações claras e relevantes sobre os rótulos alimentares, seguindo o padrão estabelecido pela Anvisa, facilitando o acesso a essas informações e promovendo a comparação entre alimentos semelhantes para auxiliar os consumidores na tomada de decisões mais saudáveis. Além disso, ao destacar os alimentos com maior valor nutricional, o projeto busca capacitar os indivíduos a fazerem escolhas alimentares conscientes e benéficas para sua saúde. Assim, a abordagem multifacetada visa preencher as lacunas na compreensão dos rótulos alimentares e empoderar os consumidores a fazerem escolhas mais saudáveis e informadas em seu dia a dia.
 
 ## Público-Alvo
 
