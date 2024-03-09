@@ -11,15 +11,17 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 1ª Persona: <br />
 Dona Maria da Silva, uma mulher de 75 anos, residente em Belo Horizonte, Brasil, e anteriormente faxineira, agora aposentada, mantém um estilo de vida ativo e saudável, apesar de sua deficiência de cálcio. Com um interesse pela culinária e jardinagem, ela dedica seu tempo livre a cozinhar para a família e cuidar de seu jardim. Valorizando mais a qualidade do que o preço, ela procura por alimentos seguros e nutritivos para melhorar sua saúde óssea. Sua personalidade gentil e generosa reflete-se em sua crença na importância da integridade, solidariedade e manutenção de um estilo de vida saudável, demonstrando determinação e otimismo diante dos desafios.
 
+2ª Persona: <br />
+João Oliveira tem 32 anos formado em Administração de Empresas mas atua como Analista de Marketing em uma agência em São Paulo capital, é um corredor amador de maratona e pretende completar 365 maratonas em 365 dias, para atingir esse objetivo quer saber quais alimentos são ricos em nutrientes que ajudam a recuperação muscular.
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 | Usuária do sistema, uma senhora idosa com deficiência de cálcio | De uma maneira fácil e acessível de entender os rótulos dos alimentos | Identificar os produtos ricos em cálcio e outros nutrientes essenciais para mim. |
+|João Oliveira| Buscar alimentos que contenham selênio e ômega-3| Ter uma rapida recuperação muscular |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
