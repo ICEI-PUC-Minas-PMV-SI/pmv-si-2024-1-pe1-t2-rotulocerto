@@ -17,6 +17,10 @@ João Oliveira tem 32 anos formado em Administração de Empresas mas atua como 
 3ª Persona: <br />
 Roberto Marinho, 28 anos e sobrepeso, é um médico plantonista que trabalha muito e por conta disso não consegue tempo para cuidar da sua própria saúde. Ele prioriza bastante os outros e o trabalho, por conta disso não consegue dormir e se alimentar direito. Tem uma rotina bastante estressante trabalhando 12 horas por dia e gasta mais 4 horas do dia dele no transporte público. Com isso só sobra 8 horas para tomar um banho e ir dormir para repetir tudo novamente no dia seguinte.
 
+4ª Persona: <br />
+Carlos Silva, um brasileiro de 50 anos e técnico em informática, valoriza produtos alimentícios frescos e naturais que se adequem à sua dieta restritiva. Ele busca opções acessíveis que ofereçam praticidade e qualidade. Carlos é uma pessoa calma e prática, comprometida com sua saúde e bem-estar, e dedica parte de seu tempo livre às atividades ao ar livre e à leitura.
+
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -26,7 +30,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Usuária do sistema, uma senhora idosa com deficiência de cálcio | De uma maneira fácil e acessível de entender os rótulos dos alimentos | Identificar os produtos ricos em cálcio e outros nutrientes essenciais para mim. |
 |João Oliveira| Buscar alimentos que contenham selênio e ômega-3| Ter uma rapida recuperação muscular |
 | Usuário, um médico sobrepeso com a vida corrida, estou preocupado se minha saúde não vai piorar no dia de amanhã | Consumir alimentos mais saudáveis, porém práticos, que eu consiga encaixar na minha rotina | Que eu possa começar a cuidar de mim e conseguir viver durante longos anos. |
-
+| Pessoa com restrições alimentares | Encontrar alimentos que se encaixem na minha rotina | encontrar uma variedade de recursos e informações que o auxiliem na sua jornada de restrições alimentares. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
