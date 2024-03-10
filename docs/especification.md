@@ -20,6 +20,9 @@ Roberto Marinho, 28 anos e sobrepeso, é um médico plantonista que trabalha mui
 4ª Persona: <br />
 Carlos Silva, um brasileiro de 50 anos e técnico em informática, valoriza produtos alimentícios frescos e naturais que se adequem à sua dieta restritiva. Ele busca opções acessíveis que ofereçam praticidade e qualidade. Carlos é uma pessoa calma e prática, comprometida com sua saúde e bem-estar, e dedica parte de seu tempo livre às atividades ao ar livre e à leitura.
 
+5ª Persona: <br /> 
+Anna Júlia, uma mulher de 45 anos, residente em Belo Horizonte. é professora e mãe de Pedro. É uma pessoa que ama ler e estudar, adquirir conhecimento é fundamental para sua vida. Culinária, também é essencial para o cuidado com sua família, sempre prepara alimentos saudáveis para zelar pelo bem estar de todos, principalmente o de seu filho.
+
 
 ## Histórias de Usuários
 
@@ -31,6 +34,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |João Oliveira| Buscar alimentos que contenham selênio e ômega-3| Ter uma rapida recuperação muscular |
 | Usuário, um médico sobrepeso com a vida corrida, estou preocupado se minha saúde não vai piorar no dia de amanhã | Consumir alimentos mais saudáveis, porém práticos, que eu consiga encaixar na minha rotina | Que eu possa começar a cuidar de mim e conseguir viver durante longos anos. |
 | Pessoa com restrições alimentares | Encontrar alimentos que se encaixem na minha rotina | encontrar uma variedade de recursos e informações que o auxiliem na sua jornada de restrições alimentares. |
+| Eu como mãe atenta a alimentção saúdavel de Pedro | Preciso de rotúlos mais praticos e visíveis | Para proporcionar uma dieta saudável para meu filho |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
