@@ -1,12 +1,6 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+No atual cenário de crescente preocupação com a saúde e bem-estar, a conscientização sobre os alimentos consumidos é fundamental. Nesse contexto, apresenta-se o projeto Rótulo Certo, uma ferramenta inovadora que visa aumentar a compreensão da população sobre os rótulos de alimentos. Com a proliferação de produtos alimentícios e a diversificação de dietas, os consumidores enfrentam desafios ao interpretar informações nutricionais, ingredientes e aditivos presentes nos rótulos dos alimentos. Essa dificuldade pode resultar em escolhas alimentares inadequadas e impactar negativamente a saúde e qualidade de vida das pessoas.
 
 ## Problema
 
