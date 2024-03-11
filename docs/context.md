@@ -4,16 +4,9 @@ No atual cenário de crescente preocupação com a saúde e bem-estar, a conscie
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+No mundo moderno, temos uma gama gigantesca de alimentos de todos os tipos e qualidades sendo oferecidos para nós a todo momento. Essa variedade e fartura trouxeram um grande benefício para nós, deixando muitas vezes os alimentos mais acessíveis e práticos para a vida corrida moderna. Muitas vezes não temos noção do que está presente nesses alimentos. Segundo uma pesquisa da Universidade Federal de Fortaleza, em um estudo realizado em um bairro nobre, apenas 50% dos clientes verificam os rótulos antes de comprar um alimento; em um bairro de uma região menos favorecida, o número é ainda menor. Tendo em vista a conscientização sobre os ingredientes presentes nos alimentos modernos e alertando sobre seus perigos, é extremamente necessário que haja formas da população em geral ter acesso fácil e didático aos significados de cada rótulo e aos seus impactos na saúde.
+	
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
