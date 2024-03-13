@@ -39,15 +39,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Pessoa com restrições alimentares | Encontrar alimentos que se encaixem na minha rotina | encontrar uma variedade de recursos e informações que o auxiliem na sua jornada de restrições alimentares. |
 | Eu como mãe atenta a alimentção saúdavel de Pedro | Preciso de rotúlos mais praticos e visíveis | Para proporcionar uma dieta saudável para meu filho |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
@@ -56,31 +47,35 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
-
+|RF-001| A aplicação deve educar o usuário sobre determinados tipos de alimentos | ALTA |  
+|RF-002| A aplicação deve educar o usuário sobre rótulos de alimentos | MÉDIA |
+|RF-003| A aplicação deve exibir um ranking de melhores alimentos em valor nutricional | MÉDIA |
+|RF-004| A aplicação deve exibir profissionais de nutrição mais próximos | MÉDIA |
+|RF-005| A aplicação deve educar sobre os símbolos informativos na rotulagem frontal dos produtos (Exemplo: Alto em Açúcar Adicionado) | MÉDIA |
+|RF-006| A aplicação deve educar sobre os aditivos presentes nos alimentos (Exemplo: Acidificante e-338 a.k.a. ácido fosfórico) | MÉDIA |
+|RF-007| A aplicação deve exibir mercados mais próximos | MÉDIA |
+|RF-008| A aplicação deve exibir dietas comuns com diferentes objetivos | MÉDIA |
+|RF-009| A aplicação deve exibir mitos e verdades sobre nutrição | BAIXA |
+|RF-010| A aplicação deve permitir ao usuário encontrar um(a) profissional de nutrição mais próximo | BAIXA |
+|RF-011| A aplicação deve permitir ao usuário encontrar um mercado mais próximo | MÉDIA |
+|RF-012| A aplicação deve permitir que o usuário pesquisei valores nutricionais | MÉDIA |
+|RF-013| A aplicação deve permitir que o usuário adicione produtos que não tenha encontrado na plataforma | ALTA |
+|RF-014| A aplicação deve permitir que o usuário adicione informações nutricionais que não tenha encontrado na plataforma | MÉDIA |
+|RF-015| A aplicação deve permitir que o usuário filtre alimentos ricos em algum valor nutricional | MÉDIA |
+|RF-016| A aplicação deve contar com atualizações com regularidade da base de dados, com novos produtos alimentícios e suas informações | MÉDIA |
+|RF-017| A aplicação deve permitir que o usuário responda à um questionário de avaliação de saúde (IMC) | MÉDIA |
+|RF-018| A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| A aplicação deve ser responsiva | ALTA | 
+|RNF-002| A aplicação deve contar com acessibilidade |  MÉDIA |
+|RNF-003| A aplicação deve ser compatível com principais navegadores |  MÉDIA |
+|RNF-004| A aplicação deve ser intuitiva e fácil de usar |  MÉDIA |
+|RNF-005| A aplicação deve contar com uma barra lateral para navegação |  MÉDIA |
+|RNF-006| A aplicação deve contar com um header de navegação rápida |  MÉDIA |
 
 ## Restrições
 
