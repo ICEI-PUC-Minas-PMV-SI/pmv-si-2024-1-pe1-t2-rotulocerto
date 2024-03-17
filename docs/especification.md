@@ -21,6 +21,7 @@ Roberto Marinho, 28 anos e sobrepeso, é um médico plantonista que trabalha mui
 
 4ª Persona: <br />
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/img/personas/persona-carlos-silva.png" width="150" alt="Imagem da persona Carlos Silva" />
+<br/>
 Carlos Silva, um brasileiro de 50 anos e técnico em informática, valoriza produtos alimentícios frescos e naturais que se adequem à sua dieta restritiva. Ele busca opções acessíveis que ofereçam praticidade e qualidade. Carlos é uma pessoa calma e prática, comprometida com sua saúde e bem-estar, e dedica parte de seu tempo livre às atividades ao ar livre e à leitura.
 
 5ª Persona: <br /> 
