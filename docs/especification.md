@@ -44,6 +44,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Usuário, um médico sobrepeso com a vida corrida, estou preocupado se minha saúde não vai piorar no dia de amanhã | Consumir alimentos mais saudáveis, porém práticos, que eu consiga encaixar na minha rotina | Que eu possa começar a cuidar de mim e conseguir viver durante longos anos. |
 | Pessoa com restrições alimentares | Encontrar alimentos que se encaixem na minha rotina | encontrar uma variedade de recursos e informações que o auxiliem na sua jornada de restrições alimentares. |
 | Eu como mãe atenta a alimentção saúdavel de Pedro | Preciso de rotúlos mais praticos e visíveis | Para proporcionar uma dieta saudável para meu filho |
+| Jovem iniciando alimentação saudável | Preciso saber o significado dos rótulos alimentícios  | Para escolher melhor meus alimentos  |
 
 ## Requisitos
 
