@@ -14,7 +14,7 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 Dona Maria da Silva, uma mulher de 75 anos, residente em Belo Horizonte, Brasil, e anteriormente faxineira, agora aposentada, mantém um estilo de vida ativo e saudável, apesar de sua deficiência de cálcio. Com um interesse pela culinária e jardinagem, ela dedica seu tempo livre a cozinhar para a família e cuidar de seu jardim. Valorizando mais a qualidade do que o preço, ela procura por alimentos seguros e nutritivos para melhorar sua saúde óssea. Sua personalidade gentil e generosa reflete-se em sua crença na importância da integridade, solidariedade e manutenção de um estilo de vida saudável, demonstrando determinação e otimismo diante dos desafios.
 
 2ª Persona: <br />
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/img/personas/persona-joao-oliveira.jpeg" width="150" alt="Imagem da persona Roberto Marinho" />
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/img/personas/persona-joao-oliveira.jpeg" width="150" alt="Imagem da persona João Oliveira" />
 <br/>
 João Oliveira tem 32 anos formado em Administração de Empresas mas atua como Analista de Marketing em uma agência em São Paulo capital, é um corredor amador de maratona e pretende completar 365 maratonas em 365 dias, para atingir esse objetivo quer saber quais alimentos são ricos em nutrientes que ajudam a recuperação muscular.
 
@@ -28,7 +28,9 @@ Roberto Marinho, 28 anos e sobrepeso, é um médico plantonista que trabalha mui
 <br/>
 Carlos Silva, um brasileiro de 50 anos e técnico em informática, valoriza produtos alimentícios frescos e naturais que se adequem à sua dieta restritiva. Ele busca opções acessíveis que ofereçam praticidade e qualidade. Carlos é uma pessoa calma e prática, comprometida com sua saúde e bem-estar, e dedica parte de seu tempo livre às atividades ao ar livre e à leitura.
 
-5ª Persona: <br /> 
+5ª Persona:<br /> 
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/img/personas/persona.annajulia.png" width="150" alt="Imagem da persona Anna Júlia" />
+<br/>
 Anna Júlia, uma mulher de 45 anos, residente em Belo Horizonte. é professora e mãe de Pedro. É uma pessoa que ama ler e estudar, adquirir conhecimento é fundamental para sua vida. Culinária, também é essencial para o cuidado com sua família, sempre prepara alimentos saudáveis para zelar pelo bem estar de todos, principalmente o de seu filho.
 
 6ª Persona <br />
