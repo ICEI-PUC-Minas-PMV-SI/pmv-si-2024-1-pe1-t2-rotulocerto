@@ -1,10 +1,14 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+O Rotulo Certo, tem como objetivo aumentar a compreensão da população sobre os rótulos de alimentos e promover escolher alimentares mais saudáveis. O projeto visa informar, conscientizar e educar o público-alvo sobre os significados dos rótulos alimentares, bem como seus impactos na saúde e qualidade de vida.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
+Para iniciar, será introduzido o conceito de personas, incluindo suas particularidades e demandas específicas relacionadas à alimentação, visando estabelecer os requisitos essenciais do sistema.
 
-Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
+As metodologias empregadas compreendem:
+
+1. Caracterização das personas, com análise de seus estágios de vida e necessidades individuais no âmbito alimentar.
+2. Desenvolvimento das histórias de usuário.
+3. Formulação dos requisitos do sistema com base nos insights obtidos nas etapas anteriores.
 
 ## Personas
 
