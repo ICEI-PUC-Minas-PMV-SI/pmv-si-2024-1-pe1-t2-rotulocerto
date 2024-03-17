@@ -70,11 +70,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| A aplicação deve exibir dietas comuns com diferentes objetivos | MÉDIA |
 |RF-009| A aplicação deve exibir mitos e verdades sobre nutrição | BAIXA |
 |RF-010| A aplicação deve permitir que o usuário filtre alimentos por nome, nutrientes, aditivos e calorias | MÉDIA |
-|RF-011| A aplicação deve permitir que o usuário envie formularios para que seja adicionado produtos que não tenha encontrado na plataforma | ALTA |
-|RF-012| A aplicação deve permitir que o usuário envie formularios para que seja adicionado informações nutricionais que não tenha encontrado na plataforma | MÉDIA |
-|RF-013| A aplicação deve permitir que o usuário responda à um questionário de avaliação de saúde (IMC) | MÉDIA |
-|RF-014| A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico | MÉDIA |
-|RF-015| A aplicação deve permitir que os administradores visualizem os formulários enviados pelos usuários e adicionem as informações, caso sejam consideradas importantes | ALTA |
+|RF-011| A aplicação deve permitir que o usuário envie formularios para que seja adicionado produtos ou informações nutricionais que não tenha encontrado na plataforma | ALTA |
+|RF-012| A aplicação deve permitir que o usuário responda à um questionário de avaliação de saúde (IMC) | MÉDIA |
+|RF-013| A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico | MÉDIA |
+|RF-014| A aplicação deve permitir que os administradores visualizem os formulários enviados pelos usuários e adicionem as informações, caso sejam consideradas importantes | ALTA |
 
 ### Requisitos não Funcionais
 
