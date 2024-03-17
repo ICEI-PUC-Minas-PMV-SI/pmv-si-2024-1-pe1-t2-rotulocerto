@@ -28,6 +28,8 @@ Carlos Silva, um brasileiro de 50 anos e técnico em informática, valoriza prod
 Anna Júlia, uma mulher de 45 anos, residente em Belo Horizonte. é professora e mãe de Pedro. É uma pessoa que ama ler e estudar, adquirir conhecimento é fundamental para sua vida. Culinária, também é essencial para o cuidado com sua família, sempre prepara alimentos saudáveis para zelar pelo bem estar de todos, principalmente o de seu filho.
 
 6ª Persona <br />
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/img/personas/persona-carlos-augusto.png" width="150" alt="Imagem da persona Carlos Augusto" />
+<br/>
 Carlos Augusto é um jovem estudante de 17 anos residente em Vitória. Está concluindo o ensino médio e tem hábitos de vida saudáveis com uma vida que gira em torno de praticar esportes e exercícios físicos que sempre gostou muito de se exercitar e ter uma vida ativa, cada vez mais têm se interessado por nutrição para melhor sua performance esportiva.
 
 
