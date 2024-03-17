@@ -12,6 +12,8 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 Dona Maria da Silva, uma mulher de 75 anos, residente em Belo Horizonte, Brasil, e anteriormente faxineira, agora aposentada, mantém um estilo de vida ativo e saudável, apesar de sua deficiência de cálcio. Com um interesse pela culinária e jardinagem, ela dedica seu tempo livre a cozinhar para a família e cuidar de seu jardim. Valorizando mais a qualidade do que o preço, ela procura por alimentos seguros e nutritivos para melhorar sua saúde óssea. Sua personalidade gentil e generosa reflete-se em sua crença na importância da integridade, solidariedade e manutenção de um estilo de vida saudável, demonstrando determinação e otimismo diante dos desafios.
 
 2ª Persona: <br />
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/img/personas/persona-joao-oliveira.jpeg" width="150" alt="Imagem da persona Roberto Marinho" />
+<br/>
 João Oliveira tem 32 anos formado em Administração de Empresas mas atua como Analista de Marketing em uma agência em São Paulo capital, é um corredor amador de maratona e pretende completar 365 maratonas em 365 dias, para atingir esse objetivo quer saber quais alimentos são ricos em nutrientes que ajudam a recuperação muscular.
 
 3ª Persona: <br />
