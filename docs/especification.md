@@ -9,6 +9,8 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 ## Personas
 
 1ª Persona: <br />
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/img/personas/persona-dona-maria.png" width="150" alt="Imagem da persona Maria da Silva" />
+<br />
 Dona Maria da Silva, uma mulher de 75 anos, residente em Belo Horizonte, Brasil, e anteriormente faxineira, agora aposentada, mantém um estilo de vida ativo e saudável, apesar de sua deficiência de cálcio. Com um interesse pela culinária e jardinagem, ela dedica seu tempo livre a cozinhar para a família e cuidar de seu jardim. Valorizando mais a qualidade do que o preço, ela procura por alimentos seguros e nutritivos para melhorar sua saúde óssea. Sua personalidade gentil e generosa reflete-se em sua crença na importância da integridade, solidariedade e manutenção de um estilo de vida saudável, demonstrando determinação e otimismo diante dos desafios.
 
 2ª Persona: <br />
