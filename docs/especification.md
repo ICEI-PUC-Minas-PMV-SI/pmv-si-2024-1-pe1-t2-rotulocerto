@@ -80,11 +80,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva | ALTA | 
-|RNF-002| A aplicação deve contar com acessibilidade |  MÉDIA |
-|RNF-003| A aplicação deve ser compatível com principais navegadores |  MÉDIA |
-|RNF-004| A aplicação deve ser intuitiva e fácil de usar |  MÉDIA |
-|RNF-005| A aplicação deve contar com uma barra lateral para navegação |  MÉDIA |
-|RNF-006| A aplicação deve contar com um header de navegação rápida |  MÉDIA |
+|RNF-002| A aplicação deve ser compatível com principais navegadores |  MÉDIA |
+|RNF-003| A aplicação deve seguir as heurísticas de Nielsen |  MÉDIA |
+|RNF-004| A aplicação deve contar com uma barra lateral para navegação |  MÉDIA |
+|RNF-005| A aplicação deve contar com um header de navegação rápida |  MÉDIA |
+|RNF-006| A aplicação deve ser desenvolvida com Frontend ( Javascript, HMTL, CSS) | MÉDIA |
 
 ## Restrições
 
@@ -93,4 +93,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Ter FrontEnd com ( Javascript, HMTL, CSS) desenvolvidos |
+|02| O projeto só deve utilizar o Bootstrap como framework |
