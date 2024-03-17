@@ -15,6 +15,8 @@ Dona Maria da Silva, uma mulher de 75 anos, residente em Belo Horizonte, Brasil,
 João Oliveira tem 32 anos formado em Administração de Empresas mas atua como Analista de Marketing em uma agência em São Paulo capital, é um corredor amador de maratona e pretende completar 365 maratonas em 365 dias, para atingir esse objetivo quer saber quais alimentos são ricos em nutrientes que ajudam a recuperação muscular.
 
 3ª Persona: <br />
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/img/personas/persona-roberto-marinho.png" width="150" alt="Imagem da persona Roberto Marinho" />
+<br/>
 Roberto Marinho, 28 anos e sobrepeso, é um médico plantonista que trabalha muito e por conta disso não consegue tempo para cuidar da sua própria saúde. Ele prioriza bastante os outros e o trabalho, por conta disso não consegue dormir e se alimentar direito. Tem uma rotina bastante estressante trabalhando 12 horas por dia e gasta mais 4 horas do dia dele no transporte público. Com isso só sobra 8 horas para tomar um banho e ir dormir para repetir tudo novamente no dia seguinte.
 
 4ª Persona: <br />
