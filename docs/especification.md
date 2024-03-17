@@ -82,9 +82,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| A aplicação deve ser responsiva | ALTA | 
 |RNF-002| A aplicação deve ser compatível com principais navegadores |  MÉDIA |
 |RNF-003| A aplicação deve seguir as heurísticas de Nielsen |  MÉDIA |
-|RNF-004| A aplicação deve contar com uma barra lateral para navegação |  MÉDIA |
-|RNF-005| A aplicação deve contar com um header de navegação rápida |  MÉDIA |
-|RNF-006| A aplicação deve ser desenvolvida com Frontend ( Javascript, HMTL, CSS) | MÉDIA |
+|RNF-004| A aplicação deve contar com um header de navegação rápida |  MÉDIA |
+|RNF-005| A aplicação deve ser desenvolvida com Frontend ( Javascript, HMTL, CSS) | MÉDIA |
 
 ## Restrições
 
