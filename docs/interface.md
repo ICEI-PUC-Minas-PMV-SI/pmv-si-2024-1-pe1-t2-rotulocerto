@@ -21,13 +21,26 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
 
-### Exemplo
+### Tela Login de Administrador
 
-A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
+Nesta tela é apresentada a pagina de login, aonde o usuário administrador poderá efetuar seu login.
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/login-admin.jpg)
 
- 
+### Tela Mercados Próximos
+
+Nesta tela é apresentada um mapa onde irá mostrar os mercados que estão próximos a localização do usuário.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/mercados.png)
+
+### Tela Sobre Nós
+
+Nesta tela é apresentada os participantes do projeto junto com links do Linkedin e GitHub de cada integrante.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/sobre-nos.png)
+
+
+
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
