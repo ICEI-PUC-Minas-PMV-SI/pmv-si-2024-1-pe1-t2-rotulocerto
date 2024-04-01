@@ -11,7 +11,9 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+<img src="docs/img/paleta final.png" width="150" alt="Imagem da persona Maria da Silva" />
+
+A paleta de cores combina tons de verde associados à saúde e vitalidade com a energia do laranja coral que transmite uma sensação de acolhimento, se equilibrando com a neutralidade do branco e a estabilidade do marrom escuro. Juntos, esses elementos podem criar uma experiência visualmente atraente e informativa para os usuários que buscam aprender sobre rótulos e dietas saudáveis.
 
 
 ## Tipografia
