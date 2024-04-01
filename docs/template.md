@@ -11,7 +11,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-<img src="pmv-si-2024-1-pe1-t2-rotulocerto/docs/img/paleta final.png" alt="Paleta final" />
+<img src="pmv-si-2024-1-pe1-t2-rotulocerto/docs/img/paleta final.png" alt="paletafinal" />
 
 A paleta de cores combina tons de verde associados à saúde e vitalidade com a energia do laranja coral que transmite uma sensação de acolhimento, se equilibrando com a neutralidade do branco e a estabilidade do marrom escuro. Juntos, esses elementos podem criar uma experiência visualmente atraente e informativa para os usuários que buscam aprender sobre rótulos e dietas saudáveis.
 
