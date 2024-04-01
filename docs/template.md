@@ -18,21 +18,28 @@ A paleta de cores combina tons de verde associados à saúde e vitalidade com a 
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+No site será utilizada a seguinte fonte:
 
+Inter - (font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; font-variation-settings: "slnt" 0;)
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+### 1- Logo do Rótulo Certo
+o ícone tem a função de mostrar a logo do site
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
+<img src="img/template/logoRC.png" width="150" alt="logodosite" />
 
+### 2- Ícone calendário
+O icone terá a função de permitir ao usuário a encontrar nutricionistas proximos após o teste de IMC
 
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+<img src="img/template/iconecalendario.png" width="150" alt="iconedocalendario" />
+
+### 3- Ícone de telefone
+O icone terá a função de mostrar o telefone dos nutricionistas
+
+<img src="img/template/iconetel.png" width="150" alt="iconetelefone" />
+
+### 4- Ícone de estrela
+O ícone tem a função de mostra em quão alto está avaliado o item
+
+<img src="img/template/iconeestrela.png" width="150" alt="iconeestrela" />
