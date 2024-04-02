@@ -39,3 +39,14 @@ Nesta tela é apresentada os participantes do projeto junto com links do Linkedi
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/sobre-nos.png)
 
+### Tela inicial
+
+Nesta tela é apresentada um resumo das funcionalidades que o usuário poderá fazer no sistema e navegar até elas.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/homepage.jpg)
+
+### Tela sugestões
+
+Nesta tela é apresentada um formulário em que o usuário preenche os dados e envia uma sugestão de melhoria para o administrador do sistema.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/sugestoes.jpg)
