@@ -50,3 +50,22 @@ Nesta tela é apresentada um resumo das funcionalidades que o usuário poderá f
 Nesta tela é apresentada um formulário em que o usuário preenche os dados e envia uma sugestão de melhoria para o administrador do sistema.
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/sugestoes.jpg)
+
+### Tela receitas
+
+Nesta tela é apresentada algumas sugestões de receitas saudáveis.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/receitas.png)
+
+### Tela profissionais de saúde
+
+Nesta tela são apresentados profissionais da área de sáude e nutrição baseado em sua localização.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/profissionais-de-saude.png)
+
+### Tela todos os alimentos
+
+Nesta tela são apresentados alimentos extraidos de uma base de dados.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/todos-os-alimentos.png)
+
