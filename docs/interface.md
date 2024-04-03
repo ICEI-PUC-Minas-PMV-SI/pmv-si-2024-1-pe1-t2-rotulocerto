@@ -75,3 +75,9 @@ Nesta tela são apresentados alimentos extraidos de uma base de dados.
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/todos-os-alimentos.png)
 
+### Tela Ranking de Alimentos
+
+Nesta tela são apresentados os alimentos rankeados a partir da base de dados.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/ranking-de-alimentos.png)
+
