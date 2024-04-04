@@ -78,6 +78,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-012| A aplicação deve permitir que o usuário responda à um questionário de avaliação de saúde (IMC) | MÉDIA |
 |RF-013| A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico | MÉDIA |
 |RF-014| A aplicação deve exibir mitos e verdades sobre nutrição | BAIXA |
+|RF-015| A aplicação deve exibir os participantes do desenvolvimento do projeto | BAIXA |
 
 ### Requisitos não Funcionais
 
