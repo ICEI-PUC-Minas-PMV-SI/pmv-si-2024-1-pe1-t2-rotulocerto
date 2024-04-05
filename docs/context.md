@@ -16,7 +16,7 @@ Informar a população geral sobre o significado dos rótulos nos alimentos
 
 ### Objetivos específicos
 
-- Consientizar as pessoas sobre os alimentos que elas estão ingerindo
+- Conscientizar as pessoas sobre os alimentos que elas estão ingerindo
 - Facilitar o acesso a informação sobre o funcionamento dos rótulos
 - Auxiliar na reeducação alimentar das pessoas
 - Ajudar as pessoas a gostarem de comer bem
