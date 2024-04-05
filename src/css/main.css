@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  border: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #2a1a1f;
+  font-size: 1rem;
+  font-weight: 400;
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  overflow-x: hidden !important;
+  /* max-height: 100% !important; */
+  background: #fffdfd;
+  list-style: none;
+}
