@@ -6,7 +6,14 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+O template padrão da plataforme se encontra no diretório src/index.html.
+Seus respectivos arquivos de estilização se encontram em src/css (main.css e home.css).
+
+Versão Mobile <br />
+<img src="img/template/template_mobile.png" alt="template mobile" height="500" />
+
+Versão Desktop
+<img src="img/template/template_desktop.png" alt="template desktop" />
 
 
 ## Cores
