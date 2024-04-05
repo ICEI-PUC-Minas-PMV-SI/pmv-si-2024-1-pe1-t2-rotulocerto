@@ -23,19 +23,66 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ### Tela Login de Administrador
 
-Nesta tela é apresentada a pagina de login, aonde o usuário administrador poderá efetuar seu login.
+RF-002 - A aplicação deve permitir que os administradores visualizem os formulários enviados pelos usuários e adicionem as informações, caso sejam consideradas importantes
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/login-admin.jpg)
 
+### Tela Sugestões Enviadas
+
+RF-002 - A aplicação deve permitir que os administradores visualizem os formulários enviados pelos usuários e adicionem as informações, caso sejam consideradas importantes
+
+![Exemplo de Wireframe]()
+
 ### Tela Mercados Próximos
 
-Nesta tela é apresentada um mapa onde irá mostrar os mercados que estão próximos a localização do usuário.
+RF-009 - A aplicação deve exibir mercados mais próximos
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/mercados.png)
 
+### Tela inicial
+
+Nesta tela é apresentada um resumo das funcionalidades que o usuário poderá fazer no sistema e navegar até elas.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/homepage.jpg)
+
+### Tela sugestões
+
+Nesta tela é apresentada um formulário em que o usuário preenche os dados e envia uma sugestão de melhoria para o administrador do sistema.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/sugestoes.jpg)
+
+### Tela teste de IMC
+
+Nesta tela o usuário poderá realizar o teste de IMC e apareceram receitas baseadas em seus resultados
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/TestedeIMC.png)
+
+### Tela receitas
+
+Nesta tela é apresentada algumas sugestões de receitas saudáveis.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/receitas.png)
+
+### Tela profissionais de saúde
+
+Nesta tela são apresentados profissionais da área de sáude e nutrição baseado em sua localização.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/profissionais-de-saude.png)
+
+### Tela todos os alimentos
+
+Nesta tela são apresentados alimentos extraidos de uma base de dados.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/todos-os-alimentos.png)
+
+### Tela Ranking de Alimentos
+
+Nesta tela são apresentados os alimentos rankeados a partir da base de dados.
+
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/ranking-de-alimentos.png)
+
 ### Tela Sobre Nós
 
-Nesta tela é apresentada os participantes do projeto junto com links do Linkedin e GitHub de cada integrante.
+RF-015 - A aplicação deve exibir os participantes do desenvolvimento do projeto
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/sobre-nos.png)
-
