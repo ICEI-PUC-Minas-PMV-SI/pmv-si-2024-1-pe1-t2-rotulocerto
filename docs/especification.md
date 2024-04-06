@@ -77,8 +77,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-011| A aplicação deve permitir que o usuário filtre alimentos por nome, nutrientes, aditivos e calorias | MÉDIA |
 |RF-012| A aplicação deve permitir que o usuário realize o teste de IMC | MÉDIA |
 |RF-013| A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico | MÉDIA |
-|RF-014| A aplicação deve exibir mitos e verdades sobre nutrição | BAIXA |
-|RF-015| A aplicação deve exibir os participantes do desenvolvimento do projeto | BAIXA |
+|RF-014| A aplicação deve permitir que os administradores façam login para terem acesso a outras informações | MÉDIA |
+|RF-015| A aplicação deve exibir mitos e verdades sobre nutrição | BAIXA |
+|RF-016| A aplicação deve exibir os participantes do desenvolvimento do projeto | BAIXA |
 
 ### Requisitos não Funcionais
 
