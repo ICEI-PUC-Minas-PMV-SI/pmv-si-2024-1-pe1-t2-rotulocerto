@@ -55,7 +55,7 @@ Nesta tela é apresentada um formulário em que o usuário preenche os dados e e
 
 Nesta tela o usuário poderá realizar o teste de IMC e apareceram receitas baseadas em seus resultados
 
-![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/TestedeIMC.png)
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/TestedeIMC2.png)
 
 ### Tela receitas
 
