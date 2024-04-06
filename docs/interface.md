@@ -23,7 +23,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ### Tela inicial
 
-Nesta tela é apresentada um resumo das funcionalidades que o usuário poderá fazer no sistema e navegar até elas.
+RF-017	- A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/homepage.jpg)
 
