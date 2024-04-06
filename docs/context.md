@@ -4,7 +4,10 @@ No atual cenário de crescente preocupação com a saúde e bem-estar, a conscie
 
 ## Problema
 
-O mundo moderno nos oferece uma vasta gama de alimentos, com variedade e praticidade que facilitam a vida corrida. No entanto, essa abundância pode mascarar a real composição dos produtos que consumimos. Um estudo da Universidade Federal do Ceará (UFC, 2022)<a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/references.md" target="_blank">[1]</a> revela que apenas 50% dos consumidores em um bairro nobre verificam os rótulos antes de comprar alimentos. Em um bairro de menor poder aquisitivo, esse número cai drasticamente, evidenciando a necessidade de medidas que facilitem o acesso à informação nutricional.
+O mundo moderno nos oferece uma vasta gama de alimentos, com variedade e praticidade que facilitam a vida corrida. No entanto, essa abundância pode mascarar a real composição dos produtos que consumimos.
+
+Um estudo da Universidade Federal do Ceará (UFC, 2022)<a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/references.md" target="_blank">[1]</a> revela que apenas 50% dos consumidores em um bairro nobre verificam os rótulos antes de comprar alimentos. Em um bairro de menor poder aquisitivo, esse número cai drasticamente, evidenciando a necessidade de medidas que facilitem o acesso à informação nutricional.
+
 A falta de conhecimento sobre os ingredientes presentes nos alimentos processados pode levar a sérios problemas de saúde. É fundamental que a população tenha acesso a ferramentas que possibilitem a compreensão dos rótulos e seus impactos na saúde.
 O projeto Rótulo Certo surge como uma iniciativa inovadora para auxiliar os consumidores na tomada de decisões mais saudáveis.
 
