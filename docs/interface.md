@@ -23,19 +23,19 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ### Tela Login de Administrador
 
-RF-002 - A aplicação deve permitir que os administradores visualizem os formulários enviados pelos usuários e adicionem as informações, caso sejam consideradas importantes
+RF-002 - A aplicação deve permitir que os administradores loguem na plataforma.
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/login-admin.jpg)
 
 ### Tela Sugestões Enviadas
 
-RF-002 - A aplicação deve permitir que os administradores visualizem os formulários enviados pelos usuários e adicionem as informações, caso sejam consideradas importantes
+RF-003 - A aplicação deve permitir que os administradores visualizem as sugestões que foram enviados pelos usuários.
 
 ![Exemplo de Wireframe]()
 
 ### Tela Mercados Próximos
 
-RF-009 - A aplicação deve exibir mercados mais próximos
+RF-010 - A aplicação deve exibir mercados mais próximos.
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/mercados.png)
 
@@ -80,9 +80,3 @@ Nesta tela são apresentados alimentos extraidos de uma base de dados.
 Nesta tela são apresentados os alimentos rankeados a partir da base de dados.
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/ranking-de-alimentos.png)
-
-### Tela Sobre Nós
-
-RF-015 - A aplicação deve exibir os participantes do desenvolvimento do projeto
-
-![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/sobre-nos.png)
