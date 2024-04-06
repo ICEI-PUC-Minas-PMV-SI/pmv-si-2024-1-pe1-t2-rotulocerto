@@ -80,6 +80,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-014| A aplicação deve permitir que os administradores façam login para terem acesso a outras informações | MÉDIA |
 |RF-015| A aplicação deve exibir mitos e verdades sobre nutrição | BAIXA |
 |RF-016| A aplicação deve exibir os participantes do desenvolvimento do projeto | BAIXA |
+|RF-017| A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação |BAIXA|
+
+
 
 ### Requisitos não Funcionais
 
