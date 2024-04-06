@@ -62,23 +62,27 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| A aplicação deve informar o usuário sobre determinados tipos de alimentos | ALTA |
-|RF-002| A aplicação deve permitir que os administradores loguem na plataforma | ALTA |
-|RF-003| A aplicação deve permitir que os administradores visualizem as sugestões que foram enviados pelos usuários | ALTA |
-|RF-004| A aplicação deve permitir que o usuário envie sugestões por meio de formulario | ALTA |
-|RF-005| A aplicação deve informar o usuário sobre rótulos de alimentos | MÉDIA |
-|RF-006| A aplicação deve exibir um ranking de melhores alimentos em valor nutricional | MÉDIA |
-|RF-007| A aplicação deve exibir profissionais de nutrição mais próximos | MÉDIA |
-|RF-008| A aplicação deve informar sobre os símbolos informativos na rotulagem frontal dos produtos (Exemplo: Alto em Açúcar Adicionado) | MÉDIA |
-|RF-009| A aplicação deve informar sobre os aditivos presentes nos alimentos (Exemplo: Acidificante e-338 a.k.a. ácido fosfórico) | MÉDIA |
-|RF-010| A aplicação deve exibir mercados próximos | MÉDIA |
-|RF-011| A aplicação deve exibir dietas comuns com diferentes objetivos | MÉDIA |
-|RF-012| A aplicação deve permitir que o usuário filtre alimentos por nome, nutrientes, aditivos e calorias | MÉDIA |
-|RF-013| A aplicação deve permitir que o usuário responda à um questionário de avaliação de saúde (IMC) | MÉDIA |
-|RF-014| A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico | MÉDIA |
+|ID    | Descrição do Requisito  | Prioridade | 
+|------|-----------------------------------------|----| 
+|RF-001| A aplicação deve informar o usuário sobre determinados tipos de alimentos | ALTA |  
+|RF-002| A aplicação deve permitir que os administradores visualizem os formulários enviados pelos usuários e adicionem as informações, caso sejam consideradas importantes | ALTA |
+|RF-003| A aplicação deve permitir que o usuário envie formularios para que seja adicionado produtos ou informações nutricionais que não tenha encontrado na plataforma | ALTA |
+|RF-004| A aplicação deve informar o usuário sobre rótulos de alimentos | MÉDIA |
+|RF-005| A aplicação deve exibir um ranking de melhores alimentos em valor nutricional | MÉDIA |
+|RF-006| A aplicação deve exibir profissionais de nutrição mais próximos | MÉDIA |
+|RF-007| A aplicação deve informar sobre os símbolos informativos na rotulagem frontal dos produtos (Exemplo: Alto em Açúcar Adicionado) | MÉDIA |
+|RF-008| A aplicação deve informar sobre os aditivos presentes nos alimentos (Exemplo: Acidificante e-338 a.k.a. ácido fosfórico) | MÉDIA |
+|RF-009| A aplicação deve exibir mercados mais próximos | MÉDIA |
+|RF-010| A aplicação deve exibir dietas comuns com diferentes objetivos | MÉDIA |
+|RF-011| A aplicação deve permitir que o usuário filtre alimentos por nome, nutrientes, aditivos e calorias | MÉDIA |
+|RF-012| A aplicação deve permitir que o usuário realize o teste de IMC | MÉDIA |
+|RF-013| A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico | MÉDIA |
+|RF-014| A aplicação deve permitir que os administradores façam login para terem acesso a outras informações | MÉDIA |
 |RF-015| A aplicação deve exibir mitos e verdades sobre nutrição | BAIXA |
+|RF-016| A aplicação deve exibir os participantes do desenvolvimento do projeto | BAIXA |
+|RF-017| A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação |BAIXA|
+
+
 
 ### Requisitos não Funcionais
 

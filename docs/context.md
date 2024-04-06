@@ -4,7 +4,8 @@ No atual cenário de crescente preocupação com a saúde e bem-estar, a conscie
 
 ## Problema
 
-O mundo moderno nos oferece uma vasta gama de alimentos, com variedade e praticidade que facilitam a vida corrida. No entanto, essa abundância pode mascarar a real composição dos produtos que consumimos.
+No mundo moderno, há uma ampla variedade de alimentos de todos os tipos e qualidades sendo oferecidos a todo momento. Essa variedade e fartura trouxeram um grande benefício para a sociedade, deixando muitas vezes os alimentos mais acessíveis e práticos para a vida corrida moderna. Muitas vezes não há noção do que está presente nesses alimentos. Segundo uma pesquisa da Universidade Federal de Fortaleza, em um estudo realizado em um bairro nobre, apenas 50% dos clientes verificam os rótulos antes de comprar um alimento; em um bairro de uma região menos favorecida, o número é ainda menor. Tendo em vista a conscientização sobre os ingredientes presentes nos alimentos modernos e alertando sobre seus perigos, é extremamente necessário que haja formas da população em geral ter acesso fácil e didático aos significados de cada rótulo e aos seus impactos na saúde.
+	
 
 Um estudo da Universidade Federal do Ceará (UFC, 2022)<a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/references.md" target="_blank">[1]</a> revela que apenas 50% dos consumidores em um bairro nobre verificam os rótulos antes de comprar alimentos. Em um bairro de menor poder aquisitivo, esse número cai drasticamente, evidenciando a necessidade de medidas que facilitem o acesso à informação nutricional.
 
