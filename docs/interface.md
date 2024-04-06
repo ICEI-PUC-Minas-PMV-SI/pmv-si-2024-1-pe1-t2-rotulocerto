@@ -31,7 +31,7 @@ RF-002 - A aplicação deve permitir que os administradores visualizem os formul
 
 RF-002 - A aplicação deve permitir que os administradores visualizem os formulários enviados pelos usuários e adicionem as informações, caso sejam consideradas importantes
 
-![Exemplo de Wireframe]()
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/listasugestoes.jpg)
 
 ### Tela Mercados Próximos
 
