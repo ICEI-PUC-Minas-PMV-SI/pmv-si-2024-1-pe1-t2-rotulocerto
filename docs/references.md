@@ -7,7 +7,8 @@ Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvo
 
 Exemplos de referências bibliográficas:
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+
+**[1]** - _RUBIO, Ingrid Gomes. Rotulagem nutricional de alimentos: importância e um novo olhar frente à nova legislação. 2022. 46 f. TCC (Graduação em Engenharia de Alimentos) - Universidade Federal do Ceará, Fortaleza, 2022. <br> Disponível em https://repositorio.ufc.br/handle/riufc/67564 Acesso: 29 Mar. 2024._
 
 **[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
 
