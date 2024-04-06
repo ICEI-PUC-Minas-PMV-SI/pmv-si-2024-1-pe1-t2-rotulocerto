@@ -32,7 +32,7 @@ Roberto Marinho, 28 anos e sobrepeso, é um médico plantonista que trabalha mui
 <br/>
 Carlos Silva, um brasileiro de 50 anos e técnico em informática, valoriza produtos alimentícios frescos e naturais que se adequem à sua dieta restritiva. Ele busca opções acessíveis que ofereçam praticidade e qualidade. Carlos é uma pessoa calma e prática, comprometida com sua saúde e bem-estar, e dedica parte de seu tempo livre às atividades ao ar livre e à leitura.
 
-5ª Persona:<br /> 
+5ª Persona:<br />
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/img/personas/persona.annajulia.png" width="150" alt="Imagem da persona Anna Júlia" />
 <br/>
 Anna Júlia, uma mulher de 45 anos, residente em Belo Horizonte. é professora e mãe de Pedro. É uma pessoa que ama ler e estudar, adquirir conhecimento é fundamental para sua vida. Culinária, também é essencial para o cuidado com sua família, sempre prepara alimentos saudáveis para zelar pelo bem estar de todos, principalmente o de seu filho.
@@ -53,8 +53,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |João Oliveira| Buscar alimentos que contenham selênio e ômega-3| Ter uma rapida recuperação muscular |
 | Usuário, um médico sobrepeso com a vida corrida, estou preocupado se minha saúde não vai piorar no dia de amanhã | Consumir alimentos mais saudáveis, porém práticos, que eu consiga encaixar na minha rotina | Que eu possa começar a cuidar de mim e conseguir viver durante longos anos. |
 | Pessoa com restrições alimentares | Encontrar alimentos que se encaixem na minha rotina | encontrar uma variedade de recursos e informações que o auxiliem na sua jornada de restrições alimentares. |
-| Eu como mãe atenta a alimentção saúdavel de Pedro | Preciso de rotúlos mais praticos e visíveis | Para proporcionar uma dieta saudável para meu filho |
-| Jovem iniciando alimentação saudável | Preciso saber o significado dos rótulos alimentícios  | Para escolher melhor meus alimentos  |
+| Eu como mãe atenta a alimentção saúdavel de Pedro | Precisa de rotúlos mais praticos e visíveis | Para proporcionar uma dieta saudável para meu filho |
+| Jovem iniciando alimentação saudável | Precisa saber o significado dos rótulos alimentícios  | Para escolher melhor meus alimentos  |
 
 ## Requisitos
 
@@ -88,7 +88,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | ALTA | 
+|RNF-001| A aplicação deve ser responsiva | ALTA |
 |RNF-002| A aplicação deve ser compatível com principais navegadores |  MÉDIA |
 |RNF-003| A aplicação deve seguir as heurísticas de Nielsen |  MÉDIA |
 |RNF-004| A aplicação deve contar com um header de navegação rápida |  MÉDIA |

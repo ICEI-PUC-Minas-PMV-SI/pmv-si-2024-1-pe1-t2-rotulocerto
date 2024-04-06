@@ -7,6 +7,10 @@ No atual cenário de crescente preocupação com a saúde e bem-estar, a conscie
 No mundo moderno, há uma ampla variedade de alimentos de todos os tipos e qualidades sendo oferecidos a todo momento. Essa variedade e fartura trouxeram um grande benefício para a sociedade, deixando muitas vezes os alimentos mais acessíveis e práticos para a vida corrida moderna. Muitas vezes não há noção do que está presente nesses alimentos. Segundo uma pesquisa da Universidade Federal de Fortaleza, em um estudo realizado em um bairro nobre, apenas 50% dos clientes verificam os rótulos antes de comprar um alimento; em um bairro de uma região menos favorecida, o número é ainda menor. Tendo em vista a conscientização sobre os ingredientes presentes nos alimentos modernos e alertando sobre seus perigos, é extremamente necessário que haja formas da população em geral ter acesso fácil e didático aos significados de cada rótulo e aos seus impactos na saúde.
 	
 
+Um estudo da Universidade Federal do Ceará (UFC, 2022)<a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/references.md" target="_blank">[1]</a> revela que apenas 50% dos consumidores em um bairro nobre verificam os rótulos antes de comprar alimentos. Em um bairro de menor poder aquisitivo, esse número cai drasticamente, evidenciando a necessidade de medidas que facilitem o acesso à informação nutricional.
+
+A falta de conhecimento sobre os ingredientes presentes nos alimentos processados pode levar a sérios problemas de saúde. É fundamental que a população tenha acesso a ferramentas que possibilitem a compreensão dos rótulos e seus impactos na saúde.
+O projeto Rótulo Certo surge como uma iniciativa inovadora para auxiliar os consumidores na tomada de decisões mais saudáveis.
 
 ## Objetivos
 
@@ -18,14 +22,17 @@ Informar a população geral sobre o significado dos rótulos nos alimentos
 
 - Conscientizar as pessoas sobre os alimentos que elas estão ingerindo
 - Facilitar o acesso a informação sobre o funcionamento dos rótulos
-- Auxiliar na reeducação alimentar das pessoas
-- Ajudar as pessoas a gostarem de comer bem
 
 ## Justificativa
 
-Diante do cenário atual de saúde pública, onde a crescente preocupação com a alimentação saudável e seus impactos no bem-estar é evidente, um estudo conduzido pela UNICEF revela a alarmante falta de consciência dos consumidores em relação aos alimentos que consomem, em que apenas 52% das famílias se sentiam confiantes para interpretar os rótulos dos alimentos antes da compra, analisando famílias menos favorecidas, num grupo de 1.343 pessoas, responsáveis por 1.647 crianças, em 21 estados (UNICEF, 2021). Esta lacuna na compreensão dos rótulos alimentares pode levar a escolhas inadequadas, resultando em impactos negativos na saúde e qualidade de vida das pessoas. Portanto, torna-se imperativo fornecer uma ferramenta como o Rótulo Certo, que visa informar e educar a população de forma acessível e didática sobre a leitura e interpretação dos rótulos dos alimentos.
+Em um cenário onde a alimentação saudável se torna cada vez mais crucial para o bem-estar, um estudo da Fundo das Nações Unidas para a Infância (UNICEF, 2021)<a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/references.md" target="_blank">[2]</a> revela um dado alarmante: apenas 52% das famílias se sentem confiantes para interpretar os rótulos dos alimentos. Essa lacuna de conhecimento, especialmente entre famílias menos favorecidas, impacta diretamente a saúde e a qualidade de vida de milhares de pessoas.
 
-Esse projeto surge com base na necessidade de fornecer informações claras e relevantes sobre os rótulos alimentares, seguindo o padrão estabelecido pela Anvisa, facilitando o acesso a essas informações e promovendo a comparação entre alimentos semelhantes para auxiliar os consumidores na tomada de decisões mais saudáveis. Além disso, ao destacar os alimentos com maior valor nutricional, o projeto busca capacitar os indivíduos a fazerem escolhas alimentares conscientes e benéficas para sua saúde. Assim, a abordagem multifacetada visa preencher as lacunas na compreensão dos rótulos alimentares e empoderar os consumidores a fazerem escolhas mais saudáveis e informadas em seu dia a dia.
+No Brasil, 20% da população adulta está obesa, um aumento de 67% nos últimos 10 anos. Entre as crianças, o índice é de 12,9%, colocando o país em 5º lugar no ranking mundial de obesidade infantil (Ministério da Saúde, 2023)<a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/blob/main/docs/references.md" target="_blank">[3]</a>.
+
+A má alimentação está diretamente relacionada ao desenvolvimento de doenças crônicas como diabetes, hipertensão e doenças cardíacas, que representam um alto custo para o sistema de saúde e impactam negativamente a vida das pessoas.
+
+Diante dessa realidade preocupante, o projeto Rótulo Certo surge como uma solução inovadora para auxiliar os consumidores na tomada de decisões mais saudáveis. Através de uma plataforma, o projeto oferece: Interpretação clara e descomplicada dos rótulos alimentares e uma identificação rápida de alimentos com alto valor nutricional.
+
 
 ## Público-Alvo
 

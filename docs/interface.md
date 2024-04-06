@@ -23,7 +23,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ### Tela inicial
 
-RF-017	- A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação
+RF-017 - A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/homepage.jpg)
 
@@ -35,13 +35,13 @@ RF-014 - A aplicação deve permitir que os administradores façam login para te
 
 ### Tela Sugestões Enviadas
 
-RF-002 - A aplicação deve permitir que os administradores visualizem os formulários enviados pelos usuários e adicionem as informações, caso sejam consideradas importantes
+RF-003 - A aplicação deve permitir que os administradores visualizem as sugestões que foram enviados pelos usuários.
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/listasugestoes.jpg)
 
 ### Tela Mercados Próximos
 
-RF-009 - A aplicação deve exibir mercados mais próximos
+RF-010 - A aplicação deve exibir mercados mais próximos.
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/mercados.png)
 
@@ -59,36 +59,36 @@ RF-012 - A aplicação deve permitir que o usuário realize o teste de IMC
 
 ### Tela receitas
 
-RF-010 -	A aplicação deve exibir dietas comuns com diferentes objetivos <br>
-RF-013	- A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico <br>
-RF-015 -	A aplicação deve exibir mitos e verdades sobre nutrição
+RF-010 - A aplicação deve exibir dietas comuns com diferentes objetivos <br>
+RF-013 - A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico <br>
+RF-015 - A aplicação deve exibir mitos e verdades sobre nutrição
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/receitas.png)
 
 ### Tela profissionais de saúde
 
-RF-006	A aplicação deve exibir profissionais de nutrição mais próximos
+RF-006 - A aplicação deve exibir profissionais de nutrição mais próximos
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/profissionais-de-saude.png)
 
 ### Tela todos os alimentos
 
-RF-001 -	A aplicação deve informar o usuário sobre determinados tipos de alimentos 
+RF-001 - A aplicação deve informar o usuário sobre determinados tipos de alimentos 
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/todos-os-alimentos.png)
 
 ### Tela Ranking de Alimentos
 
-RF-005 -	A aplicação deve exibir um ranking de melhores alimentos em valor nutricional <br>
+RF-005 - A aplicação deve exibir um ranking de melhores alimentos em valor nutricional <br>
 RF-011 - A aplicação deve permitir que o usuário filtre alimentos por nome, nutrientes, aditivos e calorias
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/ranking-de-alimentos.png)
 
 ### Tela Aprenda sobre os rótulos
 
-RF-004 -	A aplicação deve informar o usuário sobre rótulos de alimentos <br>
-RF-007 -	A aplicação deve informar sobre os símbolos informativos na rotulagem frontal dos produtos (Exemplo: Alto em Açúcar Adicionado) <br>
-RF-008	A aplicação deve informar sobre os aditivos presentes nos alimentos (Exemplo: Acidificante e-338 a.k.a. ácido fosfórico)
+RF-004 - A aplicação deve informar o usuário sobre rótulos de alimentos <br>
+RF-007 - A aplicação deve informar sobre os símbolos informativos na rotulagem frontal dos produtos (Exemplo: Alto em Açúcar Adicionado) <br>
+RF-008 - A aplicação deve informar sobre os aditivos presentes nos alimentos (Exemplo: Acidificante e-338 a.k.a. ácido fosfórico)
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/ROTULO.png)
 
