@@ -23,7 +23,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ### Tela inicial
 
-RF-017 - A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação
+RF-016 - A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/homepage.jpg)
 
@@ -35,7 +35,7 @@ RF-014 - A aplicação deve permitir que os administradores façam login para te
 
 ### Tela Sugestões Enviadas
 
-RF-003 - A aplicação deve permitir que os administradores visualizem as sugestões que foram enviados pelos usuários.
+RF-002 - A aplicação deve permitir que os administradores visualizem os formulários de sugestões que foram enviados pelos usuários
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/listasugestoes.jpg)
 
@@ -47,7 +47,7 @@ RF-010 - A aplicação deve exibir mercados mais próximos.
 
 ### Tela sugestões
 
-RF-003 - A aplicação deve permitir que o usuário envie formularios para que seja adicionado produtos ou informações nutricionais que não tenha encontrado na plataforma
+RF-003 - A aplicação deve permitir que o usuário envie sugestões de produtos ou informações nutricionais
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/sugestoes.jpg)
 
@@ -61,7 +61,6 @@ RF-012 - A aplicação deve permitir que o usuário realize o teste de IMC
 
 RF-010 - A aplicação deve exibir dietas comuns com diferentes objetivos <br>
 RF-013 - A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico <br>
-RF-015 - A aplicação deve exibir mitos e verdades sobre nutrição
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/receitas.jpg)
 
@@ -73,7 +72,7 @@ RF-006 - A aplicação deve exibir profissionais de nutrição mais próximos
 
 ### Tela todos os alimentos
 
-RF-001 - A aplicação deve informar o usuário sobre determinados tipos de alimentos 
+RF-001 - A aplicação deve informar o usuário sobre determinados tipos de alimentos
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/todos-os-alimentos.jpg)
 
