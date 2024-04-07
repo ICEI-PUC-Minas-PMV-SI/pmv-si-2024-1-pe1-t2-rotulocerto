@@ -20,15 +20,15 @@ uma ferramenta inovadora que visa aumentar a compreensão da população sobre o
 ## Orientador
 
 * Luciana de Nardin
-  
+
 # Planejamento
 
 | Etapa         | Atividades |
 |  :----:   | ----------- |
-| ETAPA 1         |[Documentação de Contexto](docs/context.md) <br> [Especificação do Projeto](docs/especification.md) |
-| ETAPA 2         |[Projeto de Interface](docs/interface.md) <br> [Template Padrão](docs/template.md) |
-| ETAPA 3         |[Programação de Funcionalidades - HTML e CSS](docs/development.md) |
-| ETAPA 4        |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
+| ETAPA 1         |[Documentação de Contexto](/docs/01%20-%20Contexto.md) <br> [Especificação do Projeto](/docs/02%20-%20Especificações%20do%20Projeto.md) |
+| ETAPA 2         |[Projeto de Interface](/docs/03%20-%20Projeto%20de%20Interface.md) <br> [Template Padrão](/docs/04%20-%20Template%20padrão%20do%20site.md) |
+| ETAPA 3         |[Programação de Funcionalidades - HTML e CSS](/docs/05%20-%20Programação%20de%20Funcionalidades.md) |
+| ETAPA 4        |[Programação de Funcionalidades - Javascript](/docs/05%20-%20Programação%20de%20Funcionalidades.md) <br> [Testes de Software ](/docs/06%20-%20Testes.md) |
 | ETAPA 5         | [Apresentação](presentation/README.md) |
 
 # Código
