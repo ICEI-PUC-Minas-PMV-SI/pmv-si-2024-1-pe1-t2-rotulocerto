@@ -6,8 +6,12 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-O template padrão da plataforme se encontra no diretório src/index.html.
-Seus respectivos arquivos de estilização se encontram em src/css (main.css e home.css).
+O template padrão da plataforma está localizado no diretório src/index.html. Os arquivos de estilo que controlam a aparência do template estão organizados da seguinte maneira:
+
+    src/css/main.css: Contém os estilos globais que se aplicam a todas as páginas da plataforma.
+    src/css/home.css: Contém os estilos específicos para a página inicial.
+
+Essa estrutura facilita a organização e a manutenção dos estilos da plataforma. Permite que os estilos globais sejam aplicados de forma consistente em todas as páginas, enquanto os estilos específicos da página inicial podem ser personalizados sem afetar o restante do site.
 
 Versão Mobile <br />
 <img src="img/template/template_mobile.png" alt="template mobile" height="500" />
