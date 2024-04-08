@@ -36,7 +36,7 @@ Simbolismo das cores:
 
 No site será utilizada a seguinte fonte:
 
-Inter - (font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; font-variation-settings: "slnt" 0;)
+body { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; font-variation-settings: "slnt" 0; }
 
 ## Iconografia
 
@@ -45,17 +45,12 @@ o ícone tem a função de mostrar a logo do site
 
 <img src="img/template/logoRC.png" width="150" alt="logodosite" />
 
-### 2- Ícone calendário
-O icone terá a função de permitir ao usuário a encontrar nutricionistas proximos após o teste de IMC
-
-<img src="img/template/iconecalendario.png" width="150" alt="iconedocalendario" />
-
-### 3- Ícone de telefone
+### 2- Ícone de telefone
 O icone terá a função de mostrar o telefone dos nutricionistas
 
 <img src="img/template/iconetel.png" width="150" alt="iconetelefone" />
 
-### 4- Ícone de estrela
+### 3- Ícone de estrela
 O ícone tem a função de mostra em quão alto está avaliado o item
 
 <img src="img/template/iconeestrela.png" width="150" alt="iconeestrela" />
