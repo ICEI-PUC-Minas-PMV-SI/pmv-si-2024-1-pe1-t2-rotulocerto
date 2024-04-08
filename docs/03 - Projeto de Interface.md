@@ -1,6 +1,7 @@
 
 # Projeto de Interface
 
+O projeto de interface, estruturado em 12 páginas, contempla telas como inicial, login e receitas. O User Flow detalha a jornada do usuário e do administrador em cada etapa da plataforma, proporcionando uma experiência fluida e intuitiva.
 
 ## User Flow
 
