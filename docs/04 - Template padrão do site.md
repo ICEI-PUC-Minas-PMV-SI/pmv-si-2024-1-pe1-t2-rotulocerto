@@ -31,7 +31,7 @@ A paleta de cores combina tons de verde associados à saúde e vitalidade com a 
 
 No site será utilizada a seguinte fonte:
 
-Inter - (font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; font-variation-settings: "slnt" 0;)
+body { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; font-variation-settings: "slnt" 0; }
 
 ## Iconografia
 
