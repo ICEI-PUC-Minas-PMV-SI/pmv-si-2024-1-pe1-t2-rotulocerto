@@ -1,8 +1,6 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
@@ -24,7 +22,14 @@ Versão Desktop
 
 <img src="img/template/paletafinal.png" alt="paletafinal" />
 
-A paleta de cores combina tons de verde associados à saúde e vitalidade com a energia do laranja coral que transmite uma sensação de acolhimento, se equilibrando com a neutralidade do branco e a estabilidade do marrom escuro. Juntos, esses elementos podem criar uma experiência visualmente atraente e informativa para os usuários que buscam aprender sobre rótulos e dietas saudáveis.
+A paleta de cores do projeto foi cuidadosamente elaborada para transmitir uma mensagem de saúde, vitalidade e acolhimento. A combinação de tons específicos busca criar uma experiência visualmente atraente e informativa para os usuários que buscam aprender sobre rótulos e dietas saudáveis.
+
+Simbolismo das cores:
+- Verde: Associado à saúde, vitalidade e bem-estar, o verde é a cor predominante na paleta.
+- Laranja Coral: Transmite energia, entusiasmo e acolhimento, criando um ambiente convidativo para o aprendizado.
+- Branco: Representa neutralidade, pureza e clareza, facilitando a leitura e a compreensão das informações.
+- Marrom escuro: Simboliza estabilidade, segurança e confiança, transmitindo confiabilidade ao usuário.
+
 
 
 ## Tipografia
