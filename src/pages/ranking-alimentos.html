@@ -24,14 +24,117 @@
       referrerpolicy="no-referrer"
     />
 
-    <script src="/src/js/template.js" defer></script>
+    <script src="/src/js/template.js" type="module"></script>
   </head>
   <body>
     <template-header></template-header>
 
-    <main>
-      <section class="content">
-        <h1>Ranking Alimentos</h1>
+    <main class="content">
+      <h1>Ranking de alimentos</h1>
+      <section class="ranked-foods">
+        <h4>Alimentos de origem vegetal ricos em proteínas</h4>
+        <p>Quantidades por 100g</p>
+        <div class="cards-wrapper">
+          <div class="ranked-card highlighted-card">
+            <div class="ranked-card-header">
+              <h3 class="rank-position-label">1°</h3>
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/009/339/330/non_2x/soy-beans-in-bowl-wood-free-png.png"
+                alt="Imagem do alimento"
+                class="ranked-card-image"
+              />
+              <h5>Soja</h5>
+            </div>
+            <div class="ranked-card-footer">
+              <p><strong>12,5g</strong> de proteínas</p>
+              <p><strong>140</strong> Kcals</p>
+            </div>
+          </div>
+
+          <div class="ranked-card">
+            <div class="ranked-card-header">
+              <h3 class="rank-position-label">2°</h3>
+              <img
+                src="https://png.pngtree.com/png-clipart/20240220/original/pngtree-quinoa-on-white-background-uncooked-photo-png-image_14363035.png"
+                alt="Imagem do alimento"
+                class="ranked-card-image"
+              />
+              <h5>Quinoa</h5>
+            </div>
+            <div class="ranked-card-footer">
+              <p><strong>12,0g</strong> de proteínas</p>
+              <p><strong>335</strong> Kcals</p>
+            </div>
+          </div>
+
+          <div class="ranked-card">
+            <div class="ranked-card-header">
+              <h3 class="rank-position-label">3°</h3>
+              <img
+                src="https://png.pngtree.com/png-clipart/20240129/original/pngtree-buckwheat-grain-in-wooden-scoop-food-photo-png-image_14183086.png"
+                alt="Imagem do alimento"
+                class="ranked-card-image"
+              />
+              <h5>Trigo Sarraceno</h5>
+            </div>
+            <div class="ranked-card-footer">
+              <p><strong>11,0g</strong> de proteínas</p>
+              <p><strong>366</strong> Kcals</p>
+            </div>
+          </div>
+        </div>
+
+        <h4>Frutas ricas em fibras</h4>
+        <p>Quantidades por 100g</p>
+        <div class="cards-wrapper">
+          <div class="ranked-card highlighted-card">
+            <div class="ranked-card-header">
+              <h3 class="rank-position-label">1°</h3>
+              <img
+                src="https://png.pngtree.com/png-clipart/20221015/original/pngtree-fresh-fruit-autumn-nutrition-persimmon-png-image_8691064.png"
+                alt="Imagem do alimento"
+                class="ranked-card-image"
+              />
+              <h5>Caqui</h5>
+            </div>
+            <div class="ranked-card-footer">
+              <p><strong>6,5g</strong> de fibras</p>
+              <!-- <p><strong>140</strong> Kcals</p> -->
+            </div>
+          </div>
+
+          <div class="ranked-card">
+            <div class="ranked-card-header">
+              <h3 class="rank-position-label">2°</h3>
+              <img
+                src="https://png.pngtree.com/png-clipart/20231118/original/pngtree-avocados-on-white-fruit-photo-png-image_13621742.png"
+                alt="Imagem do alimento"
+                class="ranked-card-image"
+              />
+              <h5>Abacate</h5>
+            </div>
+            <div class="ranked-card-footer">
+              <p><strong>6,3g</strong> de fibras</p>
+              <!-- <p><strong>335</strong> Kcals</p> -->
+            </div>
+          </div>
+
+          <div class="ranked-card">
+            <div class="ranked-card-header">
+              <h3 class="rank-position-label">3°</h3>
+              <img
+                src="https://lh6.googleusercontent.com/proxy/Pj5xb6nFfYAEOGkdjFdhpNy9Oa6wi99LYoMt5-SuNoileqpkVDEekDndoVg_59Hnpr3zaQ081tyIB77TjJUBA2x2Fwxz1wqgFmBrsNWH-KfJlAvFbCGSUNu8fdd1gHs"
+                alt="Imagem do alimento"
+                class="ranked-card-image"
+              />
+              <h5>Laranja da terra</h5>
+            </div>
+            <div class="ranked-card-footer">
+              <p><strong>4,1g</strong> de fibras</p>
+              <!-- <p><strong>366</strong> Kcals</p> -->
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
