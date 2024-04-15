@@ -28,6 +28,18 @@ h1 {
   margin-top: 40px;
 }
 
+.ranked-foods .bibliographic-source {
+  font-size: 0.875rem;
+  color: #2a1a1f;
+  margin-top: 10px;
+
+  a {
+    color: #a1c643;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
 .cards-wrapper {
   display: flex;
   flex-direction: column;
