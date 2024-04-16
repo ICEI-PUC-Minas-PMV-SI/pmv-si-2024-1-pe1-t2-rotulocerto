@@ -1,9 +1,132 @@
 /* Conteúdo Ranking Alimentos */
 
 .content {
-  height: calc(100dvh - 500px);
+  /* height: calc(100dvh - 500px); */
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #2a1a1f;
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.ranked-foods {
+  display: flex;
+  flex-direction: column;
+}
+
+.ranked-foods h4 {
+  margin-top: 40px;
+}
+
+.ranked-foods .bibliographic-source {
+  font-size: 0.875rem;
+  color: #2a1a1f;
+  margin-top: 10px;
+
+  a {
+    color: #a1c643;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .cards-wrapper {
+    flex-direction: row;
+  }
+}
+
+.ranked-card {
+  background: #fffdfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.1, 0.2);
   padding: 10px;
+  margin-top: 1rem;
+  height: 400px;
+  width: 100%;
+  gap: 20px;
+
+  .ranked-card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .rank-position-label {
+      color: #2a1a1f;
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    h5 {
+      font-size: 2rem;
+      color: #2a1a1f;
+    }
+
+    .ranked-card-image {
+      width: 250px;
+      height: 200px;
+      object-fit: contain;
+    }
+  }
+
+  .ranked-card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    p {
+      font-size: 20px;
+      color: #2a1a1f;
+
+      /* span {
+        color: '#A1C643';
+      } */
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ranked-card {
+    transition: transform 0.4s;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .ranked-card:nth-child(2) {
+    order: -1;
+  }
+
+  .highlighted-card {
+    height: 450px;
+    &:hover {
+      border: 2px solid #a1c643;
+    }
+  }
 }

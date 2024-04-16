@@ -134,6 +134,7 @@ nav .admin-button {
   backdrop-filter: blur(15px);
   border-radius: 10px;
   overflow: hidden;
+  z-index: 1000;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
