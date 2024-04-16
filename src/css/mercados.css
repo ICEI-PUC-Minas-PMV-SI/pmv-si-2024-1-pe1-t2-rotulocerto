@@ -1,0 +1,38 @@
+/* Conteúdo de Mercados Próximos*/
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.content h1 {
+  font-size: 1.5rem;
+  color: #2a1a1f;
+}
+
+.content p {
+  color: #2a1a1f;
+}
+
+.map-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.map-wrapper iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+@media screen and (min-width: 992px) {
+  .map-wrapper iframe {
+    height: 500px;
+  }
+}
