@@ -15,7 +15,7 @@ class TemplateHeader extends HTMLElement {
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Alimentos</a></li>
                 <li><a href="#">Rótulos</a></li>
-                <li><a href="#">Profissionais de saúde</a></li>
+                <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
                 <li><a href="/src/pages/mercados.html">Mercados</a></li>
                 <li><a href="#">Acesso Admin</a></li>
               </ul>
@@ -27,7 +27,7 @@ class TemplateHeader extends HTMLElement {
             <li><a href="#">Home</a></li>
             <li><a href="#">Alimentos</a></li>
             <li><a href="#">Rótulos</a></li>
-            <li><a href="#">Profissionais de saúde</a></li>
+            <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
             <li><a href="/src/pages/mercados.html">Mercados</a></li>
             <li><a href="#">Acesso Admin</a></li>
           </div>
@@ -63,7 +63,8 @@ class TemplateFooter extends HTMLElement {
             <div>
               <p>Profissionais de saúde</p>
               <ul>
-                <li><a href="#">Como ler os rótulos</a></li>
+              <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>  
+              <li><a href="#">Como ler os rótulos</a></li>
                 <li><a href="#">Todos os alimentos</a></li>
                 <li><a href="#">Categorias de alimentos</a></li>
                 <li><a href="#">Restrição alimentar</a></li>
