@@ -16,7 +16,7 @@ class TemplateHeader extends HTMLElement {
                 <li><a href="#">Alimentos</a></li>
                 <li><a href="#">Rótulos</a></li>
                 <li><a href="#">Profissionais de saúde</a></li>
-                <li><a href="#">Mercados</a></li>
+                <li><a href="/src/pages/mercados.html">Mercados</a></li>
                 <li><a href="#">Acesso Admin</a></li>
               </ul>
             </div>
@@ -28,7 +28,7 @@ class TemplateHeader extends HTMLElement {
             <li><a href="#">Alimentos</a></li>
             <li><a href="#">Rótulos</a></li>
             <li><a href="#">Profissionais de saúde</a></li>
-            <li><a href="#">Mercados</a></li>
+            <li><a href="/src/pages/mercados.html">Mercados</a></li>
             <li><a href="#">Acesso Admin</a></li>
           </div>
         </div>
@@ -72,7 +72,7 @@ class TemplateFooter extends HTMLElement {
             <div>
               <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Mercados</a></li>
+                <li><a href="/src/pages/mercados.html">Mercados</a></li>
                 <li><a href="#">Notícias</a></li>
                 <li><a href="#">Sugestões</a></li>
               </ul>
