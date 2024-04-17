@@ -1,20 +1,28 @@
 /* Conteúdo Home */
-
 .content {
   min-height: calc(100dvh - 500px);
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 42px auto;
   width: 100%;
   padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  color: #2a1a1f;
 }
+
 
 .title{
   font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: 600;
 }
 
 .carousel {
   overflow: hidden;
   border-radius: 6px;
+  height: 263.99px;
 }
 
 .slides-container {
@@ -80,4 +88,99 @@
   justify-content: flex-end;
   top: -32px;
   right: 12px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+}
+
+.flex-container{
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.card{
+  width: 100%;
+  height: 200px;
+  background-color: #fa824c;
+  border-radius: 6px;
+  font-size: 16px;
+
+  padding: 24px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card > * {
+  font-weight: 500;
+}
+
+.testimonials{
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.form{
+  flex-direction: column !important;
+}
+
+.form label{
+  width: 100%;
+}
+
+.form label>input, .form label>textarea{
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.form label>textarea{
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form>.btn-container{
+  width: 100%;
+  display: flex;
+}
+
+.form>.btn-container>button{
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background-color: #fffdfd;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .flex-container{
+    flex-direction: row;
+  }
+
+  .form>.btn-container{
+    justify-content: flex-end;
+  }
+  .form>.btn-container>button{
+    max-width: 288px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid-container{
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

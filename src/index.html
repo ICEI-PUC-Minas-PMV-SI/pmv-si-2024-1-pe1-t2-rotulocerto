@@ -30,8 +30,8 @@
     <template-header></template-header>
 
     <main>
-      <div class="content">
-        <section>
+      <div style="background-color: #a1c643; padding: 42px 0;">
+        <section style="max-width: 1200px; margin: 0 auto; padding: 0 10px;">
           <div class="carousel">
             <div class="slides-container" id="slides-container">
               <div class="slide">
@@ -52,17 +52,97 @@
             </div>
           </div>
         </section>
+      </div>
+      <div class="content">
         <section>
           <h2 class="title">Alimentos</h2>
+          <div class="grid-container">
+            <div class="card">
+              <h3>Aprenda sobre os rótulos</h3>
+            </div>
+            <div class="card">
+              <h3>Todos os alimentos</h3>
+            </div>
+            <div class="card">
+              <h3>Receitas e dietas</h3>
+            </div>
+            <div class="card">
+              <h3>Ranking de Alimentos</h3>
+            </div>
+          </div>
         </section>
         <section>
-          <h2 class="title">Profissionais de saúde</h2>
+          <h2 class="title">Saúde</h2>
+          <div class="flex-container">
+            <div class="card">
+              <h3>Profissionais de saúde mais próximos</h3>
+            </div>
+            <div class="card">
+              <h3>Teste de IMC</h3>
+            </div>
+          </div>
         </section>
         <section>
           <h2 class="title">Mercado</h2>
+          <div class="flex-container">
+            <div class="card">
+              <h3>Mercados mais próximos</h3>
+            </div>
+          </div>
         </section>
         <section>
           <h2 class="title">Quem usou a plataforma também recomenda</h2>
+          <div class="flex-container">
+            <div class="testimonials">
+              <div class="card">
+              </div>
+              <p>Amanda - 32 anos</p>
+              <p>
+                O Rótulo certo mudou a minha vida,
+                me sinto motivada a melhorar meus habitos
+                sempre que entro na plataforma
+              </p>
+            </div>
+            <div class="testimonials">
+              <div class="card">
+              </div>
+              <p>Amanda - 32 anos</p>
+              <p>
+                O Rótulo certo mudou a minha vida,
+                me sinto motivada a melhorar meus habitos
+                sempre que entro na plataforma
+              </p>
+            </div>
+            <div class="testimonials">
+              <div class="card">
+              </div>
+              <p>Amanda - 32 anos</p>
+              <p>
+                O Rótulo certo mudou a minha vida,
+                me sinto motivada a melhorar meus habitos
+                sempre que entro na plataforma
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2 class="title">Enviar sugestões</h2>
+            <form class="flex-container form">
+              <div class="flex-container">
+                <label for="name">Nome
+                  <input type="text" id="name" name="name" />
+                </label>
+                <label for="email">Email
+                  <input type="email" id="email" name="email" />
+              </div>
+              </label>
+              <label for="sugestao">Sugestão
+                <textarea id="sugestao" name="sugestao"></textarea>
+              </label>
+              <div class="btn-container">
+                <button>Enviar</button>
+              </div>
+            </form>
         </section>
       </div>
     </main>
