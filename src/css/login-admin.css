@@ -1,3 +1,12 @@
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .col-25, .col-75 {
+        width: 100%;
+    }
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -24,12 +33,12 @@
     flex-direction: column;
 }
 
-label {
+.form label {
     width: 100%;
     border-radius: 6px;
     padding: 8px 16px;
     margin-top: 16px;
-    font-size: 30px bold;
+    font-size: 300px bold;
 }
 
 .form input {
@@ -37,7 +46,8 @@ label {
     border: 1px solid #000;
     border-radius: 6px;
     padding: 8px 16px;
-    margin-top: 16px;
+    margin-top: 10px;
+    margin-bottom: 16px;
     font-size: 1rem;
 }
 
