@@ -12,7 +12,7 @@
 
     display: flex;
     flex-direction: column;
-    gap: 36px;
+    gap: 42px;
     color: #2a1a1f;
     border-radius: 5px;
     border: 1px solid #000;
@@ -27,6 +27,7 @@
 label {
     width: 100%;
     border-radius: 6px;
+    padding: 8px 16px;
     margin-top: 16px;
     font-size: 30px bold;
 }
@@ -44,7 +45,8 @@ label {
     background-color: #3b5249;
     color:white;
     size: 30px;
+    margin-top: 20px;
     width: 150px;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
