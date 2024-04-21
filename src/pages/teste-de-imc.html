@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de IMC</title>
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="/src/css/template.css" />
+    <link rel="stylesheet" href="/src/css/teste-de-imc.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+
+    <script src="/src/js/template.js" type="module"></script>
+</head>
+<body>
+    <template-header></template-header>
+    <main class="content">
+        <h1>Teste de IMC (e peso ideal) </h1>
+        <div class="atualizado">
+            <img src="https://w7.pngwing.com/pngs/550/681/png-transparent-clock-computer-icons-symbol-clock-angle-digital-clock-time.png" alt="relogio">
+            <h3>Atualizado em abril de 2024</h3>
+        </div>
+        <div class="texto1">
+            <p>A determinação do Índice de Massa Corporal (IMC) pode ser uma ferramenta valiosa na identificação de possíveis problemas relacionados à obesidade ou desnutrição em pessoas de diferentes faixas etárias, incluindo crianças, adolescentes, adultos e idosos.
+                <br><br>Além de calcular o IMC, esta calculadora também fornece uma orientação sobre o intervalo de peso considerado ideal para promover uma qualidade de vida melhor. Manter-se dentro desse intervalo de peso ideal pode ajudar a prevenir o desenvolvimento de diversas doenças crônicas, tais como diabetes e hipertensão.</p>
+            <br>
+            <p>Coloque os seus dados na calculadora e calcule o seu IMC:</p>
+        </div>
+        <div class="quadrado">
+            <div class="teste">
+                <img src="/docs/img/template/logoRC.png" alt="">
+                <h5>Sexo</h5>
+                <div class="homemmulher">
+                <h4 class="homem">Homem</h4>
+                <span class="espaco"></span>
+                <h4 class="mulher">Mulher</h4>
+                </div >
+                <div class="caixas-de-texto">
+                    <h5>Idade</h5>
+                    <div class="anos">
+                        <label for="texto"></label>
+                        <input type="text" id="texto" name="texto" class="texto">
+                        <p>anos</p>
+                    </div>
+                    <h5>Altura</h5>
+                    <div class="anos">
+                        <label for="texto"></label>
+                        <input type="text" id="texto" name="texto" class="texto">
+                        <p>cm</p>
+                    </div>
+                    <h5>Peso</h5>
+                    <div class="anos">
+                        <label for="texto"></label>
+                        <input type="text" id="texto" name="texto" class="texto">
+                        <p>Kg</p>
+                    </div>
+                </div>
+                <h4 class="calcular">Calcular</h4>
+            </div>    
+        </div>
+        <div class="texto2">
+            <p>O resultado desta calculadora também informa qual o intervalo de peso ideal para a sua altura.</p>
+            <h2>Como é feito o cálculo de IMC</h2>
+            <p>O IMC é uma medida que avalia a relação entre o peso e a altura de uma pessoa. Para calculá-lo, você divide o peso (em quilogramas) pela altura ao quadrado (em metros), conforme indicado pela fórmula: IMC = peso / (altura x altura).<br><br>O resultado do IMC é expresso em quilogramas por metro quadrado (kg/m2) fornecendo uma indicação geral do status de peso de uma pessoa em relação à sua altura.</p>
+            <h2>Como interpretar o resultado de IMC</h2>
+            <p>Depois de obter o resultado de IMC, deve-se interpretar o valor utilizando a seguinte tabela:</p>
+        </div>
+        <div class="tabela">
+            <div class="IMC">
+                <h6 class="tabela-cima">IMC</h6>
+                <p>Menor que 18,5</p>
+                <p>18,5 a 24,9</p>
+                <p>25 a 29,9</p>
+                <p>30 a 34,9</p>
+                <p>35 a 39,9</p>
+                <p>Maior que 40</p>
+            </div>
+            <div class="classificacao">
+                <h6 class="tabela-cima2">Classificação</h6>
+                <p>Magreza</p>
+                <p>Normal</p>
+                <p>Sobrepeso</p>
+                <p>Obesidade grau I</p>
+                <p>Obesidade grau II</p>
+                <p>Obesidade grau III</p>
+            </div>
+        </div>
+        <div class="texto3">
+            <p>Baseado no Índice de Massa Corporal (IMC), é viável estimar o potencial de risco que uma pessoa possui para o desenvolvimento de condições crônicas. Isso ocorre porque à medida que o IMC aumenta, aumenta também a quantidade de gordura corporal, elevando, consequentemente, o risco de condições como hipertensão arterial, diabetes e problemas cardíacos.</p>
+            <br><br>
+            <p>É altamente recomendado que a interpretação do IMC seja realizada por um nutricionista, sempre que possível. O nutricionista será capaz de ajustar a dieta de acordo com os objetivos individuais de cada pessoa, considerando também seu histórico de saúde específico.</p>
+            <h2>O que significa IMC</h2>
+            <p>O IMC, que significa Índice de Massa Corporal, é uma medida utilizada para determinar se o peso de uma pessoa está dentro do intervalo considerado ideal para sua altura.<br><br>Essa avaliação possibilita identificar se alguém está acima ou abaixo do peso recomendado, além de diagnosticar possíveis problemas de saúde, como obesidade ou desnutrição, com base nos resultados do IMC.<br><br>É importante ressaltar que o IMC é uma ferramenta aplicável a pessoas de todas as faixas etárias, desde crianças e adolescentes até adultos e idosos.</p>
+            <h2>Por que é importante saber o IMC?</h2>
+            <p>Conhecer o IMC é crucial para avaliar se o peso de alguém está proporcional à sua altura e para entender se há risco de desenvolver certas doenças. Especialmente no caso das crianças, o IMC é útil para monitorar se o desenvolvimento está seguindo os padrões esperados.<br><br>Além disso, ao conhecer o IMC, é possível determinar qual é o peso considerado ideal para uma determinada altura, permitindo identificar se a pessoa está acima ou abaixo do peso recomendado. Essa informação é valiosa para orientar escolhas saudáveis de estilo de vida e nutrição.</p>
+            <h2>O IMC é a melhor forma de avaliar o peso?</h2>
+            <p>Embora o IMC seja uma ferramenta fundamental para avaliar o estado nutricional de uma pessoa, é importante reconhecer que ele não considera muitos outros fatores relevantes para uma avaliação completa do peso.<br><br>Portanto, embora o IMC seja útil como uma medida rápida para determinar se o peso está dentro de uma faixa adequada, não é a única nem a melhor forma de avaliar o peso. Para uma avaliação mais completa, é recomendável consultar um médico ou nutricionista, que poderá levar em conta uma variedade de fatores adicionais, como idade, nível de atividade física, composição corporal, nível de hidratação e histórico de saúde. Essa abordagem mais abrangente proporcionará uma visão mais precisa e individualizada do peso e da saúde geral de uma pessoa.</p>
+            <h2>O que fazer para melhorar o IMC?</h2>
+            <p>Para melhorar o IMC, é crucial determinar se ele está acima ou abaixo do considerado normal. Quando o IMC indica magreza, é fundamental buscar a orientação de um nutricionista para uma avaliação completa. O profissional irá desenvolver um plano alimentar personalizado, priorizando o ganho de peso de forma saudável.<br><br>Por outro lado, se o IMC estiver na faixa de sobrepeso ou obesidade, o nutricionista pode recomendar uma dieta com redução de calorias. Além disso, é comum sugerir a prática regular de atividade física, que não apenas acelera o metabolismo, mas também facilita a perda de peso, impactando diretamente no IMC. Essas abordagens combinadas são essenciais para melhorar o IMC e promover uma saúde ótima.</p>
+        </div>
+    </main>
+    <template-footer></template-footer>
+</body>
+</html>
