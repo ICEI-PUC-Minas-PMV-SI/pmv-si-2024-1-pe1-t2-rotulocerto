@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .col-25, .col-75 {
+        width: 100%;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    min-height: calc(100dvh - 500px);
+    max-width: 1200px;
+    margin: 42px auto;
+    width: 100%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    color: #2a1a1f;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
