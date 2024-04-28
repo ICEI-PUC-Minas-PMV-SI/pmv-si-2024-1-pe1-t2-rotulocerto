@@ -111,6 +111,12 @@ h6{
     height: 50px;
     margin-left: 310px;
   }
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 310px;
+    margin-bottom: 12px;
+}
   input{
     color:black;
     border: 1px solid black;
@@ -187,12 +193,96 @@ h6{
     border-bottom-right-radius: 10px;
     box-sizing: border-box;
 }
+.resultado {
+    background-color: #3b5249; 
+    padding: 20px;
+    border-radius: 5px;
+}
+.homem.selecionado {
+    background-color: #2596be; 
+    color: #fff; 
+}
+.mulher.selecionado{
+    background-color: #b28dcb; 
+    color: #fff; 
+}
+.tabelaResultado {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0.1, 0.2);
+    margin-bottom: 100px;
+}
+.tabela-cimaresultado{
+    padding: 25px 39px;
+    width: 100.5%;
+    right: 6%;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #3b5249;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
+.tabela-cima2resultado{
+    padding: 25px 0px;
+    width: 103.5%;
+    left: 0.2%;
+    color: #3b5249;
+    margin-bottom: 20px;
+    background-color: #3b5249;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+}
+.tabela-cima3resultado{
+    padding: 25px 56px;
+    width: 103.5%;
+    right: 14%;
+    margin-bottom: 20px;
+    background-color: #3b5249;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-sizing: border-box;
+}
+.IMC2, .classificacao2, .peso2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding-right: 10px;
+}
+.IMC2 p, .classificacao2 p, .peso2 p{
+    margin-bottom: 29px;
+    font-weight: bold;
+    padding-left: 20px;
+}
 .IMC, .classificacao{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 50%;
     padding-right: 10px;
+}
+.IMCresultado {
+    margin-bottom: 29px;
+    font-weight: bold;
+    font-size: 29px;
+    right: 10%;
+    padding-left: 20px;
+}
+.categoriaIMC{
+    margin-bottom: 29px;
+    font-weight: bold;
+    padding-left: 30px;
+    text-align: justify;
+    padding-right: 30px;
 }
 .IMC p, .classificacao p{
     margin-bottom: 29px;
@@ -203,7 +293,7 @@ h6{
     .quadrado{
         justify-content: left;
         left: 10%;
-        width: 400px;
+        width: 430px;
     }
     .texto1{
         left: -1%;
@@ -227,7 +317,7 @@ h6{
     .quadrado{
         justify-content: left;
         left: -5%;
-        width: 370px;
+        width: 420px;
     }
     .texto1{
         left: -1%;
@@ -244,5 +334,14 @@ h6{
         padding: 25px 25px;
         margin-top: 0px;
         width: 106%;
+    }
+    .tabela-cimaresultado{
+        right: 5%;
+    }
+    .tabela-cima2resultado{
+        right: 7%;
+    }
+    .tabelaResultado{
+        width: 400px;
     }
   }

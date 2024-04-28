@@ -41,38 +41,41 @@
             <br>
             <p>Coloque os seus dados na calculadora e calcule o seu IMC:</p>
         </div>
-        <div class="quadrado">
+        <div class="quadrado" id="quadrado">
             <div class="teste">
                 <img src="/docs/img/template/logoRC.png" alt="">
                 <h5>Sexo</h5>
                 <div class="homemmulher">
-                <h4 class="homem">Homem</h4>
+                <h4 class="homem" onclick="setSexo('Homem')">Homem</h4>
                 <span class="espaco"></span>
-                <h4 class="mulher">Mulher</h4>
+                <h4 class="mulher" onclick="setSexo('Mulher')">Mulher</h4>
                 </div >
                 <div class="caixas-de-texto">
                     <h5>Idade</h5>
                     <div class="anos">
                         <label for="texto"></label>
-                        <input type="text" id="texto" name="texto" class="texto">
+                        <input type="number" id="idade" name="idade" class="texto" min="0">
                         <p>anos</p>
                     </div>
                     <h5>Altura</h5>
                     <div class="anos">
                         <label for="texto"></label>
-                        <input type="text" id="texto" name="texto" class="texto">
+                        <input type="number" id="altura" name="altura" class="texto" min="0">
                         <p>cm</p>
                     </div>
                     <h5>Peso</h5>
                     <div class="anos">
                         <label for="texto"></label>
-                        <input type="text" id="texto" name="texto" class="texto">
+                        <input type="number" id="peso" name="peso" class="texto" min="0">
                         <p>Kg</p>
                     </div>
                 </div>
-                <h4 class="calcular">Calcular</h4>
+                    <h4 class="calcular" onclick="calcularIMC()">Calcular</h4>
+                    <div id="resultadoContainer" class="resultadoBackground"></div>
+                    <div class="tabela1" id="tabelaIMC"></div>
             </div>    
         </div>
+        <script src="/src/js/teste-IMC.js"></script>
         <div class="texto2">
             <p>O resultado desta calculadora também informa qual o intervalo de peso ideal para a sua altura.</p>
             <h2>Como é feito o cálculo de IMC</h2>
