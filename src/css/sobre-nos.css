@@ -43,7 +43,7 @@
   }
   .quadrado{
     width: 400px;
-    height: 450px;
+    height: 500px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
