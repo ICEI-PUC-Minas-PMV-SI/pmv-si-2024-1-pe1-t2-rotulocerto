@@ -2,11 +2,12 @@
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
-    padding: 40px 20px;
-    justify-content: center;
-    align-items: center;
-    
+    padding: 40px 20px;  
   }
+template-header{
+    right: 9%;
+}
+
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -290,17 +291,20 @@ h6{
     padding-left: 20px;
 }
   @media screen and (max-width: 850px) {
+    template-header{
+        left: 0%;
+    }
     .quadrado{
         justify-content: left;
         left: 10%;
-        width: 430px;
+        width: 400px;
     }
     .texto1{
         left: -1%;
     }
     .tabela{
         justify-content: left;
-        left: 15%;
+        left: 5%;
         width: 400px;
     }
     .tabela-cima{
@@ -323,9 +327,8 @@ h6{
         left: -1%;
     }
     .tabela{
-        justify-content: left;
-        left: 0%;
-        width: 400px;
+        left: -50px;
+        width: 350px;
     }
     .tabela-cima{
         padding: 25px 75px;
