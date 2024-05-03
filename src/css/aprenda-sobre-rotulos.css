@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.rotulagem {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.rotulagem h2 {
+    margin-bottom: 10px;
+}
+
+.nova-rotulagem {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.content img {
+    width: 50%;
+    height: 50%;
+    order: 1;
+}
+
+.content p {
+    padding-right: 10px;
+}
+
+.artigos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.artigos>div {
+    background-color: #a1c643;
+    text-align: center;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: solid 1px black;
+}
+
+@media (max-width: 768px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+    .artigos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .artigos>div {
+        width: 100%;
+    }
+}
