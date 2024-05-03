@@ -37,6 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
     changeActiveDot(position);
     position++
 
-  }, 3000);
+  }, 4000);
 
 });

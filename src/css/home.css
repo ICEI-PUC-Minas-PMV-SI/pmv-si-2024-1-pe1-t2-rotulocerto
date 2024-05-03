@@ -12,26 +12,51 @@
   color: #2a1a1f;
 }
 
-
 .title{
   font-size: 24px;
   margin-bottom: 24px;
   font-weight: 600;
 }
 
+.b-600{
+  font-weight: 600;
+}
+
+.link{
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+}
+
+.link:hover{
+  color: #fa824c;
+}
+
+#redirecionamento div{
+  border: 1px solid #3b5249;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+#redirecionamento a{
+  text-decoration: none;
+  color: #3b5249;
+}
+
 .carousel {
   overflow: hidden;
-  border-radius: 6px;
-  height: 263.99px;
+}
+
+.carousel,.slides-container {
+  height: 400px;
 }
 
 .slides-container {
-  height: 264px;
+  
   width: 100%;
   display: flex;
   overflow: hidden;
   scroll-behavior: smooth;
-  border-radius: 6px;
 }
 
 .slide {
@@ -45,23 +70,25 @@
 }
 
 .slide > p{
-  font-size: 24px;
+  font-size: 16px;
+  width: 60%;
+  color: #fff;
 }
 
 .slide:nth-child(1) {
-  background-color: #49b293;
+  background-image: url("../assets/home/slide1.png");
 }
 
 .slide:nth-child(2) {
-  background-color: #b03532;
+  background-image: url("../assets/home/slide2.png");
 }
 
 .slide:nth-child(3) {
-  background-color: #6a478f;
+  background-image: url("../assets/home/slide3.png");
 }
 
 .slide:nth-child(4) {
-  background-color: #da6f2b;
+  background-image: url("../assets/home/slide4.png");
 }
 
 .carousel-btn{
@@ -86,8 +113,8 @@
   display: flex;
   gap: 10px;
   justify-content: flex-end;
-  top: -32px;
-  right: 12px;
+  top: -42px;
+  right: 24px;
 }
 
 .grid-container{
@@ -102,16 +129,69 @@
   flex-direction: column;
 }
 
+.card-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-container h3{
+  font-weight: 600;
+  font-size: 16px;
+}
+
 .card{
   width: 100%;
   height: 200px;
   background-color: #fa824c;
   border-radius: 6px;
   font-size: 16px;
+}
 
-  padding: 24px;
+.card-img__circle{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+}
+
+.img-container{
+  width: 100%;
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
+}
+
+.imc{
+  background-image: url("../assets/home/imc.jpg");
+}
+
+.img-rotulos{
+  background-image: url("../assets/home/rotulo.jpg");
+}
+.img-alimentos{
+  background-image: url("../assets/home/alimentos.jpg");
+}
+.img-dietas{
+  background-image: url("../assets/home/dietas.jpg");
+}
+.img-ranking{
+  background-image: url("../assets/home/ranking.jpg");
+}
+
+.background{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card__map{
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
+  font-size: 16px;
 }
 
 .card > * {
@@ -123,6 +203,9 @@
   display: flex;
   gap: 16px;
   flex-direction: column;
+  padding: 24px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.1, 0.2);
+  border-radius: 6px;
 }
 
 .form{
@@ -171,16 +254,35 @@
     flex-direction: row;
   }
 
+  #recomendacoes .flex-container{
+    flex-direction: column;
+  }
+
   .form>.btn-container{
     justify-content: flex-end;
   }
   .form>.btn-container>button{
     max-width: 288px;
   }
+
+  .carousel,
+  .slides-container{
+    height: 264px;
+  }
+  
+  .slide > p{
+    font-size: 18px;
+    width: 50%;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
   .grid-container{
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  #recomendacoes .flex-container{
+    flex-direction: row;
   }
 }

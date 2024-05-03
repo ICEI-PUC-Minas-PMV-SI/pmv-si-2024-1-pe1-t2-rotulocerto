@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const iframe = document.querySelector('iframe');
+  const iframe = document.querySelector('.mercado iframe');
   const permissionMessage = document.querySelector('.permission-message');
 
   if (navigator.geolocation) {
