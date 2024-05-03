@@ -17,7 +17,7 @@ class TemplateHeader extends HTMLElement {
                 <li><a href="#">Rótulos</a></li>
                 <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
                 <li><a href="/src/pages/mercados.html">Mercados</a></li>
-                <li><a href="#">Acesso Admin</a></li>
+                <li><a href="/src/pages/login-admin.html">Acesso Admin</a></li>
               </ul>
             </div>
             <button class="admin-button">Acesso Admin</button>
@@ -29,7 +29,7 @@ class TemplateHeader extends HTMLElement {
             <li><a href="#">Rótulos</a></li>
             <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
             <li><a href="/src/pages/mercados.html">Mercados</a></li>
-            <li><a href="#">Acesso Admin</a></li>
+            <li><a href="/src/pages/login-admin.html">Acesso Admin</a></li>
           </div>
         </div>
       </header>
@@ -63,7 +63,7 @@ class TemplateFooter extends HTMLElement {
             <div>
               <p>Profissionais de saúde</p>
               <ul>
-              <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>  
+              <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
               <li><a href="#">Como ler os rótulos</a></li>
                 <li><a href="#">Todos os alimentos</a></li>
                 <li><a href="#">Categorias de alimentos</a></li>
