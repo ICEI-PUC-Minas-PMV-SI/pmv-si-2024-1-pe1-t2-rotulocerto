@@ -27,7 +27,7 @@ h1 {
   margin-top: 40px;
 }
 
-.ranked-foods .bibliographic-source {
+.bibliographic-source {
   font-size: 0.875rem;
   color: #2a1a1f;
   margin-top: 10px;
@@ -127,5 +127,148 @@ h1 {
     &:hover {
       border: 2px solid #a1c643;
     }
+  }
+}
+
+/* Ranked Table */
+
+.ranked-table {
+  width: 100%;
+  padding-bottom: 40px;
+  background-color: #fff5;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0.4rem 0.8rem #0005;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.table-header {
+  flex-direction: column;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+@media screen and (min-width: 992px) {
+  .table-header {
+    width: 100%;
+    background-color: #fff4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .filter-buttons {
+    margin-top: 0;
+  }
+}
+
+.table-header h3 {
+  font-size: 1.25rem;
+  color: #2a1a1f;
+}
+
+.table-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.table-title p {
+  font-size: 0.875rem;
+  color: #2a1a1f;
+  opacity: 0.8;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  overflow: auto;
+  padding-bottom: 1rem;
+}
+
+.filter-buttons::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+
+.filter-buttons::-webkit-scrollbar-thumb {
+  background-color: #0004;
+  border-radius: 0.3rem;
+  visibility: hidden;
+}
+
+.filter-buttons span {
+  font-size: 14px;
+  color: #2a1a1f;
+  background-color: #a1c643;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  max-height: 36px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter-buttons span:hover {
+  background-color: #a1c643e0;
+}
+
+table,
+th,
+td {
+  padding: 1rem;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-body {
+  width: 100%;
+  max-height: calc(89% - 1.6rem);
+  background-color: #fffb;
+  border-radius: 0.6rem;
+  overflow: auto;
+}
+
+.table-body::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.table-body::-webkit-scrollbar-thumb {
+  background-color: #0004;
+  border-radius: 0.5rem;
+  visibility: hidden;
+}
+
+.table-body:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+table {
+  width: 100%;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: #d5d1defe;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #0000000b;
+}
+
+tbody tr:hover {
+  background-color: #e2ebcbe0;
+}
+
+@media (max-width: 1000px) {
+  td:not(:first-of-type) {
+    min-width: 12.1rem;
   }
 }

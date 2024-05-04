@@ -1,0 +1,165 @@
+/* Conteúdo Todos os Alimentos */
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #2a1a1f;
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Ranked Table */
+
+.ranked-table {
+  width: 100%;
+  padding-bottom: 40px;
+  background-color: #fff5;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0.4rem 0.8rem #0005;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+table,
+th,
+td {
+  padding: 1rem;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-body {
+  width: 100%;
+  max-height: calc(89% - 1.6rem);
+  background-color: #fffb;
+  border-radius: 0.6rem;
+  overflow: auto;
+}
+
+.table-body::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.table-body::-webkit-scrollbar-thumb {
+  background-color: #0004;
+  border-radius: 0.5rem;
+  visibility: hidden;
+}
+
+.table-body:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+table {
+  width: 100%;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: #d5d1defe;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #0000000b;
+}
+
+tbody tr:hover {
+  background-color: #e2ebcbe0;
+}
+
+@media (max-width: 1000px) {
+  td:not(:first-of-type) {
+    min-width: 12.1rem;
+  }
+}
+
+.table-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+.bibliographic-source {
+  font-size: 0.875rem;
+  color: #2a1a1f;
+
+  a {
+    color: #a1c643;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+/* Pagination */
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination-wrapper .pagination-button {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  background-color: #0000001e;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.pagination-wrapper .pagination-button:hover {
+  background-color: #e2ebcbe0;
+}
+
+/* Envie uma sugestão aqui */
+
+.send-suggestion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+  line-height: 20px;
+
+  small {
+    font-size: 0.875rem;
+    color: #2a1a1f;
+    font-weight: 500;
+
+    a {
+      color: #3b5249;
+      text-decoration: underline;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
