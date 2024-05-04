@@ -36,10 +36,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| A aplicação deve informar sobre os símbolos informativos na rotulagem frontal dos produtos (Exemplo: Alto em Açúcar Adicionado) | Raul Duarte - Fernando Colini | aprenda-sobre-rotulos.html |
 |RF-008| A aplicação deve informar sobre os aditivos presentes nos alimentos (Exemplo: Acidificante e-338 a.k.a. ácido fosfórico) | Raul Duarte - Fernando Colini | aprenda-sobre-rotulos.html |
 |RF-009| A aplicação deve exibir mercados mais próximos | Marcus Oliveira | mercados.html |
-|RF-010| A aplicação deve exibir dietas comuns com diferentes objetivos | Gabriel Carvalho | - |
+|RF-010| A aplicação deve exibir dietas comuns com diferentes objetivos | Gabriel Carvalho | receitas-dietas.html |
 |RF-011| A aplicação deve permitir que o usuário filtre alimentos por nome, nutrientes, aditivos e calorias | Marcus Oliveira | ranking-alimentos.html |
 |RF-012| A aplicação deve permitir que o usuário realize o teste de IMC | Lucas Alves | teste-de-imc.html |
-|RF-013| A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico | Gabriel Carvalho | - |
+|RF-013| A aplicação deve permitir que o usuário pesquise sobre receitas saudáveis por ingrediente específico | Gabriel Carvalho | receitas-dietas.html |
 |RF-014| A aplicação deve permitir que os administradores façam login para terem acesso as sugestões envidas pelo formulario | Ítalo Penaforte | login-admin.html |
 |RF-015| A aplicação deve exibir os participantes do desenvolvimento do projeto | Lucas Alves | sobrenos.html |
 |RF-016| A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação | Gabriel Carvalho | index.html |
