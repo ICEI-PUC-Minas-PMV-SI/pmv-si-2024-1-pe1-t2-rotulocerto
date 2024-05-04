@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="/src/css/main.css" />
     <link rel="stylesheet" href="/src/css/template.css" />
-    <link rel="stylesheet" href="/src/css/ranking-alimentos.css" />
+    <link rel="stylesheet" href="/src/css/todos-alimentos.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +25,7 @@
     />
 
     <script src="/src/js/template.js" type="module"></script>
-    <script src="/src/js/ranking-alimentos.js" type="module"></script>
+    <script src="/src/js/todos-alimentos.js" type="module"></script>
   </head>
   <body>
     <template-header></template-header>
@@ -49,24 +49,6 @@
             </thead>
 
             <tbody>
-              <tr>
-                <td>4</td>
-                <td>Milho de Pipoca, com óleo e sal</td>
-                <td>433 Kcal</td>
-                <td>9,88g</td>
-                <td>15,9g</td>
-                <td>70,0g</td>
-                <td>14,3g</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Batata Frita McDonald's</td>
-                <td>315 Kcal</td>
-                <td>3,41g</td>
-                <td>15,5g</td>
-                <td>42,6g</td>
-                <td>3,90g</td>
-              </tr>
               <tr>
                 <td>1</td>
                 <td>Banana da Terra</td>
@@ -95,6 +77,24 @@
                 <td>1,35g</td>
               </tr>
               <tr>
+                <td>4</td>
+                <td>Milho de Pipoca, com óleo e sal</td>
+                <td>433 Kcal</td>
+                <td>9,88g</td>
+                <td>15,9g</td>
+                <td>70,0g</td>
+                <td>14,3g</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Batata Frita McDonald's</td>
+                <td>315 Kcal</td>
+                <td>3,41g</td>
+                <td>15,5g</td>
+                <td>42,6g</td>
+                <td>3,90g</td>
+              </tr>
+              <tr>
                 <td>6</td>
                 <td>Picanha Bovina grelhada</td>
                 <td>233 Kcal</td>
@@ -107,13 +107,31 @@
           </table>
         </div>
         <div class="table-footer">
-          <p class="bibliographic-source" style="margin-top: 2rem">
+          <p class="bibliographic-source">
             Fonte:
             <a href="https://www.tbca.net.br/base-dados/" target="_blank">
               Tabela Brasileira de Composição de Alimentos
             </a>
           </p>
+
+          <div class="pagination-wrapper">
+            <p>1 de 5</p>
+            <button class="pagination-button">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="pagination-button">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
         </div>
+      </section>
+
+      <section class="send-suggestion">
+        <small>Não encontrou o alimento desejado?</small>
+        <small>
+          Envie uma sugestão
+          <a href="/src/pages/enviar-sugestoes.html">aqui</a>!
+        </small>
       </section>
     </main>
 
