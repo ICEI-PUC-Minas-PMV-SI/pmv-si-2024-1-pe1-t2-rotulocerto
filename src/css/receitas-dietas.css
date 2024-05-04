@@ -1,0 +1,138 @@
+/* Conteúdo Receitas e Dietas */
+:root {
+  --page-m-width: 1200px;
+
+  /* fonts */
+  --fs-40: 40px;
+  --fs-24: 24px;
+  --fs-20: 20px;
+  --fs-18: 18px;
+  --fs-16: 16px;
+
+  /* Spacing */
+  --size-42: 42px;
+  --size-24: 24px;
+  --size-16: 16px;
+  --size-12: 12px;
+  --size-8: 8px;
+
+  /* border */
+  --br-6: 6px;
+  --b-default: 1px solid var(--color-licorice);
+
+  /* Colors */
+  --color-licorice: #2a1a1f;
+  --color-feldgrau: #3b5249;
+  --color-yellow-green: #a1c643;
+  --color-white: #fffdfd;
+  --color-coral: #fa824c;
+}
+
+/* geral */
+.btn{
+  padding: var(--size-8) var(--size-16);
+  border-radius: var(--br-6);
+  background-color: var(--color-white);
+  border: var(--b-default);
+
+  display: flex;
+  cursor: pointer;
+}
+
+/* page */
+.content,
+.filters,
+.filters > div,
+.infos,
+.info,
+.pagination {
+  display: flex;
+}
+
+.content {
+  min-height: calc(100dvh - 500px);
+  max-width: var(--page-m-width);
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-42);
+  color: var(--color-licorice);
+}
+
+.page-title {
+  font-size: var(--fs-40);
+  margin-top: var(--size-42);
+  font-weight: 600;
+}
+
+/* filters */
+.filters{
+  flex-direction: column;
+  gap: var(--size-24);
+}
+
+.filters > div{
+  width: 100%;
+}
+
+.filters > div:first-child{
+  gap: var(--size-24);
+}
+
+.filters > div:first-child button{
+  border-radius: 50px; /* valor grande arbitrário*/
+}
+
+.search > input {
+  width: 100%;
+  border: var(--b-default);
+  padding: var(--size-8) var(--size-16);
+  border-radius: var(--br-6) 0 0 var(--br-6);
+}
+
+.search > .btn {
+  border-radius: 0 var(--br-6) var(--br-6) 0;
+  border-left: 0;
+}
+
+.btn.search > img, .btn.left > img, .btn.rigth > img{
+  width: 20px;
+}
+
+/* infos */
+.infos{
+  flex-direction: column;
+}
+
+.info {
+  height: 239px;
+  border: var(--b-default);
+  border-radius: var(--br-6);
+}
+
+.info .img {
+  background-image: url('https://www.hojetemfrango.com.br/wp-content/uploads/2019/03/shutterstock_553403317.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: var(--br-6) 0 0 var(--br-6);
+}
+
+.info .text{
+  padding: var(--size-42);
+}
+
+.text h3{
+  margin-bottom: var(--size-24);
+  font-size: var(--fs-16);
+}
+
+.pagination{
+  margin: var(--size-24) 0;
+  justify-content: end;
+  gap: var(--size-24);
+  align-items: center;
+}
