@@ -25,16 +25,188 @@
     />
 
     <script src="/src/js/template.js" type="module"></script>
+    <script src="/src/js/mercados.js"></script>
+    <script src="/src/js/profissionais-saude.js"></script>
   </head>
   <body>
     <template-header></template-header>
 
     <main>
-      <section class="content">
-        <h1>Home</h1>
-      </section>
+      <div style="background-color: #fa824c;">
+        <section style="max-width: 1200px; margin: 0 auto;">
+          <div class="carousel">
+            <div class="slides-container b-600" id="slides-container">
+              <div class="slide background">
+                <p>
+                  Bem vindo ao rótulo certo, lugar onde você pode consultar informações 
+                  que vão de acordo com sua saúde e bem estar
+                </p>
+              </div>
+              <div class="slide background">
+                <p>
+                  Venha conhecer um pouco mais sobre os alimentos e como melhorar sua alimentação
+                </p>
+              </div>
+              <div class="slide background">
+                <p>
+                  Saiba mais como você pode melhorar sua saúde
+                </p>
+              </div>
+              <div class="slide background">
+                <p>
+                  Dúvidas onde possa encontrar mercados próximos? Saiba mais na plataforma
+                </p>
+              </div>
+            </div>
+            <div class="carousel-btn-container">
+              <button class="carousel-btn active" data-img="0"></button>
+              <button class="carousel-btn" data-img="1"></button>
+              <button class="carousel-btn" data-img="2"></button>
+              <button class="carousel-btn" data-img="3"></button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="content">
+        <section id="redirecionamento" class="flex-container b-600">
+          <div><a href="#alimentos">alimentos</a></div>
+          <div><a href="#saude">saúde</a></div>
+          <div><a href="#mercados">mercados</a></div>
+          <div><a href="#recomendacoes">recomendações</a></div>
+          <div><a href="#sugestoes">sugestões</a></div>
+        </section>
+        <section id="alimentos">
+          <h2 class="title">Alimentos</h2>
+          <div class="grid-container">
+            <a class="link" href="/src/pages/rotulos.html">
+              <div class="card-container">
+                <div class="card background img-rotulos"></div>
+                <h3>Aprenda sobre os rótulos</h3>
+              </div>
+            </a>
+            <a class="link" href="/src/pages/rotulos.html">
+              <div class="card-container">
+                <div class="card background img-alimentos"></div>
+                <h3>Todos os alimentos</h3>
+              </div>
+            </a>
+            <a class="link" href="/src/pages/rotulos.html">
+              <div class="card-container">
+                <div class="card background img-dietas"></div>
+                <h3>Receitas e dietas</h3>
+              </div>
+            </a>
+            <a class="link" href="/src/pages/rotulos.html">
+              <div class="card-container">
+                <div class="card background img-ranking"></div>
+                <h3>Ranking de Alimentos</h3>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section id="saude">
+          <h2 class="title">Saúde</h2>
+          <div class="flex-container">
+            <a class="link" href="/src/pages/ranking-alimentos.html">
+              <div class="card-container">
+                <div class="saude map-wrapper" style="width: 100%;">
+                  <iframe class="card__map"
+                  src=""
+                  allowfullscreen
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <h3>Encontre os nutricionistas mais próximos de você</h3>
+              </div>
+            </a>
+            <a class="link" href="/src/pages/rotulos.html">
+              <div class="card-container">
+                <div class="card background imc">
+                </div>
+                <h3>Teste de IMC</h3>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section id="mercados">
+          <h2 class="title">Mercados</h2>
+          <a class="link" href="/src/pages/rotulos.html">
+            <div class="card-container">
+              <div class="mercado map-wrapper">
+                <iframe class="card__map"
+                src=""
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <h3>Encontre os mercados mais próximo de você</h3>
+            </div>
+          </a>
+        </section>
+        <section id="recomendacoes">
+          <h2 class="title">Quem usou a plataforma também recomenda</h2>
+          <div class="flex-container">
+            <div class="testimonials">
+              <div class="img-container">
+                <div class="card-img__circle" style="background-image: url('../docs/img/personas/persona-roberto-marinho.png');"></div>
+              </div>
+              <p class="b-600">Roberto Marinho - 28 an</p>
+              <p>
+                O Rótulo certo mudou a minha vida,
+                me motivou a comer alimentos mais saudaveis, que eu pude encaixar em minha rotina.
+                Consegui até começar a praticar exercícios por causa dessa nova rotina.
+              </p>
+            </div>
+            <div class="testimonials">
+              <div class="img-container">
+                <div class="card-img__circle" style="background-image: url('../docs/img/personas/persona.annajulia.png');"></div>
+              </div>
+              <p class="b-600">Anna Júlia - 45 anos</p>
+              <p>
+                O Rótulo certo me ajudou muito no meu dia a dia a escolher melhor os alimentos
+                com base na leitura dos rótulos. Hoje me sinto mais segura com minhas escolhas de alimentos,
+                que consequentimente ajudou positivamente na alimentação da minha família.
+              </p>
+            </div>
+            <div class="testimonials">
+              <div class="img-container" >
+                <div class="card-img__circle" style="background-image: url('../docs/img/personas/persona-carlos-augusto.png');" ></div>
+              </div>
+              <p class="b-600">Carlos Augusto - 17 anos</p>
+              <p>
+                A plataforma possibilitou com que eu compreendesse melhor os alimentos.
+                Consegui entender a importância de uma alimentação saudável e como isso pode impactar na minha saúde física.
+                Hoje eu consigo fazer exercícios mais intensos que antes.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="sugestoes">
+          <h2 class="title">Enviar sugestões</h2>
+            <form class="flex-container form">
+              <div class="flex-container">
+                <label for="name">Nome
+                  <input type="text" id="name" name="name" />
+                </label>
+                <label for="email">Email
+                  <input type="email" id="email" name="email" />
+              </div>
+              </label>
+              <label for="sugestao">Sugestão
+                <textarea id="sugestao" name="sugestao"></textarea>
+              </label>
+              <div class="btn-container">
+                <button>Enviar</button>
+              </div>
+            </form>
+        </section>
+      </div>
     </main>
 
     <template-footer></template-footer>
   </body>
+
+  <script src="/src/js/home.js" defer></script>
 </html>
