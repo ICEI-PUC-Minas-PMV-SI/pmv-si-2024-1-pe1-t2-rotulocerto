@@ -12,8 +12,8 @@ class TemplateHeader extends HTMLElement {
                 <img class="logo" src="/src/assets/logo.png" alt="Logo" />
               </a>
               <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Alimentos</a></li>
+                <li><a href="/src/index.html">Início</a></li>
+                <li><a href="/src/pages/todos-alimentos.html">Alimentos</a></li>
                 <li><a href="#">Rótulos</a></li>
                 <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
                 <li><a href="/src/pages/mercados.html">Mercados</a></li>
@@ -24,8 +24,8 @@ class TemplateHeader extends HTMLElement {
           </nav>
 
           <div class="dropdown-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Alimentos</a></li>
+            <li><a href="/src/index.html">Início</a></li>
+            <li><a href="/src/pages/todos-alimentos.html">Alimentos</a></li>
             <li><a href="#">Rótulos</a></li>
             <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
             <li><a href="/src/pages/mercados.html">Mercados</a></li>
@@ -51,7 +51,7 @@ class TemplateFooter extends HTMLElement {
               <p>Alimentos</p>
               <ul>
                 <li><a href="#">Como ler os rótulos</a></li>
-                <li><a href="#">Todos os alimentos</a></li>
+                <li><a href="/src/pages/todos-alimentos.html">Todos os alimentos</a></li>
                 <li><a href="#">Categorias de alimentos</a></li>
                 <li>
                   <a href="/src/pages/ranking-alimentos.html">
@@ -65,14 +65,14 @@ class TemplateFooter extends HTMLElement {
               <ul>
               <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
               <li><a href="#">Como ler os rótulos</a></li>
-                <li><a href="#">Todos os alimentos</a></li>
+                <li><a href="/src/pages/todos-alimentos.html">Todos os alimentos</a></li>
                 <li><a href="#">Categorias de alimentos</a></li>
                 <li><a href="#">Restrição alimentar</a></li>
               </ul>
             </div>
             <div>
               <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="/src/index.html">Home</a></li>
                 <li><a href="/src/pages/mercados.html">Mercados</a></li>
                 <li><a href="#">Notícias</a></li>
                 <li><a href="#">Sugestões</a></li>

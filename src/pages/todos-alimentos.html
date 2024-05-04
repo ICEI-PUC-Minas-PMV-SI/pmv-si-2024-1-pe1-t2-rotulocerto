@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos os Alimentos</title>
+
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="/src/css/template.css" />
+    <link rel="stylesheet" href="/src/css/ranking-alimentos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="/src/js/template.js" type="module"></script>
+    <script src="/src/js/ranking-alimentos.js" type="module"></script>
+  </head>
+  <body>
+    <template-header></template-header>
+
+    <main class="content">
+      <h1>Todos os Alimentos</h1>
+
+      <section class="ranked-table">
+        <div class="table-body">
+          <table>
+            <thead>
+              <tr>
+                <th>id</th>
+                <th>Produto</th>
+                <th>Calorias</th>
+                <th>Proteínas</th>
+                <th>Gorduras</th>
+                <th>Carboidratos</th>
+                <th>Fibras</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>4</td>
+                <td>Milho de Pipoca, com óleo e sal</td>
+                <td>433 Kcal</td>
+                <td>9,88g</td>
+                <td>15,9g</td>
+                <td>70,0g</td>
+                <td>14,3g</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Batata Frita McDonald's</td>
+                <td>315 Kcal</td>
+                <td>3,41g</td>
+                <td>15,5g</td>
+                <td>42,6g</td>
+                <td>3,90g</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Banana da Terra</td>
+                <td>139 Kcal</td>
+                <td>1,44g</td>
+                <td>0,24g</td>
+                <td>33,7g</td>
+                <td>1,53g</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Laranja Bahia</td>
+                <td>86 Kcal</td>
+                <td>1,50g</td>
+                <td>0,20g</td>
+                <td>25,0g</td>
+                <td>10,6g</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Maçã Fuji</td>
+                <td>59 Kcal</td>
+                <td>0,29g</td>
+                <td>-</td>
+                <td>15,2g</td>
+                <td>1,35g</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Picanha Bovina grelhada</td>
+                <td>233 Kcal</td>
+                <td>31,9g</td>
+                <td>11,3g</td>
+                <td>0,90g</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-footer">
+          <p class="bibliographic-source" style="margin-top: 2rem">
+            Fonte:
+            <a href="https://www.tbca.net.br/base-dados/" target="_blank">
+              Tabela Brasileira de Composição de Alimentos
+            </a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <template-footer></template-footer>
+  </body>
+</html>
