@@ -4,6 +4,7 @@
 
   /* fonts */
   --fs-40: 40px;
+  --fs-32: 32px;
   --fs-24: 24px;
   --fs-20: 20px;
   --fs-18: 18px;
@@ -63,15 +64,16 @@
 }
 
 .page-title {
-  font-size: var(--fs-40);
   margin-top: var(--size-42);
   font-weight: 600;
+  
+  font-size: var(--fs-32);
 }
 
 /* filters */
 .filters{
-  flex-direction: column;
   gap: var(--size-24);
+  flex-direction: column;
 }
 
 .filters > div{
@@ -80,11 +82,17 @@
 
 .filters > div:first-child{
   gap: var(--size-24);
+
+  flex-wrap: wrap;
 }
 
 .filters > div:first-child button{
   border-radius: 50px; /* valor grande arbitrário*/
 }
+
+/* .filters .btn{
+  width: fit-content;
+} */
 
 .search > input {
   width: 100%;
@@ -104,21 +112,37 @@
 
 /* infos */
 .infos{
+  gap: var(--size-24);
   flex-direction: column;
 }
 
 .info {
-  height: 239px;
+  /* height: 239px; */
   border: var(--b-default);
   border-radius: var(--br-6);
+
+  flex-direction: column;
 }
 
 .info .img {
-  background-image: url('https://www.hojetemfrango.com.br/wp-content/uploads/2019/03/shutterstock_553403317.jpg');
   width: 100%;
-  height: 100%;
   background-size: cover;
-  border-radius: var(--br-6) 0 0 var(--br-6);
+  background-position: center;
+
+  height: 239px;
+  border-radius: var(--br-6) var(--br-6) 0 0;
+}
+
+.info:nth-child(1) .img {
+  background-image: url('https://www.hojetemfrango.com.br/wp-content/uploads/2019/03/shutterstock_553403317.jpg');
+}
+
+.info:nth-child(2) .img{
+  background-image: url('https://essareceitafunciona.com.br/storage/2023/04/Como-fazer-feijao-preto-Essa-Receita-Funciona-8.jpg');
+}
+
+.info:nth-child(3) .img{
+  background-image: url('https://vitat.com.br/receitas/images/recipeshandler.jpg?id=29390&tipo=r&default=s');
 }
 
 .info .text{
@@ -135,4 +159,24 @@
   justify-content: end;
   gap: var(--size-24);
   align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .info {
+    flex-direction: row;
+    height: 239px;
+  }
+
+  .info .img{
+    width: 350px;
+    height: 100%;
+    border-radius: var(--br-6) 0 0 var(--br-6);
+  }
+
+  .info .text{
+    flex:1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
 }
