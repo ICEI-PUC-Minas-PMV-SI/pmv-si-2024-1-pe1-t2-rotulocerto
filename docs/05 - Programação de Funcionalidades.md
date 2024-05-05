@@ -43,14 +43,39 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-014| A aplicação deve permitir que os administradores façam login para terem acesso as sugestões envidas pelo formulario | Ítalo Penaforte | login-admin.html |
 |RF-015| A aplicação deve exibir os participantes do desenvolvimento do projeto | Lucas Alves | sobrenos.html |
 |RF-016| A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação | Gabriel Carvalho | index.html |
+|RF-017| A aplicação deve exibir recomendações de pessoas que ultilizam a plataforma | Gabriel Carvalho | index.html |
 
 ## Descrição das estruturas:
 
-## Notícia
+## Produto
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Id             | Numero (Inteiro)  | Identificador único do produto            | 1                                              |
+| Nome           | Texto             | Nome do produto                           | Melancia                                       |
+| Nutrientes     | Objeto            | Tipo de nutrientes                        | Um objeto com a quantidade dos nutrientes ( Calorias	Proteínas	Gorduras	Carboidratos	Fibras ) |
 
+## Receita
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador único da receita            | 1                                              |
+| Título         | Texto             | Título da receita                         | Pizza de couve-flor                            |
+| Descrição      | Texto             | Descrição da receita                      | Para fazer a pizza é necessário pegar 200g de couve-flor... | 
+| Objetivo       | Lista             | Objetivo da receita                       | Uma lista com os objetivos da receita ( Emagrecimento, Nutrientes ) |
+| Ingredientes   | Lista             | Listagem de ingredientes da receita       | Uma lista com os ingredientes da receita ( Farinha de Trigo, Sal ) | 
+
+## Sugestões
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador único da sugestão           | 1                                              |
+| Nome           | Texto             | Nome de quem está enviando a sugestão     | Maria Aparecida                                |
+| Email          | Texto             | Email de quem está enviando a sugestão    | mariaaparecida@hotmail.com                     |
+| Descrição      | Texto             | Descrição da sugestão                     | Queria que adicionassem informações sobre Pitaia |
+
+## Usuário
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador único do usuário            | 1                                              |
+| Login          | Texto             | Login do usuário                          | admininstrador123                              |
+| Senha          | Texto             | Senha do usuário                          | duebcas231@65456                               |
+| Email          | Texto             | Email do usuário                          | admin@gmail.com                                |
+| Tipo           | Texto             | Tipo do usuário                           | administrdor                                   |
