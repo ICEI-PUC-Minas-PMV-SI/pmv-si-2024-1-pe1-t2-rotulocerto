@@ -36,7 +36,9 @@ class TemplateHeader extends HTMLElement {
                 <li><a href="/src/pages/login-admin.html">Acesso Admin</a></li>
               </ul>
             </div>
-            <button class="admin-button">Acesso Admin</button>
+            <a class="admin-link" href="/src/pages/login-admin.html">
+              <button class="admin-button">Acesso Admin</button>
+            </a>
           </nav>
 
           <div class="dropdown-menu">

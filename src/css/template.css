@@ -130,6 +130,10 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
+.admin-link {
+  text-decoration: none;
+}
+
 nav .admin-button {
   display: none;
 }
