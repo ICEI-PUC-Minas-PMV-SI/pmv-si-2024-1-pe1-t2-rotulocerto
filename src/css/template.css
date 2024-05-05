@@ -26,6 +26,10 @@ nav {
   display: none;
 }
 
+.submenu-toggle{
+  cursor: pointer;
+}
+
 @media screen and (min-width: 992px) {
   nav {
     justify-content: space-between;
