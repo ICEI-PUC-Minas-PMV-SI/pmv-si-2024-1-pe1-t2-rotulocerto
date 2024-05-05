@@ -48,34 +48,30 @@ class TemplateFooter extends HTMLElement {
           <div class="separator"></div>
           <div class="footer-links">
             <div>
-              <p>Alimentos</p>
-              <ul>
-                <li><a href="#">Como ler os rótulos</a></li>
-                <li><a href="/src/pages/todos-alimentos.html">Todos os alimentos</a></li>
-                <li><a href="#">Categorias de alimentos</a></li>
-                <li>
-                  <a href="/src/pages/ranking-alimentos.html">
-                    Ranking de Alimentos
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p>Saúde</p>
-              <ul>
-              <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
-              <li><a href="#">Como ler os rótulos</a></li>
-                <li><a href="/src/pages/todos-alimentos.html">Todos os alimentos</a></li>
-                <li><a href="#">Categorias de alimentos</a></li>
-                <li><a href="#">Restrição alimentar</a></li>
-              </ul>
-            </div>
-            <div>
+              <p>Páginas</p>
               <ul>
                 <li><a href="/src/index.html">Home</a></li>
+
+                <li><a href="/src/pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
+                <li><a href="/src/pages/todos-alimentos.html">Todos os alimentos</a></li>
+                <li><a href="/src/pages/receitas-dietas.html">Receitas e dietas</a></li>
+                <li><a href="/src/pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
+
+                <li><a href="/src/pages/profissionais-saude.html">Nutricionistas próximos a você</a></li>
+                <li><a href="/src/pages/teste-de-imc.html">Teste de IMC</a></li>
+
                 <li><a href="/src/pages/mercados.html">Mercados</a></li>
-                <li><a href="#">Notícias</a></li>
-                <li><a href="#">Sugestões</a></li>
+                <li><a href="/src/pages/enviar-sugestoes.html">Sugestões</a></li>
+              </ul>
+            </div>
+            <div>
+              <p>Seções da Home</p>
+              <ul>
+                <li><a href="/src/index.html#alimentos">Alimentos</a></li>
+                <li><a href="/src/index.html#saude">Saúde</a></li>
+                <li><a href="/src/index.html#mercados">Mercados</a></li>
+                <li><a href="/src/index.html#recomendacoes">Recomendações</a></li>
+                <li><a href="/src/index.html#sugestoes">Sugestões</a></li>
               </ul>
             </div>
           </div>
