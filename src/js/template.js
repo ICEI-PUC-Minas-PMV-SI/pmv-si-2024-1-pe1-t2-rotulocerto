@@ -1,7 +1,7 @@
 class TemplateHeader extends HTMLElement {
   connectedCallback() {
-    const indexPath = window.location.pathname.includes('index') ? './' : '../';
-    const pagesPath = window.location.pathname.includes('index') ? './pages/' : './';
+    const indexPath = !window.location.pathname.includes('pages') ? './' : '../';
+    const pagesPath = !window.location.pathname.includes('pages') ? './pages/' : './';
 
     this.innerHTML = `
       <header>
@@ -75,8 +75,8 @@ class TemplateHeader extends HTMLElement {
 customElements.define('template-header', TemplateHeader);
 class TemplateFooter extends HTMLElement {
   connectedCallback() {
-    const indexPath = window.location.pathname.includes('index') ? './' : '../';
-    const pagesPath = window.location.pathname.includes('index') ? './pages/' : './';
+    const indexPath = !window.location.pathname.includes('pages') ? './' : '../';
+    const pagesPath = !window.location.pathname.includes('pages') ? './pages/' : './';
 
     this.innerHTML = `
       <footer>
