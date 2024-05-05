@@ -1,5 +1,8 @@
 class TemplateHeader extends HTMLElement {
   connectedCallback() {
+    const indexPath = window.location.pathname.includes('index') ? './' : '../';
+    const pagesPath = window.location.pathname.includes('index') ? './pages/' : './';
+
     this.innerHTML = `
       <header>
         <div class="header-container">
@@ -8,35 +11,35 @@ class TemplateHeader extends HTMLElement {
               <i class="fa-solid fa-bars"></i>
             </div>
             <div class="left-side">
-              <a href="./index.html">
+              <a href="${indexPath}index.html">
                 <div class="logo"></div>
               </a>
               <ul>
-                <li><a href="./index.html">Início</a></li>
+                <li><a href="${indexPath}index.html">Início</a></li>
                 <li>
                   <p class="submenu-toggle alimentos">Alimentos</p>
                   <ul class="submenu alimentos">
-                    <li><a href="./pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
-                    <li><a href="./pages/todos-alimentos.html">Todos os alimentos</a></li>
-                    <li><a href="./pages/receitas-dietas.html">Receitas e dietas</a></li>
-                    <li><a href="./pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
+                    <li><a href="${pagesPath}aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
+                    <li><a href="${pagesPath}todos-alimentos.html">Todos os alimentos</a></li>
+                    <li><a href="${pagesPath}receitas-dietas.html">Receitas e dietas</a></li>
+                    <li><a href="${pagesPath}ranking-alimentos.html">Ranking de Alimentos</a></li>
                     <li></li>
                   </ul>
                 </li>
                 <li>
                   <p class="submenu-toggle saude">Saúde</p>
                   <ul class="submenu saude">
-                    <li><a href="./pages/profissionais-saude.html">Profissionais de saúde</a></li>
-                    <li><a href="./pages/teste-de-imc.html">Teste de IMC</a></li>
+                    <li><a href="${pagesPath}profissionais-saude.html">Profissionais de saúde</a></li>
+                    <li><a href="${pagesPath}teste-de-imc.html">Teste de IMC</a></li>
                     <li></li>
                   </ul>
                 </li>
-                <li><a href="./pages/mercados.html">Mercados</a></li>
-                <li><a href="./pages/enviar-sugestoes.html">Sugestões</a></li>
-                <li><a href="./pages/login-admin.html">Acesso Admin</a></li>
+                <li><a href="${pagesPath}mercados.html">Mercados</a></li>
+                <li><a href="${pagesPath}enviar-sugestoes.html">Sugestões</a></li>
+                <li><a href="${pagesPath}login-admin.html">Acesso Admin</a></li>
               </ul>
             </div>
-            <a class="admin-link" href="./pages/login-admin.html">
+            <a class="admin-link" href="${pagesPath}login-admin.html">
               <button class="admin-button">Acesso Admin</button>
             </a>
           </nav>
@@ -46,22 +49,22 @@ class TemplateHeader extends HTMLElement {
             <li>
               <p class="submenu-toggle m-alimentos">Alimentos</p>
               <ul class="submenu m-alimentos">
-                <li><a href="./pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
-                <li><a href="./pages/todos-alimentos.html">Todos os alimentos</a></li>
-                <li><a href="./pages/receitas-dietas.html">Receitas e dietas</a></li>
-                <li><a href="./pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
+                <li><a href="${pagesPath}aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
+                <li><a href="${pagesPath}todos-alimentos.html">Todos os alimentos</a></li>
+                <li><a href="${pagesPath}receitas-dietas.html">Receitas e dietas</a></li>
+                <li><a href="${pagesPath}ranking-alimentos.html">Ranking de Alimentos</a></li>
               </ul>
             </li>
             <li>
               <p class="submenu-toggle m-saude">Saúde</p>
               <ul class="submenu m-saude">
-                <li><a href="./pages/profissionais-saude.html">Profissionais de saúde</a></li>
-                <li><a href="./pages/teste-de-imc.html">Teste de IMC</a></li>
+                <li><a href="${pagesPath}profissionais-saude.html">Profissionais de saúde</a></li>
+                <li><a href="${pagesPath}teste-de-imc.html">Teste de IMC</a></li>
               </ul>
             </li>
-            <li><a href="./pages/mercados.html">Mercados</a></li>
-            <li><a href="./pages/enviar-sugestoes.html">Sugestões</a></li>
-            <li><a href="./pages/login-admin.html">Acesso Admin</a></li>
+            <li><a href="${pagesPath}mercados.html">Mercados</a></li>
+            <li><a href="${pagesPath}enviar-sugestoes.html">Sugestões</a></li>
+            <li><a href="${pagesPath}login-admin.html">Acesso Admin</a></li>
           </div>
         </div>
       </header>
@@ -70,9 +73,11 @@ class TemplateHeader extends HTMLElement {
 }
 
 customElements.define('template-header', TemplateHeader);
-
 class TemplateFooter extends HTMLElement {
   connectedCallback() {
+    const indexPath = window.location.pathname.includes('index') ? './' : '../';
+    const pagesPath = window.location.pathname.includes('index') ? './pages/' : './';
+
     this.innerHTML = `
       <footer>
         <div class="footer-container">
@@ -82,28 +87,28 @@ class TemplateFooter extends HTMLElement {
             <div>
               <p>Páginas</p>
               <ul>
-                <li><a href="./index.html">Home</a></li>
+                <li><a href="${indexPath}index.html">Home</a></li>
 
-                <li><a href="./pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
-                <li><a href="./pages/todos-alimentos.html">Todos os alimentos</a></li>
-                <li><a href="./pages/receitas-dietas.html">Receitas e dietas</a></li>
-                <li><a href="./pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
+                <li><a href="${pagesPath}aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
+                <li><a href="${pagesPath}todos-alimentos.html">Todos os alimentos</a></li>
+                <li><a href="${pagesPath}receitas-dietas.html">Receitas e dietas</a></li>
+                <li><a href="${pagesPath}ranking-alimentos.html">Ranking de Alimentos</a></li>
 
-                <li><a href="./pages/profissionais-saude.html">Profissionais de saúde</a></li>
-                <li><a href="./pages/teste-de-imc.html">Teste de IMC</a></li>
+                <li><a href="${pagesPath}profissionais-saude.html">Profissionais de saúde</a></li>
+                <li><a href="${pagesPath}teste-de-imc.html">Teste de IMC</a></li>
 
-                <li><a href="./pages/mercados.html">Mercados</a></li>
-                <li><a href="./pages/enviar-sugestoes.html">Sugestões</a></li>
+                <li><a href="${pagesPath}mercados.html">Mercados</a></li>
+                <li><a href="${pagesPath}enviar-sugestoes.html">Sugestões</a></li>
               </ul>
             </div>
             <div>
               <p>Seções da Home</p>
               <ul>
-                <li><a href="./index.html#alimentos">Alimentos</a></li>
-                <li><a href="./index.html#saude">Saúde</a></li>
-                <li><a href="./index.html#mercados">Mercados</a></li>
-                <li><a href="./index.html#recomendacoes">Recomendações</a></li>
-                <li><a href="./index.html#sugestoes">Sugestões</a></li>
+                <li><a href="${indexPath}index.html#alimentos">Alimentos</a></li>
+                <li><a href="${indexPath}index.html#saude">Saúde</a></li>
+                <li><a href="${indexPath}index.html#mercados">Mercados</a></li>
+                <li><a href="${indexPath}index.html#recomendacoes">Recomendações</a></li>
+                <li><a href="${indexPath}index.html#sugestoes">Sugestões</a></li>
               </ul>
             </div>
           </div>
