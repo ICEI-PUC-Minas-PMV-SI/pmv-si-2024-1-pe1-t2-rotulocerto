@@ -20,6 +20,7 @@
   /* border */
   --br-6: 6px;
   --b-default: 1px solid var(--color-licorice);
+  --b-shadow-default: 0 0 10px rgba(0, 0, 0.1, 0.2);
 
   /* Colors */
   --color-licorice: #2a1a1f;
@@ -117,7 +118,6 @@
 }
 
 .info {
-  /* height: 239px; */
   border: var(--b-default);
   border-radius: var(--br-6);
 
@@ -145,13 +145,29 @@
   background-image: url('https://vitat.com.br/receitas/images/recipeshandler.jpg?id=29390&tipo=r&default=s');
 }
 
+.info .text, .info .text div{
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-24);
+}
+
 .info .text{
   padding: var(--size-42);
 }
 
 .text h3{
-  margin-bottom: var(--size-24);
   font-size: var(--fs-16);
+}
+
+.text div{
+  justify-content: space-between;
+  height: 100%;
+
+}
+
+.text div p:last-child{
+  align-self: end;
+  color: #fa824c;
 }
 
 .pagination{
