@@ -52,7 +52,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador único do produto            | 1                                              |
 | Nome           | Texto             | Nome do produto                           | Melancia                                       |
-| Nutrientes     | Objeto            | Tipo de nutrientes                        | Um objeto com a quantidade dos nutrientes ( Calorias	Proteínas	Gorduras	Carboidratos	Fibras ) |
+| Nutrientes     | Objeto            | Tipo de nutrientes                        | Um objeto com a quantidade dos nutrientes ( Calorias,	Proteínas,	Gorduras,	Carboidratos,	Fibras ) |
 
 ## Receita
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
