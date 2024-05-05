@@ -6,15 +6,17 @@
     padding-right: 25%;
 }
 
-p {
-    text-indent: 30px;
-}
+
 
 .rotulagem {
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-top: 20px;
+}
+
+.rotulagem p {
+    text-indent: 30px;
 }
 
 .rotulagem h2 {
@@ -26,6 +28,10 @@ p {
     flex-direction: column;
     align-items: start;
     margin-top: 20px;
+}
+
+.nova-rotulagem p {
+    text-indent: 30px;
 }
 
 .content {
@@ -73,6 +79,11 @@ p {
         align-items: center;
         margin-top: 20px;
 
+    }
+    .content img{
+        width: 75%;
+        height: 75%;
+    
     }
 
     .artigos {
