@@ -217,7 +217,7 @@ footer {
 
 .footer-links div p {
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .footer-links ul {
@@ -232,7 +232,7 @@ footer {
 .footer-links ul li a {
   text-decoration: none;
   color: #fffdfd;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .footer-links ul li a:hover {
@@ -267,6 +267,7 @@ footer {
   .footer-links {
     flex-direction: row;
     gap: 5.625rem;
+    align-items: flex-start;
   }
 
   .footer-links div {
