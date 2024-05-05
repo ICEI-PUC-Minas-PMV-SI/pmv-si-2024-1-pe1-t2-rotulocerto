@@ -43,7 +43,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-014| A aplicação deve permitir que os administradores façam login para terem acesso as sugestões envidas pelo formulario | Ítalo Penaforte | login-admin.html |
 |RF-015| A aplicação deve exibir os participantes do desenvolvimento do projeto | Lucas Alves | sobrenos.html |
 |RF-016| A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação | Gabriel Carvalho | index.html |
-|RF-017| A aplicação deve exibir recomendações de pessoas que ultilizam a plataforma | Gabriel Carvalho | index.html |
+|RF-017| A aplicação deve exibir recomendações estáticas de pessoas que ultilizam a plataforma | Gabriel Carvalho | index.html |
 
 ## Descrição das estruturas:
 
