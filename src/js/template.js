@@ -13,10 +13,26 @@ class TemplateHeader extends HTMLElement {
               </a>
               <ul>
                 <li><a href="/src/index.html">Início</a></li>
-                <li><a href="/src/pages/todos-alimentos.html">Alimentos</a></li>
-                <li><a href="#">Rótulos</a></li>
-                <li><a href="/src/pages/saude.html">Saúde</a></li>
+                <li>
+                  <p class="submenu-toggle alimentos">Alimentos</p>
+                  <ul class="submenu alimentos">
+                    <li><a href="/src/pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
+                    <li><a href="/src/pages/todos-alimentos.html">Todos os alimentos</a></li>
+                    <li><a href="/src/pages/receitas-dietas.html">Receitas e dietas</a></li>
+                    <li><a href="/src/pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
+                    <li></li>
+                  </ul>
+                </li>
+                <li>
+                  <p class="submenu-toggle saude">Saúde</p>
+                  <ul class="submenu saude">
+                    <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
+                    <li><a href="/src/pages/teste-de-imc.html">Teste de IMC</a></li>
+                    <li></li>
+                  </ul>
+                </li>
                 <li><a href="/src/pages/mercados.html">Mercados</a></li>
+                <li><a href="/src/pages/enviar-sugestoes.html">Sugestões</a></li>
                 <li><a href="/src/pages/login-admin.html">Acesso Admin</a></li>
               </ul>
             </div>
@@ -25,10 +41,24 @@ class TemplateHeader extends HTMLElement {
 
           <div class="dropdown-menu">
             <li><a href="/src/index.html">Início</a></li>
-            <li><a href="/src/pages/todos-alimentos.html">Alimentos</a></li>
-            <li><a href="#">Rótulos</a></li>
-            <li><a href="/src/pages/saude.html">Saúde</a></li>
+            <li>
+              <p class="submenu-toggle m-alimentos">Alimentos</p>
+              <ul class="submenu m-alimentos">
+                <li><a href="/src/pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
+                <li><a href="/src/pages/todos-alimentos.html">Todos os alimentos</a></li>
+                <li><a href="/src/pages/receitas-dietas.html">Receitas e dietas</a></li>
+                <li><a href="/src/pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
+              </ul>
+            </li>
+            <li>
+              <p class="submenu-toggle m-saude">Saúde</p>
+              <ul class="submenu m-saude">
+                <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
+                <li><a href="/src/pages/teste-de-imc.html">Teste de IMC</a></li>
+              </ul>
+            </li>
             <li><a href="/src/pages/mercados.html">Mercados</a></li>
+            <li><a href="/src/pages/enviar-sugestoes.html">Sugestões</a></li>
             <li><a href="/src/pages/login-admin.html">Acesso Admin</a></li>
           </div>
         </div>
@@ -57,7 +87,7 @@ class TemplateFooter extends HTMLElement {
                 <li><a href="/src/pages/receitas-dietas.html">Receitas e dietas</a></li>
                 <li><a href="/src/pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
 
-                <li><a href="/src/pages/profissionais-saude.html">Nutricionistas próximos a você</a></li>
+                <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
                 <li><a href="/src/pages/teste-de-imc.html">Teste de IMC</a></li>
 
                 <li><a href="/src/pages/mercados.html">Mercados</a></li>
@@ -108,3 +138,17 @@ document.addEventListener('click', (event) => {
   }
 });
 
+
+const submenuToggles = document.querySelectorAll('.submenu-toggle');
+submenuToggles.forEach((toggle) => {
+  toggle.onclick = (event) => {
+    event.stopPropagation();
+    const submenu = document.querySelector(`.submenu.${toggle.classList[1]}`);
+    console.log(submenu);
+    if(submenu.classList.contains('open')){
+      submenu.classList.remove('open');
+    }else{
+      submenu.classList.add('open');
+    }
+  }
+});
