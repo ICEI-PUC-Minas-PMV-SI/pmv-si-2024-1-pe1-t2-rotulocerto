@@ -14,6 +14,7 @@ O projeto de interface, estruturado em 12 páginas, contempla telas como inicial
 ### Tela inicial
 
 RF-016 - A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação
+RF-017 - A aplicação deve exibir recomendações estáticas de pessoas que ultilizam a plataforma 
 
 ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto/main/docs/img/wireframe/homepage.jpg)
 
