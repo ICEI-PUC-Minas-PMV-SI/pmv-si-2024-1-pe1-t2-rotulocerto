@@ -61,22 +61,29 @@
     border-radius: 6px;
 }
 .sugestao{
-    grid-column: 1 / 3;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	gap: 16px;
+    grid-column: 1/3;
     grid-row: 2;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
 }
-.sugestao > label{
-    padding-bottom: 10px;
+.sugestao>label{
+	font-size: 22px;
+	font-weight: bold;
 }
-
-.sugestao > input{
+.sugestao>textarea{
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-size: 18px;
+	resize: none;
     border: solid 1px black;
-    border-radius: 6px;
-    margin-bottom: 10px;
     flex-grow: 1;
-
+    
 }
+
 
 .btn-enviar{
     grid-column: 2;
