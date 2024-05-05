@@ -1,23 +1,7 @@
 # Programação de Funcionalidades
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Nesta etapa descrevemos os artefatos e estruturas de dados que foram desenvolvidas para atender os requisitos nas Especificações do Projeto. As tecnologias utilizadas foram HTML, CSS e Javascript.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo.
-
-O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utilizados como referência:
-- Login do sistema: [https://repl.it/@rommelpuc/LoginApp](https://repl.it/@rommelpuc/LoginApp) 
-- Cadastro de Contatos: [https://repl.it/@rommelpuc/Cadastro-de-Contatos](https://repl.it/@rommelpuc/Cadastro-de-Contatos)
-
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
-## Exemplo
 
 ## Requisitos Atendidos
 
@@ -50,23 +34,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Produto
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único do produto            | 1                                              |
+| Id             | Número (Inteiro)  | Identificador único do produto            | 1                                              |
 | Nome           | Texto             | Nome do produto                           | Melancia                                       |
 | Nutrientes     | Objeto            | Tipo de nutrientes                        | Um objeto com a quantidade dos nutrientes ( Calorias,	Proteínas,	Gorduras,	Carboidratos,	Fibras ) |
 
 ## Receita
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da receita            | 1                                              |
+| Id             | Número (Inteiro)  | Identificador único da receita            | 1                                              |
 | Título         | Texto             | Título da receita                         | Pizza de couve-flor                            |
-| Descrição      | Texto             | Descrição da receita                      | Para fazer a pizza é necessário pegar 200g de couve-flor... | 
+| Descrição      | Texto             | Descrição da receita                      | Para fazer a pizza é necessário pegar 200g de couve-flor... |
 | Objetivo       | Lista             | Objetivo da receita                       | Uma lista com os objetivos da receita ( Emagrecimento, Nutrientes ) |
-| Ingredientes   | Lista             | Listagem de ingredientes da receita       | Uma lista com os ingredientes da receita ( Farinha de Trigo, Sal ) | 
+| Ingredientes   | Lista             | Listagem de ingredientes da receita       | Uma lista com os ingredientes da receita ( Farinha de Trigo, Sal ) |
 
 ## Sugestões
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da sugestão           | 1                                              |
+| Id             | Número (Inteiro)  | Identificador único da sugestão           | 1                                              |
 | Nome           | Texto             | Nome de quem está enviando a sugestão     | Maria Aparecida                                |
 | Email          | Texto             | Email de quem está enviando a sugestão    | mariaaparecida@hotmail.com                     |
 | Descrição      | Texto             | Descrição da sugestão                     | Queria que adicionassem informações sobre Pitaia |
@@ -74,8 +58,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único do usuário            | 1                                              |
+| Id             | Número (Inteiro)  | Identificador único do usuário            | 1                                              |
 | Login          | Texto             | Login do usuário                          | admininstrador123                              |
 | Senha          | Texto             | Senha do usuário                          | duebcas231@65456                               |
 | Email          | Texto             | Email do usuário                          | admin@gmail.com                                |
-| Tipo           | Texto             | Tipo do usuário                           | administrdor                                   |
