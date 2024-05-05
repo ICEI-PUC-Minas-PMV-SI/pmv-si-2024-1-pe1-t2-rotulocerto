@@ -84,6 +84,9 @@ nav {
 }
 
 nav .logo {
+  background-image: url('../assets/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 72px;
   height: 66px;
 }
@@ -238,6 +241,9 @@ footer {
 }
 
 .footer-container .logo {
+  background-image: url('../assets/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 72px;
   height: 66px;
 }

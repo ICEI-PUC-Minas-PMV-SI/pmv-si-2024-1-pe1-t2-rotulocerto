@@ -8,60 +8,60 @@ class TemplateHeader extends HTMLElement {
               <i class="fa-solid fa-bars"></i>
             </div>
             <div class="left-side">
-              <a href="/src/index.html">
-                <img class="logo" src="/src/assets/logo.png" alt="Logo" />
+              <a href="./index.html">
+                <div class="logo"></div>
               </a>
               <ul>
-                <li><a href="/src/index.html">Início</a></li>
+                <li><a href="./index.html">Início</a></li>
                 <li>
                   <p class="submenu-toggle alimentos">Alimentos</p>
                   <ul class="submenu alimentos">
-                    <li><a href="/src/pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
-                    <li><a href="/src/pages/todos-alimentos.html">Todos os alimentos</a></li>
-                    <li><a href="/src/pages/receitas-dietas.html">Receitas e dietas</a></li>
-                    <li><a href="/src/pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
+                    <li><a href="./pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
+                    <li><a href="./pages/todos-alimentos.html">Todos os alimentos</a></li>
+                    <li><a href="./pages/receitas-dietas.html">Receitas e dietas</a></li>
+                    <li><a href="./pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
                     <li></li>
                   </ul>
                 </li>
                 <li>
                   <p class="submenu-toggle saude">Saúde</p>
                   <ul class="submenu saude">
-                    <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
-                    <li><a href="/src/pages/teste-de-imc.html">Teste de IMC</a></li>
+                    <li><a href="./pages/profissionais-saude.html">Profissionais de saúde</a></li>
+                    <li><a href="./pages/teste-de-imc.html">Teste de IMC</a></li>
                     <li></li>
                   </ul>
                 </li>
-                <li><a href="/src/pages/mercados.html">Mercados</a></li>
-                <li><a href="/src/pages/enviar-sugestoes.html">Sugestões</a></li>
-                <li><a href="/src/pages/login-admin.html">Acesso Admin</a></li>
+                <li><a href="./pages/mercados.html">Mercados</a></li>
+                <li><a href="./pages/enviar-sugestoes.html">Sugestões</a></li>
+                <li><a href="./pages/login-admin.html">Acesso Admin</a></li>
               </ul>
             </div>
-            <a class="admin-link" href="/src/pages/login-admin.html">
+            <a class="admin-link" href="./pages/login-admin.html">
               <button class="admin-button">Acesso Admin</button>
             </a>
           </nav>
 
           <div class="dropdown-menu">
-            <li><a href="/src/index.html">Início</a></li>
+            <li><a href="./index.html">Início</a></li>
             <li>
               <p class="submenu-toggle m-alimentos">Alimentos</p>
               <ul class="submenu m-alimentos">
-                <li><a href="/src/pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
-                <li><a href="/src/pages/todos-alimentos.html">Todos os alimentos</a></li>
-                <li><a href="/src/pages/receitas-dietas.html">Receitas e dietas</a></li>
-                <li><a href="/src/pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
+                <li><a href="./pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
+                <li><a href="./pages/todos-alimentos.html">Todos os alimentos</a></li>
+                <li><a href="./pages/receitas-dietas.html">Receitas e dietas</a></li>
+                <li><a href="./pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
               </ul>
             </li>
             <li>
               <p class="submenu-toggle m-saude">Saúde</p>
               <ul class="submenu m-saude">
-                <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
-                <li><a href="/src/pages/teste-de-imc.html">Teste de IMC</a></li>
+                <li><a href="./pages/profissionais-saude.html">Profissionais de saúde</a></li>
+                <li><a href="./pages/teste-de-imc.html">Teste de IMC</a></li>
               </ul>
             </li>
-            <li><a href="/src/pages/mercados.html">Mercados</a></li>
-            <li><a href="/src/pages/enviar-sugestoes.html">Sugestões</a></li>
-            <li><a href="/src/pages/login-admin.html">Acesso Admin</a></li>
+            <li><a href="./pages/mercados.html">Mercados</a></li>
+            <li><a href="./pages/enviar-sugestoes.html">Sugestões</a></li>
+            <li><a href="./pages/login-admin.html">Acesso Admin</a></li>
           </div>
         </div>
       </header>
@@ -76,34 +76,34 @@ class TemplateFooter extends HTMLElement {
     this.innerHTML = `
       <footer>
         <div class="footer-container">
-          <img class="logo" src="/src/assets/logo.png" alt="Logo" />
+        <div class="logo"></div>
           <div class="separator"></div>
           <div class="footer-links">
             <div>
               <p>Páginas</p>
               <ul>
-                <li><a href="/src/index.html">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
 
-                <li><a href="/src/pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
-                <li><a href="/src/pages/todos-alimentos.html">Todos os alimentos</a></li>
-                <li><a href="/src/pages/receitas-dietas.html">Receitas e dietas</a></li>
-                <li><a href="/src/pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
+                <li><a href="./pages/aprenda-sobre-rotulos.html">Aprenda sobre os rótulos</a></li>
+                <li><a href="./pages/todos-alimentos.html">Todos os alimentos</a></li>
+                <li><a href="./pages/receitas-dietas.html">Receitas e dietas</a></li>
+                <li><a href="./pages/ranking-alimentos.html">Ranking de Alimentos</a></li>
 
-                <li><a href="/src/pages/profissionais-saude.html">Profissionais de saúde</a></li>
-                <li><a href="/src/pages/teste-de-imc.html">Teste de IMC</a></li>
+                <li><a href="./pages/profissionais-saude.html">Profissionais de saúde</a></li>
+                <li><a href="./pages/teste-de-imc.html">Teste de IMC</a></li>
 
-                <li><a href="/src/pages/mercados.html">Mercados</a></li>
-                <li><a href="/src/pages/enviar-sugestoes.html">Sugestões</a></li>
+                <li><a href="./pages/mercados.html">Mercados</a></li>
+                <li><a href="./pages/enviar-sugestoes.html">Sugestões</a></li>
               </ul>
             </div>
             <div>
               <p>Seções da Home</p>
               <ul>
-                <li><a href="/src/index.html#alimentos">Alimentos</a></li>
-                <li><a href="/src/index.html#saude">Saúde</a></li>
-                <li><a href="/src/index.html#mercados">Mercados</a></li>
-                <li><a href="/src/index.html#recomendacoes">Recomendações</a></li>
-                <li><a href="/src/index.html#sugestoes">Sugestões</a></li>
+                <li><a href="./index.html#alimentos">Alimentos</a></li>
+                <li><a href="./index.html#saude">Saúde</a></li>
+                <li><a href="./index.html#mercados">Mercados</a></li>
+                <li><a href="./index.html#recomendacoes">Recomendações</a></li>
+                <li><a href="./index.html#sugestoes">Sugestões</a></li>
               </ul>
             </div>
           </div>
