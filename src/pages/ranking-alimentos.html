@@ -164,11 +164,13 @@
           </div>
 
           <div class="filter-buttons">
-            <span> Calorias </span>
-            <span> Proteínas </span>
-            <span> Gorduras </span>
-            <strong><span> Carboidratos </span></strong>
-            <span> Fibras </span>
+            <span data-filter="calories"> Calorias </span>
+            <span data-filter="proteins"> Proteínas </span>
+            <span data-filter="fats"> Gorduras </span>
+            <span data-filter="carbohydrates"> Carboidratos </span>
+            <span data-filter="fibers"> Fibras </span>
+            <span data-filter="sugars"> Açúcares </span>
+            <span data-filter="calcium"> Cálcio </span>
           </div>
         </div>
 
@@ -183,65 +185,12 @@
                 <th>Gorduras</th>
                 <th>Carboidratos</th>
                 <th>Fibras</th>
+                <th>Açúcares</th>
+                <th>Cálcio</th>
               </tr>
             </thead>
 
-            <tbody>
-              <tr>
-                <td>4</td>
-                <td>Milho de Pipoca, com óleo e sal</td>
-                <td>433 Kcal</td>
-                <td>9,88g</td>
-                <td>15,9g</td>
-                <td>70,0g</td>
-                <td>14,3g</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Batata Frita McDonald's</td>
-                <td>315 Kcal</td>
-                <td>3,41g</td>
-                <td>15,5g</td>
-                <td>42,6g</td>
-                <td>3,90g</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Banana da Terra</td>
-                <td>139 Kcal</td>
-                <td>1,44g</td>
-                <td>0,24g</td>
-                <td>33,7g</td>
-                <td>1,53g</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Laranja Bahia</td>
-                <td>86 Kcal</td>
-                <td>1,50g</td>
-                <td>0,20g</td>
-                <td>25,0g</td>
-                <td>10,6g</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Maçã Fuji</td>
-                <td>59 Kcal</td>
-                <td>0,29g</td>
-                <td>-</td>
-                <td>15,2g</td>
-                <td>1,35g</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Picanha Bovina grelhada</td>
-                <td>233 Kcal</td>
-                <td>31,9g</td>
-                <td>11,3g</td>
-                <td>0,90g</td>
-                <td>-</td>
-              </tr>
-            </tbody>
+            <tbody id="tbody"></tbody>
           </table>
         </div>
         <p class="bibliographic-source" style="margin-top: 2rem">
