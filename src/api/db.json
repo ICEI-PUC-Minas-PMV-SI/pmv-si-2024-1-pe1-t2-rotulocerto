@@ -1,0 +1,101 @@
+{
+  "productsData": {
+    "page": 1,
+    "totalPages": 3,
+    "itemsPerPage": 3,
+    "products": [
+      {
+        "id": 1,
+        "name": "Banana da Terra",
+        "nutrients": {
+          "calories": "139 Kcal",
+          "proteins": "1,44g",
+          "fats": "0,24g",
+          "carbohydrates": "33,7g",
+          "fibers": "1,53g",
+          "sugars": "12,2g",
+          "calcium": "5mg"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Laranja Bahia",
+        "nutrients": {
+          "calories": "86 Kcal",
+          "proteins": "1,50g",
+          "fats": "0,20g",
+          "carbohydrates": "25,0g",
+          "fibers": "10,6g",
+          "sugars": "12,2g",
+          "calcium": "5mg"
+        }
+      },
+
+      {
+        "id": 3,
+        "name": "Maçã Fuji",
+        "nutrients": {
+          "calories": "89 Kcal",
+          "proteins": "1,3g",
+          "fats": "0,3g",
+          "carbohydrates": "22,8g",
+          "fibers": "2,6g",
+          "sugars": "12,2g",
+          "calcium": "5mg"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Milho de Pipoca, com óleo e sal",
+        "nutrients": {
+          "calories": "89 Kcal",
+          "proteins": "1,3g",
+          "fats": "0,3g",
+          "carbohydrates": "22,8g",
+          "fibers": "2,6g",
+          "sugars": "12,2g",
+          "calcium": "5mg"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Batata Frita McDonald's",
+        "nutrients": {
+          "calories": "89 Kcal",
+          "proteins": "1,3g",
+          "fats": "0,3g",
+          "carbohydrates": "22,8g",
+          "fibers": "2,6g",
+          "sugars": "12,2g",
+          "calcium": "5mg"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Pão Francês",
+        "nutrients": {
+          "calories": "89 Kcal",
+          "proteins": "1,3g",
+          "fats": "0,3g",
+          "carbohydrates": "22,8g",
+          "fibers": "2,6g",
+          "sugars": "12,2g",
+          "calcium": "5mg"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Picanha Bovina grelhada",
+        "nutrients": {
+          "calories": "89 Kcal",
+          "proteins": "1,3g",
+          "fats": "0,3g",
+          "carbohydrates": "22,8g",
+          "fibers": "2,6g",
+          "sugars": "12,2g",
+          "calcium": "5mg"
+        }
+      }
+    ]
+  }
+}

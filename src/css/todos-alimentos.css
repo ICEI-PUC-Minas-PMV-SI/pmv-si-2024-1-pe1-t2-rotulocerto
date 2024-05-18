@@ -16,6 +16,11 @@ h1 {
   h1 {
     font-size: 2rem;
   }
+
+  h5 {
+    margin-left: 5px;
+    font-weight: 400;
+  }
 }
 
 /* Ranked Table */
@@ -42,7 +47,9 @@ td {
 
 .table-body {
   width: 100%;
-  max-height: calc(89% - 1.6rem);
+  /* min-height: calc(89% - 1.6rem); */
+  /* max-height: calc(89% - 1.6rem); */
+  min-height: 250px;
   background-color: #fffb;
   border-radius: 0.6rem;
   overflow: auto;
@@ -84,6 +91,12 @@ tbody tr:hover {
 @media (max-width: 1000px) {
   td:not(:first-of-type) {
     min-width: 12.1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .product-name {
+    min-width: 300px;
   }
 }
 
