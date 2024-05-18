@@ -328,15 +328,15 @@
       left: -1%;
     }
     .tabela {
-      left: -50px;
-      width: 350px;
+      left: 10px;
+      width: 380px;
     }
     .tabela-cima {
       padding: 25px 75px;
     }
     .tabela-cima2 {
       padding: 25px 25px;
-      margin-top: 0px;
+      margin-top: 20px;
       width: 106%;
     }
     .tabela-cimaresultado {
