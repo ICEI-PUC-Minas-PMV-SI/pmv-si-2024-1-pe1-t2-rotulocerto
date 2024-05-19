@@ -30,7 +30,6 @@
           "calcium": "5mg"
         }
       },
-
       {
         "id": 3,
         "name": "Maçã Fuji",
@@ -95,6 +94,64 @@
           "sugars": "12,2g",
           "calcium": "5mg"
         }
+      }
+    ]
+  },
+  "receitas": {
+    "page": 1,
+    "totalPages": 3,
+    "itemsPerPage": 3,
+    "recipes": [
+      {
+        "id": 1,
+        "titulo": "Salada de Frutas",
+        "descricao": "Salada de frutas com banana da terra, laranja bahia e maçã fuji",
+        "objetivo": [
+          "Ganho de Massa",
+          "Perda de Gordura",
+          "Vegana",
+          "Vegetariana"
+        ],
+        "imagem": "https://www.hojetemfrango.com.br/wp-content/uploads/2019/03/shutterstock_553403317.jpg",
+        "ingredientes": [
+          "Banana da Terra",
+          "Laranja Bahia",
+          "Maçã Fuji"
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Salada de Frutas 2",
+        "descricao": "Salada de frutas com banana da terra, laranja bahia e maçã fuji",
+        "objetivo": [
+          "Ganho de Massa",
+          "Perda de Gordura",
+          "Vegana",
+          "Vegetariana"
+        ],
+        "imagem": "https://essareceitafunciona.com.br/storage/2023/04/Como-fazer-feijao-preto-Essa-Receita-Funciona-8.jpg",
+        "ingredientes": [
+          "Banana da Terra",
+          "Laranja Bahia",
+          "Maçã Fuji"
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Salada de Frutas 3",
+        "descricao": "Salada de frutas com banana da terra, laranja bahia e maçã fuji",
+        "objetivo": [
+          "Ganho de Massa",
+          "Perda de Gordura",
+          "Vegana",
+          "Vegetariana"
+        ],
+        "imagem": "https://vitat.com.br/receitas/images/recipeshandler.jpg?id=29390&tipo=r&default=s",
+        "ingredientes": [
+          "Banana da Terra",
+          "Laranja Bahia",
+          "Maçã Fuji"
+        ]
       }
     ]
   }
