@@ -25,7 +25,6 @@ const renderTablePage = (data) => {
   const startIndex = (data.page - 1) * data.itemsPerPage 
   const endIndex = startIndex + data.itemsPerPage 
   const productsToShow = data.products.slice(startIndex, endIndex) 
-
   tbody.innerHTML = '' 
   productsToShow.forEach((product) => {
     tbody.appendChild(createTableData(product)) 
