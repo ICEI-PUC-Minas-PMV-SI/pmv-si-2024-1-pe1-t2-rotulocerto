@@ -43,11 +43,26 @@ fetch('../api/db.json').then((res) => {
 
     const pesquisarReceitas = () => {
         const searchTerm = searchInput.value.toLowerCase();
+
         const filteredRecipes = receitas.recipes.filter((receita) =>
             receita.titulo.toLowerCase().includes(searchTerm)
         );
 
-        renderizarReceitas({ ...receitas, recipes: filteredRecipes, page: 1 });
+        const filtradoPorIngrediente = receitas.recipes.filter((receita) =>
+            receita.ingredientes.filter((obj) => obj.toLowerCase().includes(searchTerm)).length > 0
+        );
+
+        console.log('filteredRecipes', filteredRecipes)
+        console.log('filtradoPorIngrediente', filtradoPorIngrediente)
+        if (filteredRecipes) {
+            renderizarReceitas({ ...receitas, recipes: filteredRecipes, page: 1 });
+            return;
+        }
+
+        if (filtradoPorIngrediente) {
+            renderizarReceitas({ ...receitas, recipes: filtradoPorIngrediente, page: 1 });
+            return;
+        }
     };
 
     // search by input text
@@ -59,7 +74,7 @@ fetch('../api/db.json').then((res) => {
     let searchVegetariana = document.getElementById('vegetariana')
 
 
-    const filterByObjective = (objective) => {
+    const filtrarPorObjetivo = (objective) => {
         console.log('objective', objective)
         const filteredRecipes = receitas.recipes.filter((receita) =>
             receita.objetivo.filter((obj) => obj == objective).length > 0
@@ -68,10 +83,10 @@ fetch('../api/db.json').then((res) => {
         renderizarReceitas({ ...receitas, recipes: filteredRecipes, page: 1 });
     };
 
-    searchPerdaGordura.addEventListener('click', () => filterByObjective('Perda de Gordura'))
-    searchGanhoMassa.addEventListener('click', () => filterByObjective('Ganho de Massa'))
-    searchVegana.addEventListener('click', () => filterByObjective('Vegana'))
-    searchVegetariana.addEventListener('click', () => filterByObjective('Vegetariana'))
+    searchPerdaGordura.addEventListener('click', () => filtrarPorObjetivo('Perda de Gordura'))
+    searchGanhoMassa.addEventListener('click', () => filtrarPorObjetivo('Ganho de Massa'))
+    searchVegana.addEventListener('click', () => filtrarPorObjetivo('Vegana'))
+    searchVegetariana.addEventListener('click', () => filtrarPorObjetivo('Vegetariana'))
 
     // previous page
     document.getElementById('prev-page').addEventListener('click', () => {
