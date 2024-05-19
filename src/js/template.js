@@ -69,6 +69,24 @@ class TemplateHeader extends HTMLElement {
         </div>
       </header>
     `;
+    this._activateCurrentLink();
+  }
+
+  _activateCurrentLink() {
+    const currentPath = window.location.pathname.split('/').pop();
+    const navLinks = this.querySelectorAll('.menu a, .dropdown-menu a');
+
+    navLinks.forEach(link => {
+      const linkPath = link.getAttribute('href').split('/').pop();
+      if (linkPath === currentPath) {
+        link.classList.add('active');
+        // Se o link está em um submenu, adiciona a classe ativa ao submenu pai
+        const parentSubmenu = link.closest('.submenu');
+        if (parentSubmenu) {
+          parentSubmenu.previousElementSibling.classList.add('active');
+        }
+      }
+    });
   }
 }
 
@@ -99,6 +117,7 @@ class TemplateFooter extends HTMLElement {
 
                 <li><a href="${pagesPath}mercados.html">Mercados</a></li>
                 <li><a href="${pagesPath}enviar-sugestoes.html">Sugestões</a></li>
+                <li><a href="${pagesPath}sobrenos.html">Sobre nós</a></li>
               </ul>
             </div>
             <div>
