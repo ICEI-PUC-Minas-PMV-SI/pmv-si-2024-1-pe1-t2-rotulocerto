@@ -107,10 +107,7 @@
         "titulo": "Salada de Frutas",
         "descricao": "Salada de frutas com banana da terra, laranja bahia e maçã fuji",
         "objetivo": [
-          "Ganho de Massa",
-          "Perda de Gordura",
-          "Vegana",
-          "Vegetariana"
+          "Ganho de Massa"
         ],
         "imagem": "https://www.hojetemfrango.com.br/wp-content/uploads/2019/03/shutterstock_553403317.jpg",
         "ingredientes": [
@@ -124,10 +121,7 @@
         "titulo": "Salada de Frutas 2",
         "descricao": "Salada de frutas com banana da terra, laranja bahia e maçã fuji",
         "objetivo": [
-          "Ganho de Massa",
-          "Perda de Gordura",
-          "Vegana",
-          "Vegetariana"
+          "Perda de Gordura"
         ],
         "imagem": "https://essareceitafunciona.com.br/storage/2023/04/Como-fazer-feijao-preto-Essa-Receita-Funciona-8.jpg",
         "ingredientes": [
@@ -138,19 +132,34 @@
       },
       {
         "id": 3,
-        "titulo": "Salada de Frutas 3",
+        "titulo": "Crepioca Fit",
         "descricao": "Salada de frutas com banana da terra, laranja bahia e maçã fuji",
         "objetivo": [
-          "Ganho de Massa",
-          "Perda de Gordura",
-          "Vegana",
+          "Perda de Gordura"
+        ],
+        "imagem": "https://static.itdg.com.br/images/640-400/97ddfd362c4dd10a6d12119c5df6d441/319993-original-1-.jpeg",
+        "ingredientes": [
+          "1 colher de goma de tapioca",
+          "1 ovo",
+          "Para crepioca doce, adicione adoçante a gosto",
+          "Para crepioca salgada, adicione uma pitada de sal a gosto"
+        ]
+      },
+      {
+        "id": 4,
+        "titulo": "Coxinha de Jaca",
+        "descricao": "A coxinha de jaca é uma versão vegetariana da tradicional coxinha de frango, que conquista cada vez mais paladares. Substituindo a carne de frango por jaca desfiada, essa receita oferece uma explosão de sabor e textura, além de ser uma opção mais leve e saudável.",
+        "objetivo": [
           "Vegetariana"
         ],
-        "imagem": "https://vitat.com.br/receitas/images/recipeshandler.jpg?id=29390&tipo=r&default=s",
+        "imagem": "https://static.itdg.com.br/images/640-400/9bfddfaf396c00b4166089bbaef050bb/364120-original.jpg",
         "ingredientes": [
-          "Banana da Terra",
-          "Laranja Bahia",
-          "Maçã Fuji"
+          "500 g de jaca verde",
+          "3 dentes de alho",
+          "1/2 cebola roxa",
+          "1/2 xícara de molho de tomate",
+          "temperos a gosto",
+          "sal e pimenta a gosto"
         ]
       }
     ]
