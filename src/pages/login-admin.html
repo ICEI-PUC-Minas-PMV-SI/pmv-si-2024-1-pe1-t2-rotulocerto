@@ -38,10 +38,28 @@
           </div>
 
           <div>
-            <button class="btn-button" type="submit" onclick="">Acessar</button>
+            <button class="btn-button" type="submit" onclick="logar(); return false">Acessar</button>
           </div>
         </form>
       </section>
+      <script>
+        
+      function logar(){
+        var usuario = document.getElementById('usuario').value;
+        var senha = document.getElementById('senha').value;
+
+
+        if(login == "admin" && senha == "admin"){
+          alert('Sucesso');
+          location.href = "index.html";
+        }else{
+          alert('Usuario ou senha incorretos');
+        }
+      }
+ 
+        
+
+      </script>
     </main>
     <template-footer></template-footer>
   </body>
