@@ -22,24 +22,27 @@
 <body>
     <template-header></template-header>
     <main class="fex-container">
-        <section class="content form">
-            <div class="container">
-                <div class="grade">
-                    <h1>Área Administrativa</h1>
+        <section class="content form col-25 col-75">
+            <form id="formulario-login">
+                <h2>Login Administrador</h2>
+
+                <div>
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="usuario">
                 </div>
-                <form id="loginForm" action="sugestoes-enviadas.html">
-                    <h2>Login</h2>
 
-                    <label for="email">Email:</label>
-                    <input type="text" name="email" id="email">
-
+                <div>
                     <label for="senha">Senha:</label>
                     <input type="password" name="senha" id="senha">
+                </div>
 
-                    <button class="btn-button" type="submit">Acessar</button>
-
+                <div> 
+                    <button class="bnt-button" type="submit">Acessar</button>
+                </div>
+                
                 </form>
-            </div>
+                
+            
         </section>
     </main>
     <template-footer></template-footer>

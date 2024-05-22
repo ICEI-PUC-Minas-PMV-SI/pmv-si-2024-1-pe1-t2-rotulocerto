@@ -1,29 +1,22 @@
+const form = document.getElementById('formulario-login');
+const emailInput = document.getElementById('usuario');
+const passwordInput = document.getElementById('senha');
 
-document.addEventListener('DOMContentLoaded', function() {
-    const form = document.querySelector('form');
-    
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
 
-        const email = document.getElementById('email').value;
-        const senha = document.getElementById('senha').value;
+    let isValid = true;
 
-        if (email === "" || senha === "") {
-            alert('Por favor, preencha todos os campos.');
-            return;
-        }
+    if (emailInput.value === '') {
+        isValid = false;
+    }
 
-        if (email === "admin@example.com" && senha === "123456") {
-            alert('Login bem-sucedido!');
-            window.location.href = "sobrenos.html";
-        }
-        
-        if (email === "rotulocerto@example.com" && senha === "1234567") {
-            alert('Login bem-sucedido!');
-            window.location.href = "sobrenos.html";
-        }else {
-            alert('Email ou senha incorretos.');
-        }
-    });
+    if (passwordInput.value === '') {
+        isValid = false;
+    }
+
+    if (isValid) {
+        console.log('Usuario logado com sucesso');
+        window.location.href = 'index.html';
+    }
 });
-
