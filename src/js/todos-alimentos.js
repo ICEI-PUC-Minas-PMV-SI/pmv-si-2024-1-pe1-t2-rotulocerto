@@ -1,19 +1,23 @@
 let tbody = document.getElementById('tbody')
 let paginationInfo = document.getElementById('pagination-info')
 
+const convertNumberToString = (number) => {
+  return number.toString().replace('.', ',')
+}
+
 const createTableData = (product) => {
   let tr = document.createElement('tr')
   tr.innerHTML = `
     <tr>
       <td>${product.id}</td>
       <td class="product-name">${product.name}</td>
-      <td>${product.nutrients.calories}</td>
-      <td>${product.nutrients.proteins}</td>
-      <td>${product.nutrients.fats}</td>
-      <td>${product.nutrients.carbohydrates}</td>
-      <td>${product.nutrients.fibers}</td>
-      <td>${product.nutrients.sugars}</td>
-      <td>${product.nutrients.calcium}</td>
+      <td>${convertNumberToString(product.nutrients.calories)} g</td>
+      <td>${convertNumberToString(product.nutrients.proteins)} g</td>
+      <td>${convertNumberToString(product.nutrients.fats)} g</td>
+      <td>${convertNumberToString(product.nutrients.carbohydrates)} g</td>
+      <td>${convertNumberToString(product.nutrients.fibers)} g</td>
+      <td>${convertNumberToString(product.nutrients.sugars)} g</td>
+      <td>${convertNumberToString(product.nutrients.calcium)} mg</td>
     </tr>
   `
 
