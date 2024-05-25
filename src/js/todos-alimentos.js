@@ -44,7 +44,7 @@ fetch('../api/db.json')
   .then(({ productsData }) => {
     console.log('productsData', productsData)
     renderTablePage(productsData)
-    
+
     let totalPages = Math.ceil(
       productsData.products.length / productsData.itemsPerPage
     )
@@ -55,7 +55,6 @@ fetch('../api/db.json')
         renderTablePage(productsData)
       }
     })
-
 
     document.getElementById('next-page').addEventListener('click', () => {
       if (productsData.page < totalPages) {
