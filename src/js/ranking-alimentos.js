@@ -1,7 +1,6 @@
-
 let tbody = document.getElementById('tbody')
 let filterButtons = document.querySelectorAll('.filter-buttons span')
-let tableHeaders = document.querySelectorAll('th');
+let tableHeaders = document.querySelectorAll('th')
 
 let currentFilter = 'calories'
 
@@ -28,40 +27,45 @@ const createTableData = (product) => {
 }
 
 const renderRankingTable = (data, filter) => {
-  data.products.sort((a, b) => parseFloat(b.nutrients[filter]) - parseFloat(a.nutrients[filter]))
+  data.products.sort(
+    (a, b) => parseFloat(b.nutrients[filter]) - parseFloat(a.nutrients[filter])
+  )
   const topProducts = data.products.slice(0, 6)
 
-  tbody.innerHTML = '' 
+  tbody.innerHTML = ''
 
   topProducts.forEach((product) => {
-    tbody.appendChild(createTableData(product)) 
+    tbody.appendChild(createTableData(product))
   })
 
-  tableHeaders.forEach(th => th.classList.remove('active-header'));
+  tableHeaders.forEach((th) => th.classList.remove('active-header'))
 
-  tableHeaders.forEach(th => {
+  tableHeaders.forEach((th) => {
     if (th.getAttribute('data-filter') === filter) {
-      th.classList.add('active-header');
+      th.classList.add('active-header')
     }
-  });
-} 
+  })
+}
 
-fetch('../api/db.json').then((res) => {
-  return res.json()
-}).then(({ productsData }) => {
+fetch('../api/db.json')
+  .then((res) => {
+    return res.json()
+  })
+  .then(({ productsData }) => {
+    renderRankingTable(productsData, currentFilter)
 
-  renderRankingTable(productsData, currentFilter)
-  
-  document.querySelector(`[data-filter="${currentFilter}"]`).style.fontWeight = 'bold';
+    document.querySelector(
+      `[data-filter="${currentFilter}"]`
+    ).style.fontWeight = 'bold'
 
-  filterButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-      currentFilter = button.getAttribute('data-filter')
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        currentFilter = button.getAttribute('data-filter')
 
-      renderRankingTable(productsData, currentFilter)
+        renderRankingTable(productsData, currentFilter)
 
-      filterButtons.forEach(btn => btn.style.fontWeight = 'normal')
-      button.style.fontWeight = 'bold'
+        filterButtons.forEach((btn) => (btn.style.fontWeight = 'normal'))
+        button.style.fontWeight = 'bold'
+      })
     })
   })
-}) 
