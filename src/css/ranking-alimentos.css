@@ -102,10 +102,6 @@ h1 {
     p {
       font-size: 20px;
       color: #2a1a1f;
-
-      /* span {
-        color: '#A1C643';
-      } */
     }
   }
 }
@@ -162,6 +158,10 @@ h1 {
 
   .filter-buttons {
     margin-top: 0;
+    width: 40%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 }
 
@@ -184,7 +184,7 @@ h1 {
 
 .filter-buttons {
   display: flex;
-  gap: 1rem;
+  gap: 10px;
   margin-top: 1rem;
   overflow: auto;
   padding-bottom: 1rem;
@@ -207,7 +207,7 @@ h1 {
   background-color: #a1c643;
   display: flex;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 0.375rem 1rem;
   max-height: 36px;
   border-radius: 20px;
   cursor: pointer;
@@ -253,10 +253,24 @@ table {
   width: 100%;
 }
 
-thead th {
+thead {
+  background-color: #d5d1defe;
   position: sticky;
   top: 0;
-  background-color: #d5d1defe;
+}
+
+thead th {
+  font-weight: 500;
+}
+
+.active-header {
+  background-color: #e2ebcbe0;
+  font-weight: bold;
+}
+
+.active-header:hover {
+  background-color: #a1c643;
+  transition: background-color 0.6s;
 }
 
 tbody tr:nth-child(even) {
@@ -267,8 +281,30 @@ tbody tr:hover {
   background-color: #e2ebcbe0;
 }
 
+tbody td {
+  min-height: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  tbody td {
+    height: 71px;
+  }
+
+  tbody tr td {
+    font-size: 0.875rem;
+  }
+
+  td:not(:first-of-type) {
+    min-width: 6rem;
+  }
+
+  td:first-of-type {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 1000px) {
   td:not(:first-of-type) {
-    min-width: 12.1rem;
+    min-width: 4rem;
   }
 }
