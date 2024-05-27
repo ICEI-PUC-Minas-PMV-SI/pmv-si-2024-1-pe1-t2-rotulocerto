@@ -290,5 +290,24 @@
         ]
       }
     ]
+  },
+  "sugestoes": {
+    "page": 1,
+    "totalPages": 1,
+    "itemsPerPage": 3,
+    "suggestionsList": [
+      {
+        "id": 1,
+        "nome": "João Silva",
+        "email": "joao.silva@example.com",
+        "sugestao": "Gostaria de ver mais receitas veganas no site."
+      },
+      {
+        "id": 2,
+        "nome": "Maria Souza",
+        "email": "maria.souza@example.com",
+        "sugestao": "Que tal adicionar informações sobre os benefícios de cada nutriente?"
+      }
+    ]
   }
 }
