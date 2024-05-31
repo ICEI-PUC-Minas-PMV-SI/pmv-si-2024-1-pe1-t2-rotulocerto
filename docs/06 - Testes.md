@@ -52,6 +52,13 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |   **Dados de entrada**    | Frango                                                                                                                                                                                            |
 |   **Resultado obtido**    | Sucesso                                                                                                                                                                                           |
 
+|     **Caso de Teste**     | **CT04 - Consultar alimento da base de dados**                                                                                                                                                                              |
+| :-----------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                        |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/todos-alimentos.html <br> 2) Clique na seta para avançar a página ou voltar até encontrar o alimento dessejado <br> |
+| **Requisitos associados** | RF-001                                                                                                                                                                                                                      |
+|  **Resultado esperado**   | Encontro do alimento dessejado                                                                                                                                                                                              |
+|   **Dados de entrada**    | Nenhum                                                                                                                                                                                                                      |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                     |
 
 ## Registro dos Testes de Software
 
@@ -111,41 +118,37 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Cenários de Teste de Usabilidade
 
-| Nº do Cenário | Descrição do cenário                                                                                                                        |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.                     |
+| Nº do Cenário | Descrição do cenário                                                                                                                                                                                |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------                                                         |
+| 1             | Você é uma pessoa que deseja saber os valores nutricionais do Pão francês. Encontre no site dentro da aba de todos os alimentos o alimento Pão francês.                                             |
+| 2             | Você é uma pessoa que deseja saber os valores nutricionais do Macarrão Cozido, s/ sal. Encontre no site dentro da aba de todos os alimentos o alimento Macarrão Cozido, s/ sal.                     |
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+
+Cenário 1: Você é uma pessoa que deseja saber os valores nutricionais do Pão francês. Encontre no site dentro da aba de todos os alimentos o alimento Pão francês.
 
 | Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 | ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
-| 1                                          | SIM             | 5                    | 27.87 segundos                  |
-| 2                                          | SIM             | 5                    | 17.11 segundos                  |
-| 3                                          | SIM             | 5                    | 39.09 segundos                  |
+| 1                                          | SIM             | 5                    | 16.89 segundos                  |
+| 2                                          | SIM             | 5                    | 18.49 segundos                  |
+| 3                                          | SIM             | 5                    | 12.27 segundos                  |
 |                                            |                 |                      |                                 |
-| **Média**                                  | 100%            | 5                    | 28.02 segundos                  |
-| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 8.66 segundos                   |
+| **Média**                                  | 100%            | 5                    | 15.83 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 09.88 segundos                  |
 
-
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
-
-
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é uma pessoa que deseja saber os valores nutricionais do Macarrão Cozido, s/ sal. Encontre no site dentro da aba de todos os alimentos o alimento Macarrão Cozido, s/ sal.
 
 | Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 | ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
-| 1                                          | SIM             | 5                    | 22.54 segundos                  |
-| 2                                          | SIM             | 5                    | 31.42 segundos                  |
-| 3                                          | SIM             | 4                    | 36.21 segundos                  |
+| 1                                          | SIM             | 5                    | 19.24 segundos                  |
+| 2                                          | SIM             | 5                    | 17.66 segundos                  |
+| 3                                          | SIM             | 5                    | 20.56 segundos                  |
 |                                            |                 |                      |                                 |
-| **Média**                                  | 100%            | 4.67                 | 30.05 segundos                  |
-| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 13.57 segundos                  |
+| **Média**                                  | 100%            | 5                    | 19.15 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 11.06 segundos                  |
 
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
