@@ -1,63 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rótulo Certo</title>
+    <title>Rótulo Certo</title>
 
-  <link rel="stylesheet" href="../css/main.css" />
-  <link rel="stylesheet" href="../css/template.css" />
-  <link rel="stylesheet" href="../css/receitas-dietas.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/template.css" />
+    <link rel="stylesheet" href="../css/receitas-dietas.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <script src="../js/template.js" type="module"></script>
-  <script src="../js/receitas-dietas.js" type="module"></script>
-</head>
+    <script src="../js/template.js" type="module"></script>
+    <script src="../js/receitas-dietas.js" type="module"></script>
+  </head>
 
-<body>
-  <template-header></template-header>
+  <body>
+    <template-header></template-header>
 
-  <main class="content">
-    <h1 class="page-title">Receitas e Dietas</h1>
+    <main class="content">
+      <h1 class="page-title">Receitas e Dietas</h1>
 
-    <section id="filters-search">
-      <div class="filters">
-        <div>
-          <button class="btn emagrecimento" id="perda-gordura">Perda de Gordura</button>
-          <button class="btn ganho-massa" id="ganho-massa">Ganho de Massa</button>
-          <button class="btn vegana" id="vegana">Vegana</button>
-          <button class="btn vegetariana" id="vegetariana">Vegetariana</button>
+      <section id="filters-search">
+        <div class="filters">
+          <div>
+            <button class="btn emagrecimento" id="perda-gordura">
+              Perda de Gordura
+            </button>
+            <button class="btn ganho-massa" id="ganho-massa">
+              Ganho de Massa
+            </button>
+            <button class="btn vegana" id="vegana">Vegana</button>
+            <button class="btn vegetariana" id="vegetariana">
+              Vegetariana
+            </button>
+          </div>
+          <div class="search">
+            <input
+              type="text"
+              placeholder="Buscar por receitas e dietas"
+              id="searchInput"
+            /><button id="searchButon" class="btn search">
+              <img src="../assets/receitas-dietas/search.svg" />
+            </button>
+          </div>
         </div>
-        <div class="search">
-          <input type="text" placeholder="Buscar por receitas e dietas" id="searchInput" /><button id="searchButon"
-            class="btn search"><img src="../assets/receitas-dietas/search.svg" /></button>
+      </section>
+
+      <section id="receitas-dietas">
+        <div class="infos" id="infos"></div>
+        <div class="pagination-wrapper">
+          <span id="pagination-info"></span>
+          <button id="prev-page" class="pagination-button">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="next-page" class="pagination-button">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <section id="receitas-dietas">
-      <div class="infos" id="infos"></div>
-      <div class="pagination-wrapper">
-        <span id="pagination-info"></span>
-        <button id="prev-page" class="pagination-button">
-          <i class="fa-solid fa-chevron-left"></i>
-        </button>
-        <button id="next-page" class="pagination-button">
-          <i class="fa-solid fa-chevron-right"></i>
-        </button>
-      </div>
-    </section>
-  </main>
-
-  <template-footer></template-footer>
-</body>
-
+    <template-footer></template-footer>
+  </body>
 </html>
