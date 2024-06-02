@@ -1,72 +1,76 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('../api/db.json')
-      .then(response => response.json())
-      .then(data => {
-        const suggestionsList = data.sugestoes.suggestionsList;
-        const itemsPerPage = data.sugestoes.itemsPerPage;
-        const totalPages = Math.ceil(suggestionsList.length / itemsPerPage);
-        let currentPage = 1;
+ 
+  let storedSugestoes = localStorage.getItem('sugestoes');
+  if (storedSugestoes) {
+      let data = JSON.parse(storedSugestoes);
 
-        function renderSugestoes(page) {
-          const main = document.querySelector('main');
-          main.innerHTML = '';  // Clear existing content
+      const suggestionsList = data.suggestionsList;
+      const itemsPerPage = data.itemsPerPage || 5; 
+      const totalPages = Math.ceil(suggestionsList.length / itemsPerPage);
+      let currentPage = 1;
 
-          const start = (page - 1) * itemsPerPage;
-          const end = start + itemsPerPage;
-          const paginatedSuggestions = suggestionsList.slice(start, end);
+      function renderSugestoes(page) {
+        const main = document.querySelector('main');
+        main.innerHTML = '';  
 
-          paginatedSuggestions.forEach(sugestao => {
-            const section = document.createElement('section');
-            section.classList.add('content', 'form', 'col-25', 'col-75', 'center');
+        const start = (page - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+        const paginatedSuggestions = suggestionsList.slice(start, end);
 
-            const sugestaoDiv = document.createElement('div');
-            sugestaoDiv.classList.add('sugestao');
+        paginatedSuggestions.forEach(sugestao => {
+          const section = document.createElement('section');
+          section.classList.add('content', 'form', 'col-25', 'col-75', 'center');
 
-            const nomeP = document.createElement('p');
-            nomeP.innerHTML = `<em>Nome Completo:</em> ${sugestao.nome}`;
-            sugestaoDiv.appendChild(nomeP);
+          const sugestaoDiv = document.createElement('div');
+          sugestaoDiv.classList.add('sugestao');
 
-            const emailP = document.createElement('p');
-            emailP.innerHTML = `<em>Email:</em> ${sugestao.email}`;
-            sugestaoDiv.appendChild(emailP);
+          const nomeP = document.createElement('p');
+          nomeP.innerHTML = `<em>Nome Completo:</em> ${sugestao.nome}`;
+          sugestaoDiv.appendChild(nomeP);
 
-            const sugestaoDescricaoDiv = document.createElement('div');
-            sugestaoDescricaoDiv.classList.add('sugestao-descricao');
+          const emailP = document.createElement('p');
+          emailP.innerHTML = `<em>Email:</em> ${sugestao.email}`;
+          sugestaoDiv.appendChild(emailP);
 
-            const descricaoP = document.createElement('p');
-            descricaoP.textContent = sugestao.sugestao;
-            sugestaoDescricaoDiv.appendChild(descricaoP);
+          const sugestaoDescricaoDiv = document.createElement('div');
+          sugestaoDescricaoDiv.classList.add('sugestao-descricao');
 
-            section.appendChild(sugestaoDiv);
-            section.appendChild(sugestaoDescricaoDiv);
+          const descricaoP = document.createElement('p');
+          descricaoP.textContent = sugestao.sugestao;
+          sugestaoDescricaoDiv.appendChild(descricaoP);
 
-            main.appendChild(section);
-          });
+          section.appendChild(sugestaoDiv);
+          section.appendChild(sugestaoDescricaoDiv);
 
-          document.getElementById('pagination-info').textContent = `Página ${page} de ${totalPages}`;
-        }
+          main.appendChild(section);
+        });
 
-        function setupPagination() {
-          const prevButton = document.getElementById('prev-page');
-          const nextButton = document.getElementById('next-page');
+        document.getElementById('pagination-info').textContent = `Página ${page} de ${totalPages}`;
+      }
 
-          prevButton.addEventListener('click', () => {
-            if (currentPage > 1) {
-              currentPage--;
-              renderSugestoes(currentPage);
-            }
-          });
+      function setupPagination() {
+        const prevButton = document.getElementById('prev-page');
+        const nextButton = document.getElementById('next-page');
 
-          nextButton.addEventListener('click', () => {
-            if (currentPage < totalPages) {
-              currentPage++;
-              renderSugestoes(currentPage);
-            }
-          });
+        prevButton.addEventListener('click', () => {
+          if (currentPage > 1) {
+            currentPage--;
+            renderSugestoes(currentPage);
+          }
+        });
 
-          renderSugestoes(currentPage);
-        }
+        nextButton.addEventListener('click', () => {
+          if (currentPage < totalPages) {
+            currentPage++;
+            renderSugestoes(currentPage);
+          }
+        });
 
-        setupPagination();
-      });
-  });
+        renderSugestoes(currentPage);
+      }
+
+      setupPagination();
+  } else {
+      console.log('Nenhuma sugestão encontrada no localStorage.');
+  }
+});
