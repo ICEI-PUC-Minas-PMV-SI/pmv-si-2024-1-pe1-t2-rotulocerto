@@ -65,19 +65,19 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 | *Caso de Teste*                   | *CT01 - Consultar Receita Por Objetivo*                                 |
 | --------------------------------- | ----------------------------------------------------------------------- |
-| Requisito Associado               | RF-001 - A aplicação deve exibir dietas comuns com diferentes objetivos |
+| Requisito Associado               | RF-010 - A aplicação deve exibir dietas comuns com diferentes objetivos |
 | Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t             |
 
 
 | *Caso de Teste*                   | *CT02 - Consultar Receita Por Nome*                                     |
 | --------------------------------- | ----------------------------------------------------------------------- |
-| Requisito Associado               | RF-001 - A aplicação deve exibir dietas comuns com diferentes objetivos |
+| Requisito Associado               | RF-010 - A aplicação deve exibir dietas comuns com diferentes objetivos |
 | Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t             |
 
 
 | *Caso de Teste*                   | *CT03 - Consultar Receita Por Ingrediente*                              |
 | --------------------------------- | ----------------------------------------------------------------------- |
-| Requisito Associado               | RF-001 - A aplicação deve exibir dietas comuns com diferentes objetivos |
+| Requisito Associado               | RF-010 - A aplicação deve exibir dietas comuns com diferentes objetivos |
 | Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t             |
 
 
@@ -101,11 +101,11 @@ Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa prop
 
 Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
 
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
+1. Péssimo;
+2. Ruim;
+3. Regular;
+4. Bom;
+5. Ótimo;
 
 Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
 
@@ -151,8 +151,8 @@ Cenário 2: Você é uma pessoa que deseja saber os valores nutricionais do Maca
 | **Tempo para conclusão pelo especialista** | SIM             | 5                    | 11.06 segundos                  |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
+    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam
+    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros,
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
 ## Avaliação dos Testes de Usabilidade
