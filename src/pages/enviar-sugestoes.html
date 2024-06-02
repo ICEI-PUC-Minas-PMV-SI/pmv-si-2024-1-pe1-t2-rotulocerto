@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+
     <title>Enviar Sugestões</title>
 
     <link rel="stylesheet" href="../css/template.css" />
@@ -31,36 +33,37 @@
 
     <main class="content">
       <div class="container">
-        <h2>Enviar sugestão</h2>
-        <form>
-          <div class="grid-container">
-            <div class="nome">
-              <label for="nome">Nome Completo</label>
-              <input type="text" id="nome" name="nome" required />
-            </div>
+          <h2>Enviar sugestão</h2>
+          <form id="form-sugestoes">
+              <div class="grid-container">
+                  <div class="nome">
+                      <label for="nome">Nome Completo</label>
+                      <input type="text" id="nome" name="nome" required />
+                  </div>
 
-            <div class="email">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required />
-            </div>
+                  <div class="email">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required />
+                  </div>
 
-            <div class="sugestao">
-              <label for="sugestao">Sugestão</label>
-              <textarea
-                id="sugestao"
-                name="sugestao"
-                placeholder="Escreva sua menssagem"
-                required
-              ></textarea>
-            </div>
-            <div class="btn-enviar">
-              <input type="submit" value="Enviar" />
-            </div>
-          </div>
-        </form>
+                  <div class="sugestao">
+                      <label for="sugestao">Sugestão</label>
+                      <textarea
+                          id="sugestao"
+                          name="sugestao"
+                          placeholder="Escreva sua mensagem"
+                          required
+                      ></textarea>
+                  </div>
+                  <div class="btn-enviar">
+                      <input type="submit" value="Enviar" />
+                  </div>
+              </div>
+          </form>
       </div>
-    </main>
+  </main>
 
     <template-footer></template-footer>
+    <script src="../js/enviar-sugestoes.js" type="module"></script>
   </body>
 </html>
