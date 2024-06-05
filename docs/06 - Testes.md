@@ -60,6 +60,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |   **Dados de entrada**    | Nenhum                                                                                                                                                                                                                      |
 |   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                     |
 
+|     **Caso de Teste**     | **CT05 - Enviar sugestões na plataforma** |
+| :-----------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                        |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/enviar-sugestoes.html <br> 2) Preencha os campos de Nome Completo, Email e Sugestão <br> 3) Clique no botão de Enviar <br> |
+| **Requisitos associados** | RF-003 |
+|  **Resultado esperado**   | Campos do formulário limpo após envio |
+|   **Dados de entrada**    | Campo Nome Completo: João Marcos <br> Campo Email: joaomarcos@email.com <br> Campo Sugestão: Gostaria de sugerir uma sessão de comentários nas páginas das receitas.  |
+|   **Resultado obtido**    | Sucesso |
+
 ## Registro dos Testes de Software
 
 
