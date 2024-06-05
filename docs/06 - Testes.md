@@ -131,8 +131,9 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 1             | Você é uma pessoa que deseja saber os valores nutricionais do Pão francês. Encontre no site dentro da aba de todos os alimentos o alimento Pão francês.                                             |
 | 2             | Você é uma pessoa que deseja saber os valores nutricionais do Macarrão Cozido, s/ sal. Encontre no site dentro da aba de todos os alimentos o alimento Macarrão Cozido, s/ sal.                     |
 | 3             | Você é uma pessoa que deseja se orientar sobre o intervalo de peso considerado ideal para ter uma qualidade de vida melhor.                                                                          |
+## Perfil dos usuários de testes
 
-
+1) Estudante de nutrição, 22 anos
 
 ## Registro de Testes de Usabilidade
 
@@ -141,7 +142,7 @@ Cenário 1: Você é uma pessoa que deseja saber os valores nutricionais do Pão
 
 | Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 | ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
-| 1                                          | SIM             | 5                    | 16.89 segundos                  |
+| 1 (estudante de nutrição                   | SIM             | 5                    | 16.89 segundos                  |
 | 2                                          | SIM             | 5                    | 18.49 segundos                  |
 | 3                                          | SIM             | 5                    | 12.27 segundos                  |
 |                                            |                 |                      |                                 |
