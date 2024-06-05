@@ -17,6 +17,6 @@ form.addEventListener('submit', (event) => {
 
     if (isValid) {
         console.log('Usuario logado com sucesso');
-        window.location.href = 'index.html';
+        window.location.href = 'sugestoes-enviadas.html';
     }
 });
