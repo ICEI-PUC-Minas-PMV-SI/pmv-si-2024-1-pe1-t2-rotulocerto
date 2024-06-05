@@ -47,8 +47,6 @@ td {
 
 .table-body {
   width: 100%;
-  /* min-height: calc(89% - 1.6rem); */
-  /* max-height: calc(89% - 1.6rem); */
   min-height: 250px;
   background-color: #fffb;
   border-radius: 0.6rem;
@@ -88,6 +86,10 @@ tbody tr:hover {
   background-color: #e2ebcbe0;
 }
 
+tbody td {
+  min-height: 20px;
+}
+
 @media (max-width: 1000px) {
   td:not(:first-of-type) {
     min-width: 12.1rem;
@@ -97,6 +99,18 @@ tbody tr:hover {
 @media screen and (min-width: 992px) {
   .product-name {
     min-width: 300px;
+  }
+
+  tbody td {
+    height: 71px;
+  }
+
+  td:not(:nth-child(2)) {
+    font-size: 0.875rem;
+  }
+
+  td:not(:first-of-type) {
+    min-width: 6rem;
   }
 }
 

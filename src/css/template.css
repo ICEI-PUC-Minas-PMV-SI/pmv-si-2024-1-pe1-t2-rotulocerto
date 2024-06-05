@@ -1,6 +1,6 @@
 /* Header */
 
-header {
+header{
   /* position: relative;
   padding-top: 10px;
   width: 100dvw; */
@@ -331,4 +331,8 @@ footer {
   .footer-links ul {
     text-align: start;
   }
+}
+
+.active {
+  font-weight: bold;
 }

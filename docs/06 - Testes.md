@@ -9,12 +9,16 @@ Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o doc
 
 A documentação dos testes é dividida nas seguintes seções:
 
- - [Plano de Testes de Software](#plano-de-testes-de-software)
- - [Registro dos Testes de Software](#registro-dos-testes-de-software)
- - [Avaliação dos Testes de Software](#avaliação-dos-testes-de-software)
- - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
- - [Registro dos Testes de Usabilidade](#registro-dos-testes-de-usabilidade)
- - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
+- [Testes](#testes)
+- [Teste de Software](#teste-de-software)
+  - [Plano de Testes de Software](#plano-de-testes-de-software)
+  - [Registro dos Testes de Software](#registro-dos-testes-de-software)
+  - [Avaliação dos Testes de Software](#avaliação-dos-testes-de-software)
+  - [Testes de unidade automatizados (Opcional)](#testes-de-unidade-automatizados-opcional)
+- [Testes de Usabilidade](#testes-de-usabilidade)
+  - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
+  - [Registro de Testes de Usabilidade](#registro-de-testes-de-usabilidade)
+  - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
 
 # Teste de Software
 
@@ -24,36 +28,50 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
+|     **Caso de Teste**     | **CT01 - Consultar Receita Por Objetivo**                                                                                                                            |
+| :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/receitas-dietas.html <br> 2) Clique em Perda de Gordura <br> |
+| **Requisitos associados** | RF-010                                                                                                                                                               |
+|  **Resultado esperado**   | Receitas que são para perda de gordura                                                                                                                               |
+|   **Dados de entrada**    | Nenhum                                                                                                                                                               |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                              |
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
- :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+|     **Caso de Teste**     | **CT02 - Consultar Receita Por Nome**                                                                                                                                                             |
+| :-----------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/receitas-dietas.html <br> 2) Preencher a barra de pesquisa<br> 3) Clicar no botão da lupa |
+| **Requisitos associados** | RF-010                                                                                                                                                                                            |
+|  **Resultado esperado**   | Receitas que tenha o nome                                                                                                                                                                         |
+|   **Dados de entrada**    | Pão de Queijo                                                                                                                                                                                     |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                                                           |
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+|     **Caso de Teste**     | **CT03 - Consultar Receita Por Ingrediente**                                                                                                                                                      |
+| :-----------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/receitas-dietas.html <br> 2) Preencher a barra de pesquisa<br> 3) Clicar no botão da lupa |
+| **Requisitos associados** | RF-010                                                                                                                                                                                            |
+|  **Resultado esperado**   | Receitas que tenham o ingrediente na receita                                                                                                                                                      |
+|   **Dados de entrada**    | Frango                                                                                                                                                                                            |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                                                           |
+
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+| *Caso de Teste*                   | *CT01 - Consultar Receita Por Objetivo*                                 |
+| --------------------------------- | ----------------------------------------------------------------------- |
+| Requisito Associado               | RF-001 - A aplicação deve exibir dietas comuns com diferentes objetivos |
+| Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t             |
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+| *Caso de Teste*                   | *CT02 - Consultar Receita Por Nome*                                     |
+| --------------------------------- | ----------------------------------------------------------------------- |
+| Requisito Associado               | RF-001 - A aplicação deve exibir dietas comuns com diferentes objetivos |
+| Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t             |
+
+
+| *Caso de Teste*                   | *CT03 - Consultar Receita Por Ingrediente*                              |
+| --------------------------------- | ----------------------------------------------------------------------- |
+| Requisito Associado               | RF-001 - A aplicação deve exibir dietas comuns com diferentes objetivos |
+| Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t             |
 
 
 ## Avaliação dos Testes de Software
@@ -93,10 +111,10 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Cenários de Teste de Usabilidade
 
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
+| Nº do Cenário | Descrição do cenário                                                                                                                        |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.                     |
 
 
 
@@ -104,14 +122,14 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+| ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
+| 1                                          | SIM             | 5                    | 27.87 segundos                  |
+| 2                                          | SIM             | 5                    | 17.11 segundos                  |
+| 3                                          | SIM             | 5                    | 39.09 segundos                  |
+|                                            |                 |                      |                                 |
+| **Média**                                  | 100%            | 5                    | 28.02 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 8.66 segundos                   |
 
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
@@ -120,14 +138,14 @@ Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site u
 
 Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+| ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
+| 1                                          | SIM             | 5                    | 22.54 segundos                  |
+| 2                                          | SIM             | 5                    | 31.42 segundos                  |
+| 3                                          | SIM             | 4                    | 36.21 segundos                  |
+|                                            |                 |                      |                                 |
+| **Média**                                  | 100%            | 4.67                 | 30.05 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 13.57 segundos                  |
 
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 

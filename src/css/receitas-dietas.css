@@ -133,7 +133,7 @@
   border-radius: var(--br-6) var(--br-6) 0 0;
 }
 
-.info:nth-child(1) .img {
+/* .info:nth-child(1) .img {
   background-image: url('https://www.hojetemfrango.com.br/wp-content/uploads/2019/03/shutterstock_553403317.jpg');
 }
 
@@ -143,7 +143,7 @@
 
 .info:nth-child(3) .img{
   background-image: url('https://vitat.com.br/receitas/images/recipeshandler.jpg?id=29390&tipo=r&default=s');
-}
+} */
 
 .info .text, .info .text div{
   display: flex;
@@ -195,4 +195,23 @@
 }
 
 @media screen and (min-width: 1024px) {
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination-wrapper .pagination-button {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  background-color: #0000001e;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.pagination-wrapper .pagination-button:hover {
+  background-color: #e2ebcbe0;
 }

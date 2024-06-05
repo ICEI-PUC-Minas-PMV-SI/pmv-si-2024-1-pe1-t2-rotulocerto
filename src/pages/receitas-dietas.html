@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+
     <title>Rótulo Certo</title>
 
     <link rel="stylesheet" href="../css/main.css" />
@@ -25,7 +27,9 @@
     />
 
     <script src="../js/template.js" type="module"></script>
+    <script src="../js/receitas-dietas.js" type="module"></script>
   </head>
+
   <body>
     <template-header></template-header>
 
@@ -35,69 +39,39 @@
       <section id="filters-search">
         <div class="filters">
           <div>
-            <button class="btn nome">Nome</button>
-            <button class="btn nutrientes">Nutrientes</button>
-            <button class="btn adtivos">Aditivos</button>
-            <button class="btn calorias">Calorias</button>
-            <button class="btn emagrecimento">Emagrecimento</button>
-            <button class="btn ganho-massa">Ganho de massa</button>
+            <button class="btn emagrecimento" id="perda-gordura">
+              Perda de Gordura
+            </button>
+            <button class="btn ganho-massa" id="ganho-massa">
+              Ganho de Massa
+            </button>
+            <button class="btn vegana" id="vegana">Vegana</button>
+            <button class="btn vegetariana" id="vegetariana">
+              Vegetariana
+            </button>
           </div>
           <div class="search">
             <input
               type="text"
               placeholder="Buscar por receitas e dietas"
-            /><button class="btn search"><img src="../assets/receitas-dietas/search.svg"/></button>
+              id="searchInput"
+            /><button id="searchButon" class="btn search">
+              <img src="../assets/receitas-dietas/search.svg" />
+            </button>
           </div>
         </div>
       </section>
 
       <section id="receitas-dietas">
-        <div class="infos">
-
-          <div class="info">
-            <div class="img"></div>
-            <div class="text">
-              <h3>Pizza com massa de couve-flor</h3>
-              <div>
-                <p>
-                  Uma deliciosa receita de pizza com massa de couve-flor para se fazer em casa de maneira simples e prática.
-                </p>
-                <p>Ingredientes: <span>Couve-flor, água</span></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="info">
-            <div class="img"></div>
-            <div class="text">
-              <h3>Receita de Feijão</h3>
-              <div>
-                <p>
-                  Uma deliciosa receita de feijão para se fazer em casa de maneira simples e prática.
-                </p>
-                <p>Ingredientes: <span>Feijão</span></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="info">
-            <div class="img"></div>
-            <div class="text">
-              <h3>Pipoca sem óleo</h3>
-              <div>
-                <p>
-                  Receita de pipoca sem usar óleo, uma opção mais saudável e saborosa.
-                </p>
-                <p>Ingredientes: <span>Milho</span></p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="pagination">
-          <p class="current-page">1 a 5</p>
-          <button class="btn left"><img src="../assets/receitas-dietas/left.svg"/></button>
-          <button class="btn rigth"><img src="../assets/receitas-dietas/rigth.svg"/></button>
+        <div class="infos" id="infos"></div>
+        <div class="pagination-wrapper">
+          <span id="pagination-info"></span>
+          <button id="prev-page" class="pagination-button">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="next-page" class="pagination-button">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
         </div>
       </section>
     </main>
