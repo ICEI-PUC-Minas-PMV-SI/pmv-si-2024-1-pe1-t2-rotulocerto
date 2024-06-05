@@ -60,6 +60,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |   **Dados de entrada**    | Nenhum                                                                                                                                                                                                                      |
 |   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                     |
 
+|     **Caso de Teste**     | **CT05 - Realizar o teste de IMC**                                                                                                                                                                              |
+| :-----------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                        |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/teste-de-imc.html <br> 2) Selecione o sexo e preencha os campos de idade, altura e peso <br> 3) Clicar no botão "Calcular IMC" |
+| **Requisitos associados** | RF-012                                                                                                                                                                                                                      |
+|  **Resultado esperado**   | Exibição do resultado de IMC do usuário e da tabela com as referências                                                                                                                                                                                        |
+|   **Dados de entrada**    | Homem / 24 / 168 / 60                                                                                                                                                                                                                      |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                     |
+
 ## Registro dos Testes de Software
 
 
