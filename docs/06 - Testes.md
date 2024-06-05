@@ -130,6 +130,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------                                                         |
 | 1             | Você é uma pessoa que deseja saber os valores nutricionais do Pão francês. Encontre no site dentro da aba de todos os alimentos o alimento Pão francês.                                             |
 | 2             | Você é uma pessoa que deseja saber os valores nutricionais do Macarrão Cozido, s/ sal. Encontre no site dentro da aba de todos os alimentos o alimento Macarrão Cozido, s/ sal.                     |
+| 3             | Você é uma pessoa que deseja se orientar sobre o intervalo de peso considerado ideal para ter uma qualidade de vida melhor.                                                                          |
 
 
 
@@ -162,6 +163,21 @@ Cenário 2: Você é uma pessoa que deseja saber os valores nutricionais do Maca
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros,
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
+
+Cenário 3: Você é uma pessoa que deseja se orientar sobre o intervalo de peso considerado ideal para ter uma qualidade de vida melhor.
+
+| Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+| ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
+| 4                                          | SIM             | 5                    | 14.06 segundos                  |
+| 5                                          | SIM             | 5                    | 7.67 segundos                  |
+| 6                                          | SIM             | 4                    | 15.05 segundos                  |
+|                                            |                 |                      |                                 |
+| **Média**                                  | 100%            | 4.67                    | 12.26 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 7.11 segundos                  |
+
+    Comentários dos usuários: O teste de IMC é intuitivo para ser feito. A tabela gerada com os 
+    resultados, após a o clique em "Calcular IMC" está um pouco confusa para entender, devido a 
+    disposição das informações, principalmente quando testado pelo navegador do celular.
 
 ## Avaliação dos Testes de Usabilidade
 
