@@ -60,6 +60,15 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |   **Dados de entrada**    | Nenhum                                                                                                                                                                                                                      |
 |   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                     |
 
+
+|     **Caso de Teste**     | **CT05 - Consultar sugestões que foram enviadas a plataforma**  |
+| :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/login-admin.html <br> 2) Loque na plataforma como admin <br> 3) Acesso o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/sugestoes-enviadas.html |
+| **Requisitos associados** | RF-002                         |
+|  **Resultado esperado**   | Visualizar a lista de sugestões enviadas |
+|   **Dados de entrada**    | Campo Usuário: Admin <br> Campo Senha: Admin |
+|   **Resultado obtido**    | Sucesso                        |
+
 ## Registro dos Testes de Software
 
 
