@@ -17,6 +17,7 @@ A documentação dos testes é dividida nas seguintes seções:
   - [Testes de unidade automatizados (Opcional)](#testes-de-unidade-automatizados-opcional)
 - [Testes de Usabilidade](#testes-de-usabilidade)
   - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
+  - [Perfil dos usuários de testes](#perfil-dos-usuários-de-testes)
   - [Registro de Testes de Usabilidade](#registro-de-testes-de-usabilidade)
   - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
 
@@ -53,20 +54,28 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |   **Resultado obtido**    | Sucesso                                                                                                                                                                                           |
 
 |     **Caso de Teste**     | **CT04 - Consultar alimento da base de dados**                                                                                                                                                                              |
-| :-----------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                        |
+| :-----------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/todos-alimentos.html <br> 2) Clique na seta para avançar a página ou voltar até encontrar o alimento dessejado <br> |
 | **Requisitos associados** | RF-001                                                                                                                                                                                                                      |
 |  **Resultado esperado**   | Encontro do alimento dessejado                                                                                                                                                                                              |
 |   **Dados de entrada**    | Nenhum                                                                                                                                                                                                                      |
 |   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                     |
 
-|     **Caso de Teste**     | **CT05 - Realizar o teste de IMC**                                                                                                                                                                              |
-| :-----------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                        |
+|     **Caso de Teste**     | **CT05 - Realizar o teste de IMC**                                                                                                                                                                                                     |
+| :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/teste-de-imc.html <br> 2) Selecione o sexo e preencha os campos de idade, altura e peso <br> 3) Clicar no botão "Calcular IMC" |
-| **Requisitos associados** | RF-012                                                                                                                                                                                                                      |
-|  **Resultado esperado**   | Exibição do resultado de IMC do usuário e da tabela com as referências                                                                                                                                                                                        |
-|   **Dados de entrada**    | Homem / 24 / 168 / 60                                                                                                                                                                                                                      |
-|   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                     |
+| **Requisitos associados** | RF-012                                                                                                                                                                                                                                 |
+|  **Resultado esperado**   | Exibição do resultado de IMC do usuário e da tabela com as referências                                                                                                                                                                 |
+|   **Dados de entrada**    | Homem / 24 / 168 / 60                                                                                                                                                                                                                  |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                                |
+
+|     **Caso de Teste**     | **CT06 - Diferentes Navegadores**                                                                                                                                                                                                                                                                                        |
+| :-----------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|     **Procedimento**      | 1) O usuário escolhe um dos principais navegadores disponiveis: Google Chrome, Monzilla Firefox ou Microsotf Edge <br> 2) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/index.html <br> 3) O usuário deve navegar em diferentes páginas e funcionalidades da aplicação. |
+| **Requisitos associados** | RNF-002                                                                                                                                                                                                                                                                                                                  |
+|  **Resultado esperado**   | A aplicação deve funcionar normalmente sem dificuldade na renderização das paginas ou problemas nas funcionalidades do sistema.                                                                                                                                                                                          |
+|   **Dados de entrada**    | Nenhum.                                                                                                                                                                                                                                                                                                                  |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                                                                                                                  |
 
 ## Registro dos Testes de Software
 
@@ -87,6 +96,11 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 | --------------------------------- | ----------------------------------------------------------------------- |
 | Requisito Associado               | RF-010 - A aplicação deve exibir dietas comuns com diferentes objetivos |
 | Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t             |
+
+| *Caso de Teste*                   | *CT06 - Diferentes Navegadores*                                      |
+| --------------------------------- | -------------------------------------------------------------------- |
+| Requisito Associado               | RNF-002 - A aplicação deve ser compatível com principais navegadores |
+| Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t          |
 
 
 ## Avaliação dos Testes de Software
@@ -126,11 +140,11 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Cenários de Teste de Usabilidade
 
-| Nº do Cenário | Descrição do cenário                                                                                                                                                                                |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------                                                         |
-| 1             | Você é uma pessoa que deseja saber os valores nutricionais do Pão francês. Encontre no site dentro da aba de todos os alimentos o alimento Pão francês.                                             |
-| 2             | Você é uma pessoa que deseja saber os valores nutricionais do Macarrão Cozido, s/ sal. Encontre no site dentro da aba de todos os alimentos o alimento Macarrão Cozido, s/ sal.                     |
-| 3             | Você é uma pessoa que deseja se orientar sobre o intervalo de peso considerado ideal para ter uma qualidade de vida melhor.                                                                          |
+| Nº do Cenário | Descrição do cenário                                                                                                                                                            |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1             | Você é uma pessoa que deseja saber os valores nutricionais do Pão francês. Encontre no site dentro da aba de todos os alimentos o alimento Pão francês.                         |
+| 2             | Você é uma pessoa que deseja saber os valores nutricionais do Macarrão Cozido, s/ sal. Encontre no site dentro da aba de todos os alimentos o alimento Macarrão Cozido, s/ sal. |
+| 3             | Você é uma pessoa que deseja se orientar sobre o intervalo de peso considerado ideal para ter uma qualidade de vida melhor.                                                     |
 ## Perfil dos usuários de testes
 
 1) Estudante de nutrição, 22 anos
@@ -170,11 +184,11 @@ Cenário 3: Você é uma pessoa que deseja se orientar sobre o intervalo de peso
 | Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 | ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
 | 4                                          | SIM             | 5                    | 14.06 segundos                  |
-| 5                                          | SIM             | 5                    | 7.67 segundos                  |
+| 5                                          | SIM             | 5                    | 7.67 segundos                   |
 | 6                                          | SIM             | 4                    | 15.05 segundos                  |
 |                                            |                 |                      |                                 |
-| **Média**                                  | 100%            | 4.67                    | 12.26 segundos                  |
-| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 7.11 segundos                  |
+| **Média**                                  | 100%            | 4.67                 | 12.26 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 7.11 segundos                   |
 
     Comentários dos usuários: O teste de IMC é intuitivo para ser feito. A tabela gerada com os 
     resultados, após a o clique em "Calcular IMC" está um pouco confusa para entender, devido a 
