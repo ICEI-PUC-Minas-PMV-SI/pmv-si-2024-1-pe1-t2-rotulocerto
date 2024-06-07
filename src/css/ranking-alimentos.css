@@ -308,3 +308,25 @@ tbody td {
     min-width: 4rem;
   }
 }
+
+.access-all-foods-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+  a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2a1a1f;
+    text-decoration: none;
+    background-color: #a1c643;
+    padding: 0.7rem 2rem;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+
+  a:hover {
+    background-color: #a1c643e0;
+  }
+}
