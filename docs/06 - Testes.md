@@ -132,7 +132,14 @@ A documentação dos testes é dividida nas seguintes seções:
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Durante a execução dos exames de software, foi alcançadas descobertas significativas que fornecem dados importantes sobre a plataforma. Essas análises foram voltadas para avaliar a qualidade, funcionalidade e confiabilidade do software, destacando tanto seus aspectos positivos quanto as áreas que necessitam de melhorias. Os testes atenderam as expectativas e foram consistentes, o que mostrou que a solução desenvolvido atendeu aos requisitos. Todos os principais cenários de requisitos funcionais e não funcionais foram cobertos pelos testes, garantindo que essas funções fossem testadas. 
+
+Alguns aspectos que precisam ser melhorados são: 
+ - adição de filtros na tabela que exibe todos os alimentos da aplicação;
+ - ao clicar no dropdown do header, usando a versão desktop, um menu só é fechado quando o clique ocorre nele, resultando em um menu sobrepondo outro. A solução para isso seria sempre que houver um clique fora do menu, fechar a aba do dropdown que já estava aberta.
+ - no header, usando a versão mobile, ao abrir o menu, uma parte dele está sobrepondo o footer, em telas com conteúdo menor. Como solução, poderíamos alterar o layout de cores do header, evitando assim uma confusão visual.
+
+Em resumo, pode-se afirmar que avaliar testes a respeito de software é um ponto importante para uma melhor garantia de funcionamento do projeto.
 
 # Testes de Usabilidade
 
@@ -213,12 +220,13 @@ Cenário 3: Você é uma pessoa que deseja se orientar sobre o intervalo de peso
 ## Avaliação dos Testes de Usabilidade
 
 Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
-
+ 
 Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
+ 
 Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-
-
+ 
+Os pontos a serem melhorados segundo os usuários são em relação principalmente a falta do filtro na página de todos os alimentos, já que seria útil o filtro de alimentos em ambas as páginas, tanto na de ranking de alimentos quanto na todos os alimentos.
+ 
+Quanto aos aspectos positivos, os usuários mencionaram a intuitividade e a navegabilidade eficiente do site, além de um design simples e um layout atraente. Eles também destacaram a facilidade de acesso às páginas mais relevantes para a aplicação, entre outros pontos.
+ 
+Em resumo, a avaliação de teste de usuário não apenas confirma a funcionalidade, mas também orienta o aprimoramento contínuo da aplicação, visando torná-la mais intuitiva e eficiente, de acordo com as necessidades reais dos usuários.
