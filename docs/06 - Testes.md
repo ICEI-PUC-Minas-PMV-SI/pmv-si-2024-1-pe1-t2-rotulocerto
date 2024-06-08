@@ -133,6 +133,18 @@ A documentação dos testes é dividida nas seguintes seções:
 |   **Dados de entrada**    | Nenhum                                                                                                                                                                                                                          |
 |   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                         |
 
+
+|     **Caso de Teste**     | **CT15 - Enviar sugestões na plataforma** |
+| :-----------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                        |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/enviar-sugestoes.html <br> 2) Preencha os campos de Nome Completo, Email e Sugestão <br> 3) Clique no botão de Enviar <br> |
+| **Requisitos associados** | RF-003 |
+|  **Resultado esperado**   | Campos do formulário limpo após envio |
+|   **Dados de entrada**    | Campo - Nome Completo: João Marcos <br> Campo - Email: joaomarcos@email.com <br> Campo - Sugestão: Gostaria de sugerir uma sessão de comentários nas páginas das receitas.  |
+|   **Resultado obtido**    | Sucesso |
+
+
+
+
 ## Registro dos Testes de Software
 
 
@@ -203,6 +215,11 @@ A documentação dos testes é dividida nas seguintes seções:
 | Requisito Associado               | RF-017 - A aplicação deve exibir recomendações estáticas de pessoas que utilizam a plataforma                                                                                                                                                                                                                                                                                              |
 | Link do vídeo do teste realizado: | [Link - Caso de teste 14](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EdVbfukmlnROsXKBpYdYrfABXqDomj64c3EpV6az--2Lhw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ENm7LX) |
 
+| *Caso de Teste*                   | *CT15 -  Enviar sugestões na plataforma* |
+| :-------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| Requisito Associado               | RNF-003 - A aplicação deve permitir que o usuário envie sugestões de produtos ou informações nutricionais	        |
+| Link do vídeo do teste realizado: | [Link - Caso de teste 15](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ES98hNcwKMtGl6betwM2MYsB4hTGF4hLWFf10sfdPRqoEg&e=xgiwpA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
 ## Avaliação dos Testes de Software
 
 Durante a execução dos exames de software, foi alcançadas descobertas significativas que fornecem dados importantes sobre a plataforma. Essas análises foram voltadas para avaliar a qualidade, funcionalidade e confiabilidade do software, destacando tanto seus aspectos positivos quanto as áreas que necessitam de melhorias. Os testes atenderam as expectativas e foram consistentes, o que mostrou que a solução desenvolvido atendeu aos requisitos. Todos os principais cenários de requisitos funcionais e não funcionais foram cobertos pelos testes, garantindo que essas funções fossem testadas.
@@ -211,6 +228,7 @@ Alguns aspectos que precisam ser melhorados são:
  - adição de filtros na tabela que exibe todos os alimentos da aplicação;
  - ao clicar no dropdown do header, usando a versão desktop, um menu só é fechado quando o clique ocorre nele, resultando em um menu sobrepondo outro. A solução para isso seria sempre que houver um clique fora do menu, fechar a aba do dropdown que já estava aberta;
  - no header, usando a versão mobile, ao abrir o menu, uma parte dele está sobrepondo o footer, em telas com conteúdo menor. Como solução, poderíamos alterar o layout de cores do header, evitando assim uma confusão visual;
+ - ao enviar uma sugestao no formulário, seria interessante que o sistema retornasse uma mensagem de confirmação para que as pessoas saibam que a sugestão foi enviada.
 
 Em resumo, pode-se afirmar que avaliar testes a respeito de software é um ponto importante para uma melhor garantia de funcionamento do projeto.
 
@@ -245,6 +263,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 1             | Você é uma pessoa que deseja saber os valores nutricionais do Pão francês. Encontre no site dentro da aba de todos os alimentos o alimento Pão francês.                         |
 | 2             | Você é uma pessoa que deseja saber os valores nutricionais do Macarrão Cozido, s/ sal. Encontre no site dentro da aba de todos os alimentos o alimento Macarrão Cozido, s/ sal. |
 | 3             | Você é uma pessoa que deseja se orientar sobre o intervalo de peso considerado ideal para ter uma qualidade de vida melhor.                                                     |
+| 4             | Você é uma pessoa que deseja enviar sugestões de melhoria para a plataforma. Encontre no site como você pode enviar sugestões de melhoria e envie uma.                          |
 
 ## Registro de Testes de Usabilidade
 
@@ -289,6 +308,24 @@ Cenário 3: Você é uma pessoa que deseja se orientar sobre o intervalo de peso
     Comentários dos usuários: O teste de IMC é intuitivo para ser feito. A tabela gerada com os
     resultados, após a o clique em "Calcular IMC" está um pouco confusa para entender, devido a
     disposição das informações, principalmente quando testado pelo navegador do celular.
+
+
+Cenário 4: Você é uma pessoa que deseja enviar sugestões de melhoria para a plataforma. Encontre no site como você pode enviar sugestões de melhoria e envie uma.
+
+| Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+| ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
+| 7                                          | SIM             | 4                    | 31.55 segundos                  |
+| 8                                          | SIM             | 4                    | 30.02 segundos                  |
+| 9                                          | SIM             | 4                    | 28.05 segundos                  |
+|                                            |                 |                      |                                 |
+| **Média**                                  | 100%            | 4                    | 29.88 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 14.15 segundos                  |
+
+    Comentários dos usuários: Encontrar e enviar a sugestão é bem rápida, mas, após clicar em enviar sugestão,
+    ficaram um pouco confusos se a sugestão foi realmente enviada, porque o site não retorna nenhuma mensagem de que
+    o envio foi feito com sucesso  
+
+
 
 ## Avaliação dos Testes de Usabilidade
 
