@@ -218,7 +218,7 @@ A documentação dos testes é dividida nas seguintes seções:
 | *Caso de Teste*                   | *CT15 -  Enviar sugestões na plataforma* |
 | :-------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
 | Requisito Associado               | RNF-003 - A aplicação deve permitir que o usuário envie sugestões de produtos ou informações nutricionais	        |
-| Link do vídeo do teste realizado: | [Link - Caso de teste 14](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ES98hNcwKMtGl6betwM2MYsB4hTGF4hLWFf10sfdPRqoEg&e=xgiwpA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| Link do vídeo do teste realizado: | [Link - Caso de teste 15](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ES98hNcwKMtGl6betwM2MYsB4hTGF4hLWFf10sfdPRqoEg&e=xgiwpA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 ## Avaliação dos Testes de Software
 
