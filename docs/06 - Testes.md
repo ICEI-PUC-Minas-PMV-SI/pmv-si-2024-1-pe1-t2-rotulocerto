@@ -185,6 +185,11 @@ A documentação dos testes é dividida nas seguintes seções:
 | Requisito Associado               | RF-014 - A aplicação deve permitir que os administradores façam login para terem acesso as sugestões envidas pelo formulario        |
 | Link do vídeo do teste realizado: | [Link - Caso de teste 12](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EUBoYnHfKEJLtCX70niT-VwBQje7CuWWj4uRX8WBQTFfzg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=a6sthm) |
 
+| *Caso de Teste*                   | *CT13 -  A aplicação deve ser desenvolvida com HTML, CSS e Javascript*                                                                                    |
+| :--------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| Requisito Associado               | RNF-005 - A aplicação deve ser desenvolvida com Frontend ( Javascript, HMTL, CSS)	        |
+| Link do vídeo do teste realizado: | [Link - Caso de teste 13](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EXrPLXu8LhJGifNNENfayfEBBn10iShsywEYEEle1Kltyg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SHE0yB) |
+
 ## Avaliação dos Testes de Software
 
 Durante a execução dos exames de software, foi alcançadas descobertas significativas que fornecem dados importantes sobre a plataforma. Essas análises foram voltadas para avaliar a qualidade, funcionalidade e confiabilidade do software, destacando tanto seus aspectos positivos quanto as áreas que necessitam de melhorias. Os testes atenderam as expectativas e foram consistentes, o que mostrou que a solução desenvolvido atendeu aos requisitos. Todos os principais cenários de requisitos funcionais e não funcionais foram cobertos pelos testes, garantindo que essas funções fossem testadas.
