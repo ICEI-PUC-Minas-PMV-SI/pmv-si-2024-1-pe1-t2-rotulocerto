@@ -119,7 +119,7 @@ A documentação dos testes é dividida nas seguintes seções:
 
 |     **Caso de Teste**     | **CT13 - A aplicação deve ser desenvolvida com HTML, CSS e Javascript**                                                                                                                         |
 | :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     **Procedimento**      | 1) Acesse o endereço [Rótulo Certo/CT13 - HTML, CSS e Javascript](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=Ejb7cWsIbKZJihUCdQLoA8oBWDjaeaMwBgORG8JbIxxBcg&e=m3QP5V) <br> 2) Visualize as capturas de tela com os códigos                                                                                                                        |
+|     **Procedimento**      | 1) Acesso o diretório do projeto através de: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto <br> 2) Acesse a pasta "src"                                                                                                                     |
 | **Requisitos associados** | RNF-005                                                                                                                                                              |
 |  **Resultado esperado**   | Código do projeto todo desenvolvido utilizando HTML, CSS e Javascript                                                                                                           |
 |   **Dados de entrada**    | Nenhum                                                                                                                   |
