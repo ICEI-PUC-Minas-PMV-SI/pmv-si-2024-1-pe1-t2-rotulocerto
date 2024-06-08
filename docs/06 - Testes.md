@@ -101,6 +101,13 @@ A documentação dos testes é dividida nas seguintes seções:
 |   **Dados de entrada**    | Nenhum                                                                                                                                                                                                                        |
 |   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                       |
 
+|     **Caso de Teste**     | **CT11 - Mover a tela automaticamente ao clicar no botão referente a seção desejada**                                                                                                                                                                                            |
+| :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/index.html <br> 2) Clicar em qualquer um dos botões: alimentos, saúde, mercados, recomendações, sugestões. 3) esperar a página inicial move a tela até a seção escolhida |
+| **Requisitos associados** | RF-016                                                                                                                                                                                                                                                                           |
+|  **Resultado esperado**   | Aplicação deve renderizar a pagina inicial e ser possivel acessar as seções da pagina utilizando os botões                                                                                                                                                                       |
+|   **Dados de entrada**    | Nenhum                                                                                                                                                                                                                                                                           |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                                                                          |
 
 ## Registro dos Testes de Software
 
@@ -128,9 +135,15 @@ A documentação dos testes é dividida nas seguintes seções:
 | Link do vídeo do teste realizado: | Mozilla Firefox (https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EQGhAG7kTgdGqsffxMO-mP0B6KaXw3RFNpSIzUbz0cq8Gw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pd5ibd) <br> Google Chrome (https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ETqkg9ci-gVMhu2rqSOD0noBg6rPAcCv8rzeIrBLSAA6HQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1CNSOt) <br> Microsoft Edge (https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ETdP2MHPNa1PkO1zuodindQB-UWEK3MQtNAP_LpjA9CVJw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bDNDCW) |
 
 
+| *Caso de Teste*                   | *CT11 - Consultar Receita Por Ingrediente*                                                                                                                                                                                                                                                                                                                      |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Requisito Associado               | RF-016 - A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação                                                                                                                                                                                                         |
+| Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EdEjKW06V2BLhjT_FZWbSuoBiH6FZdH0Ntx67gdu59sHgQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q2NhuF |
+
+
 ## Avaliação dos Testes de Software
 
-Durante a execução dos exames de software, foi alcançadas descobertas significativas que fornecem dados importantes sobre a plataforma. Essas análises foram voltadas para avaliar a qualidade, funcionalidade e confiabilidade do software, destacando tanto seus aspectos positivos quanto as áreas que necessitam de melhorias. Os testes atenderam as expectativas e foram consistentes, o que mostrou que a solução desenvolvido atendeu aos requisitos. Todos os principais cenários de requisitos funcionais e não funcionais foram cobertos pelos testes, garantindo que essas funções fossem testadas. 
+Durante a execução dos exames de software, foi alcançadas descobertas significativas que fornecem dados importantes sobre a plataforma. Essas análises foram voltadas para avaliar a qualidade, funcionalidade e confiabilidade do software, destacando tanto seus aspectos positivos quanto as áreas que necessitam de melhorias. Os testes atenderam as expectativas e foram consistentes, o que mostrou que a solução desenvolvido atendeu aos requisitos. Todos os principais cenários de requisitos funcionais e não funcionais foram cobertos pelos testes, garantindo que essas funções fossem testadas.
 
 Alguns aspectos que precisam ser melhorados são:
  - adição de filtros na tabela que exibe todos os alimentos da aplicação;
@@ -211,20 +224,20 @@ Cenário 3: Você é uma pessoa que deseja se orientar sobre o intervalo de peso
 | **Média**                                  | 100%            | 4.67                 | 12.26 segundos                  |
 | **Tempo para conclusão pelo especialista** | SIM             | 5                    | 7.11 segundos                   |
 
-    Comentários dos usuários: O teste de IMC é intuitivo para ser feito. A tabela gerada com os 
-    resultados, após a o clique em "Calcular IMC" está um pouco confusa para entender, devido a 
+    Comentários dos usuários: O teste de IMC é intuitivo para ser feito. A tabela gerada com os
+    resultados, após a o clique em "Calcular IMC" está um pouco confusa para entender, devido a
     disposição das informações, principalmente quando testado pelo navegador do celular.
 
 ## Avaliação dos Testes de Usabilidade
 
 Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
- 
+
 Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
- 
+
 Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
- 
+
 Os pontos a serem melhorados segundo os usuários são em relação principalmente a falta do filtro na página de todos os alimentos, já que seria útil o filtro de alimentos em ambas as páginas, tanto na de ranking de alimentos quanto na todos os alimentos.
- 
+
 Quanto aos aspectos positivos, os usuários mencionaram a intuitividade e a navegabilidade eficiente do site, além de um design simples e um layout atraente. Eles também destacaram a facilidade de acesso às páginas mais relevantes para a aplicação, entre outros pontos.
- 
+
 Em resumo, a avaliação de teste de usuário não apenas confirma a funcionalidade, mas também orienta o aprimoramento contínuo da aplicação, visando torná-la mais intuitiva e eficiente, de acordo com as necessidades reais dos usuários.
