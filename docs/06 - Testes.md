@@ -117,12 +117,20 @@ A documentação dos testes é dividida nas seguintes seções:
 |   **Dados de entrada**    | Usuário: rotulocerto@gmail.com / Senha: senha22                                                                                                                      |
 |   **Resultado obtido**    | Sucesso                                                                                                                                                              |
 
-|     **Caso de Teste**     | **CT13 - A aplicação deve ser desenvolvida com HTML, CSS e Javascript**                                                                                                                         |
+|     **Caso de Teste**     | **CT13 - A aplicação deve ser desenvolvida com HTML, CSS e Javascript**                                                                                              |
 | :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     **Procedimento**      | 1) Acesso o diretório do projeto através de: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto <br> 2) Acesse a pasta "src"                                                                                                                     |
+|     **Procedimento**      | 1) Acesso o diretório do projeto através de: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-rotulocerto <br> 2) Acesse a pasta "src"                  |
 | **Requisitos associados** | RNF-005                                                                                                                                                              |
-|  **Resultado esperado**   | Código do projeto todo desenvolvido utilizando HTML, CSS e Javascript                                                                                                           |
-|   **Dados de entrada**    | Nenhum                                                                                                                   |
+|  **Resultado esperado**   | Código do projeto todo desenvolvido utilizando HTML, CSS e Javascript                                                                                                |
+|   **Dados de entrada**    | Nenhum                                                                                                                                                               |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                              |
+
+|     **Caso de Teste**     | **CT14 - Visualizar as recomendações estáticas de pessoas que utilizam a plataforma**                                                                                |
+| :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/index.html <br> 2) Nessa mesma página, desça a barra de rolagem até chegar na seção "Quem usou a plataforma também recomenda"                                                                                                                                                                |
+| **Requisitos associados** | RF-017                                                                                                                                                               |
+|  **Resultado esperado**   | Visualizar as recomendações estáticas                                                                                                                                |
+|   **Dados de entrada**    | Nenhum                                                                                                                                                               |
 |   **Resultado obtido**    | Sucesso                                                                                                                                                              |
 
 ## Registro dos Testes de Software
@@ -189,6 +197,11 @@ A documentação dos testes é dividida nas seguintes seções:
 | :--------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
 | Requisito Associado               | RNF-005 - A aplicação deve ser desenvolvida com Frontend ( Javascript, HMTL, CSS)	        |
 | Link do vídeo do teste realizado: | [Link - Caso de teste 13](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EXrPLXu8LhJGifNNENfayfEBBn10iShsywEYEEle1Kltyg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SHE0yB) |
+
+| *Caso de Teste*                   | *CT14 -  Visualizar as recomendações estáticas de pessoas que utilizam a plataforma*                                                                                    |
+| :--------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| Requisito Associado               | RF-017 - A aplicação deve exibir recomendações estáticas de pessoas que utilizam a plataforma	        |
+| Link do vídeo do teste realizado: | [Link - Caso de teste 14](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EdVbfukmlnROsXKBpYdYrfABXqDomj64c3EpV6az--2Lhw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ENm7LX) |
 
 ## Avaliação dos Testes de Software
 
