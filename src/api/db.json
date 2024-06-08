@@ -1,98 +1,216 @@
 {
   "productsData": {
     "page": 1,
-    "totalPages": 3,
-    "itemsPerPage": 3,
+    "itemsPerPage": 5,
     "products": [
       {
         "id": 1,
+        "codTBCA": "BRC0008C",
         "name": "Banana da Terra",
         "nutrients": {
-          "calories": "139 Kcal",
-          "proteins": "1,44g",
-          "fats": "0,24g",
-          "carbohydrates": "33,7g",
-          "fibers": "1,53g",
-          "sugars": "12,2g",
-          "calcium": "5mg"
+          "calories": 140,
+          "proteins": 1.44,
+          "fats": 0.24,
+          "carbohydrates": 33.7,
+          "fibers": 1.53,
+          "sugars": 0,
+          "calcium": 3.28
         }
       },
       {
         "id": 2,
+        "codTBCA": "BRC0018C",
         "name": "Laranja Bahia",
         "nutrients": {
-          "calories": "86 Kcal",
-          "proteins": "1,50g",
-          "fats": "0,20g",
-          "carbohydrates": "25,0g",
-          "fibers": "10,6g",
-          "sugars": "12,2g",
-          "calcium": "5mg"
+          "calories": 48,
+          "proteins": 0.91,
+          "fats": 0.28,
+          "carbohydrates": 11.1,
+          "fibers": 1.46,
+          "sugars": 0,
+          "calcium": 34.6
         }
       },
       {
         "id": 3,
+        "codTBCA": "BRC0064C",
         "name": "Maçã Fuji",
         "nutrients": {
-          "calories": "89 Kcal",
-          "proteins": "1,3g",
-          "fats": "0,3g",
-          "carbohydrates": "22,8g",
-          "fibers": "2,6g",
-          "sugars": "12,2g",
-          "calcium": "5mg"
+          "calories": 59,
+          "proteins": 0.29,
+          "fats": 0,
+          "carbohydrates": 15.2,
+          "fibers": 1.35,
+          "sugars": 0,
+          "calcium": 1.92
         }
       },
       {
         "id": 4,
-        "name": "Milho de Pipoca, com óleo e sal",
+        "codTBCA": "BRC0129A",
+        "name": "Pipoca, com óleo de soja, sem sal",
         "nutrients": {
-          "calories": "89 Kcal",
-          "proteins": "1,3g",
-          "fats": "0,3g",
-          "carbohydrates": "22,8g",
-          "fibers": "2,6g",
-          "sugars": "12,2g",
-          "calcium": "5mg"
+          "calories": 436,
+          "proteins": 9.9,
+          "fats": 15.9,
+          "carbohydrates": 70.3,
+          "fibers": 14.3,
+          "sugars": 0,
+          "calcium": 2.83
         }
       },
       {
         "id": 5,
-        "name": "Batata Frita McDonald's",
+        "codTBCA": "BRC0006M",
+        "name": "Batata Frita McDonald's®",
         "nutrients": {
-          "calories": "89 Kcal",
-          "proteins": "1,3g",
-          "fats": "0,3g",
-          "carbohydrates": "22,8g",
-          "fibers": "2,6g",
-          "sugars": "12,2g",
-          "calcium": "5mg"
+          "calories": 315,
+          "proteins": 3.41,
+          "fats": 15.5,
+          "carbohydrates": 42.6,
+          "fibers": 3.9,
+          "sugars": 0,
+          "calcium": 19.0
         }
       },
       {
         "id": 6,
+        "codTBCA": "BRC0002A",
         "name": "Pão Francês",
         "nutrients": {
-          "calories": "89 Kcal",
-          "proteins": "1,3g",
-          "fats": "0,3g",
-          "carbohydrates": "22,8g",
-          "fibers": "2,6g",
-          "sugars": "12,2g",
-          "calcium": "5mg"
+          "calories": 300,
+          "proteins": 9.83,
+          "fats": 2.12,
+          "carbohydrates": 61.6,
+          "fibers": 2.61,
+          "sugars": 0,
+          "calcium": 14.2
         }
       },
       {
         "id": 7,
-        "name": "Picanha Bovina grelhada",
+        "codTBCA": "BRC0044R",
+        "name": "Pão de Queijo Caseiro",
         "nutrients": {
-          "calories": "89 Kcal",
-          "proteins": "1,3g",
-          "fats": "0,3g",
-          "carbohydrates": "22,8g",
-          "fibers": "2,6g",
-          "sugars": "12,2g",
-          "calcium": "5mg"
+          "calories": 417,
+          "proteins": 1.04,
+          "fats": 13.8,
+          "carbohydrates": 72.3,
+          "fibers": 0.07,
+          "sugars": 0,
+          "calcium": 102
+        }
+      },
+      {
+        "id": 8,
+        "codTBCA": "BRC0966F",
+        "name": "Picanha Bovina Assada, c/ gordura, c/ sal",
+        "nutrients": {
+          "calories": 280,
+          "proteins": 26.2,
+          "fats": 19.4,
+          "carbohydrates": 0.01,
+          "fibers": 0,
+          "sugars": 0,
+          "calcium": 4.09
+        }
+      },
+      {
+        "id": 9,
+        "codTBCA": "BRC0230F",
+        "name": "Filé de Peito de Frango Grelhado, c/ sal",
+        "nutrients": {
+          "calories": 149,
+          "proteins": 31.8,
+          "fats": 2.46,
+          "carbohydrates": 0.1,
+          "fibers": 0,
+          "sugars": 0,
+          "calcium": 5.49
+        }
+      },
+      {
+        "id": 10,
+        "codTBCA": "BRC0487E",
+        "name": "Filé de Tilápia Grelhado, c/ sal",
+        "nutrients": {
+          "calories": 114,
+          "proteins": 17.9,
+          "fats": 4.67,
+          "carbohydrates": 0.1,
+          "fibers": 0,
+          "sugars": 0,
+          "calcium": 9.44
+        }
+      },
+      {
+        "id": 11,
+        "codTBCA": "BRC0045F",
+        "name": "Carne Bovina Patinho Cozido, s/ óleo, s/ sal",
+        "nutrients": {
+          "calories": 211,
+          "proteins": 35.9,
+          "fats": 7.31,
+          "carbohydrates": 0.33,
+          "fibers": 0,
+          "sugars": 0,
+          "calcium": 4.8
+        }
+      },
+      {
+        "id": 12,
+        "codTBCA": "BRC0116A",
+        "name": "Macarrão Cozido, s/ sal",
+        "nutrients": {
+          "calories": 126,
+          "proteins": 3.56,
+          "fats": 0.57,
+          "carbohydrates": 27,
+          "fibers": 0.91,
+          "sugars": 0,
+          "calcium": 6.11
+        }
+      },
+      {
+        "id": 13,
+        "codTBCA": "BRC0209A",
+        "name": "Arroz Polido Cozido, c/ óleo, c/ sal",
+        "nutrients": {
+          "calories": 138,
+          "proteins": 2.4,
+          "fats": 1.59,
+          "carbohydrates": 29.1,
+          "fibers": 1.27,
+          "sugars": 0,
+          "calcium": 5.83
+        }
+      },
+      {
+        "id": 14,
+        "codTBCA": "BRC0091T",
+        "name": "Feijão Carioca Cozido, c/ óleo, c/ sal",
+        "nutrients": {
+          "calories": 79,
+          "proteins": 4.69,
+          "fats": 1.72,
+          "carbohydrates": 14.6,
+          "fibers": 6.84,
+          "sugars": 0,
+          "calcium": 28.2
+        }
+      },
+      {
+        "id": 15,
+        "codTBCA": "BRC0087A",
+        "name": "Cereal Matinal, Milho, Sucrilhos Kellogg's®",
+        "nutrients": {
+          "calories": 363.33,
+          "proteins": 4.0,
+          "fats": 2.32,
+          "carbohydrates": 86.67,
+          "fibers": 3.01,
+          "sugars": 40,
+          "calcium": 368
         }
       }
     ]
@@ -106,9 +224,7 @@
         "id": 1,
         "titulo": "Frango Assado com Batata-Doce e Laranja",
         "descricao": "O Frango Assado com Batata-Doce e Laranja é um prato completo e saboroso que combina a suculência do frango com a doçura natural da batata-doce e o toque cítrico da laranja, resultando em uma experiência gastronômica irresistível.",
-        "objetivo": [
-          "Ganho de Massa"
-        ],
+        "objetivo": ["Ganho de Massa"],
         "imagem": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/10/26/577644887-frango-assado-com-batata-doce-laranja.jpg",
         "ingredientes": [
           "frango inteiro (cerca de 1,5 kg)",
@@ -126,9 +242,7 @@
         "id": 2,
         "titulo": "Pão de Queijo Vegano",
         "descricao": "O Pão de Queijo Vegano é uma versão sem laticínios e ovos do tradicional pão de queijo brasileiro, proporcionando uma alternativa saborosa e nutritiva para quem segue uma dieta vegana ou tem restrições alimentares.",
-        "objetivo": [
-          "Vegana"
-        ],
+        "objetivo": ["Vegana"],
         "imagem": "https://www.receiteria.com.br/wp-content/uploads/pao-de-queijo-vegano.jpeg",
         "ingredientes": [
           "1 xícara de chá de batata cozida",
@@ -143,9 +257,7 @@
         "id": 3,
         "titulo": "Crepioca Fit",
         "descricao": "Salada de frutas com banana da terra, laranja bahia e maçã fuji",
-        "objetivo": [
-          "Perda de Gordura"
-        ],
+        "objetivo": ["Perda de Gordura"],
         "imagem": "https://static.itdg.com.br/images/640-400/97ddfd362c4dd10a6d12119c5df6d441/319993-original-1-.jpeg",
         "ingredientes": [
           "1 colher de goma de tapioca",
@@ -158,9 +270,7 @@
         "id": 4,
         "titulo": "Coxinha de Jaca",
         "descricao": "A coxinha de jaca é uma versão vegetariana da tradicional coxinha de frango, que conquista cada vez mais paladares. Substituindo a carne de frango por jaca desfiada, essa receita oferece uma explosão de sabor e textura, além de ser uma opção mais leve e saudável.",
-        "objetivo": [
-          "Vegetariana"
-        ],
+        "objetivo": ["Vegetariana"],
         "imagem": "https://static.itdg.com.br/images/640-400/9bfddfaf396c00b4166089bbaef050bb/364120-original.jpg",
         "ingredientes": [
           "500 g de jaca verde",
@@ -171,5 +281,6 @@
           "sal e pimenta a gosto"
         ]
       }
-    ]}
+    ]
+  }
 }
