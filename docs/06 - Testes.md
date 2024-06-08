@@ -136,8 +136,8 @@ Durante a execução dos exames de software, foi alcançadas descobertas signifi
 
 Alguns aspectos que precisam ser melhorados são: 
  - adição de filtros na tabela que exibe todos os alimentos da aplicação;
- - ao clicar no dropdown do header, usando a versão desktop, um menu só é fechado quando o clique ocorre nele, resultando em um menu sobrepondo outro. A solução para isso seria sempre que houver um clique fora do menu, fechar a aba do dropdown que já estava aberta.
- - no header, usando a versão mobile, ao abrir o menu, uma parte dele está sobrepondo o footer, em telas com conteúdo menor. Como solução, poderíamos alterar o layout de cores do header, evitando assim uma confusão visual.
+ - ao clicar no dropdown do header, usando a versão desktop, um menu só é fechado quando o clique ocorre nele, resultando em um menu sobrepondo outro. A solução para isso seria sempre que houver um clique fora do menu, fechar a aba do dropdown que já estava aberta;
+ - no header, usando a versão mobile, ao abrir o menu, uma parte dele está sobrepondo o footer, em telas com conteúdo menor. Como solução, poderíamos alterar o layout de cores do header, evitando assim uma confusão visual;
 
 Em resumo, pode-se afirmar que avaliar testes a respeito de software é um ponto importante para uma melhor garantia de funcionamento do projeto.
 
