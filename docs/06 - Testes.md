@@ -111,8 +111,7 @@ A documentação dos testes é dividida nas seguintes seções:
 
 |     **Caso de Teste**     | **CT12 - Realizar login como administrador**                                                                                                                         |
 | :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/index.html <br> 2) Clique em "Acesso Admin", no header da aplicação <br>
-3) Insira os dados de entrada nos campos "Usuário" e "Senha". <br> 4) Clique no botão "Acessar".                                                                                                    |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/index.html <br> 2) Clique em "Acesso Admin", no header da aplicação <br> 3) Insira os dados de entrada nos campos "Usuário" e "Senha" <br> 4) Clique no botão "Acessar"                                                                                                                        |
 | **Requisitos associados** | RF-014                                                                                                                                                               |
 |  **Resultado esperado**   | Login e redirecionamento para a tela de Sugestões Enviadas                                                                                                           |
 |   **Dados de entrada**    | Usuário: rotulocerto@gmail.com / Senha: senha22                                                                                                                      |
