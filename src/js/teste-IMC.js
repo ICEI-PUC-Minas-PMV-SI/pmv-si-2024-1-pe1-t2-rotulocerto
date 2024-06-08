@@ -76,7 +76,7 @@ function calcularIMC() {
 
     `;
     document.getElementById('quadrado').innerHTML = `
-    <img src="/docs/img/template/logoRC.png" alt="" class="logo">
+    <img src="../../docs/img/template/logoRC.png" alt="" class="logo">
     ${resultadoHTML}
     <div class="tabelaResultado">
         <div class="classificacao2">
