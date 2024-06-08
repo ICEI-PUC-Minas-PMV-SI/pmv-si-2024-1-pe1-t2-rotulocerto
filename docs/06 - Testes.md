@@ -143,6 +143,15 @@ A documentação dos testes é dividida nas seguintes seções:
 |   **Resultado obtido**    | Sucesso |
 
 
+|     **Caso de Teste**     | **CT16 - Consultar sugestões que foram enviadas a plataforma**  |
+| :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/login-admin.html <br> 2) Loque na plataforma como admin <br> 3) Acesso o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/pages/sugestoes-enviadas.html |
+| **Requisitos associados** | RF-002                         |
+|  **Resultado esperado**   | Visualizar a lista de sugestões enviadas |
+|   **Dados de entrada**    | Campo Usuário: rotulocerto@gmail.com <br> Campo Senha: senha22 |
+|   **Resultado obtido**    | Sucesso                        |
+
+
 
 
 ## Registro dos Testes de Software
@@ -219,6 +228,12 @@ A documentação dos testes é dividida nas seguintes seções:
 | :-------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
 | Requisito Associado               | RNF-003 - A aplicação deve permitir que o usuário envie sugestões de produtos ou informações nutricionais	        |
 | Link do vídeo do teste realizado: | [Link - Caso de teste 15](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ES98hNcwKMtGl6betwM2MYsB4hTGF4hLWFf10sfdPRqoEg&e=xgiwpA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+| *Caso de Teste*                   | *CT16 - Consultar sugestões que foram enviadas a plataforma* |
+| :-------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| Requisito Associado               | RNF-002 - A aplicação deve permitir que os administradores visualizem os formulários de sugestões que foram enviados pelos usuários    |
+| Link do vídeo do teste realizado: | [Link - Caso de teste 16](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESbZv-0yOsBIvhMW4jsSc6ABVPgd67u55bl3HWJ01BvZCQ&e=nkaJcX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
 
 ## Avaliação dos Testes de Software
 
