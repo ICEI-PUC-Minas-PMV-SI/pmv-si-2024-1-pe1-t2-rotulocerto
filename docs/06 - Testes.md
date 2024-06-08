@@ -152,6 +152,14 @@ A documentação dos testes é dividida nas seguintes seções:
 |   **Resultado obtido**    | Sucesso                        |
 
 
+|     **Caso de Teste**     | **CT17 - A aplicação deve contar com um header de navegação rápida**  |
+| :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/index.html <br> 2) Navegue pelas páginas ultilizando o header da aplicação |
+| **Requisitos associados** | RF-004                         |
+|  **Resultado esperado**   | Navegar pelas páginas do site com sucesso |
+|   **Dados de entrada**    | Nenhum |
+|   **Resultado obtido**    | Sucesso                        |
+
 
 
 ## Registro dos Testes de Software
@@ -233,6 +241,13 @@ A documentação dos testes é dividida nas seguintes seções:
 | :-------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
 | Requisito Associado               | RNF-002 - A aplicação deve permitir que os administradores visualizem os formulários de sugestões que foram enviados pelos usuários    |
 | Link do vídeo do teste realizado: | [Link - Caso de teste 16](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESbZv-0yOsBIvhMW4jsSc6ABVPgd67u55bl3HWJ01BvZCQ&e=nkaJcX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+
+| *Caso de Teste*                   | *CT17 - A aplicação deve contar com um header de navegação rápida* |
+| :-------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| Requisito Associado               | RNF-002 - A aplicação deve contar com um header de navegação rápida |
+| Link do vídeo do teste realizado: | [Link - Caso de teste 17](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EdUPQYK5-BtApwQ3tikQtZABFsAepgZ7IGFTXQMJX9hujw&e=N4hIla&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
 
 
 ## Avaliação dos Testes de Software
