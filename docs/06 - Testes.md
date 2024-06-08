@@ -167,6 +167,10 @@ A documentação dos testes é dividida nas seguintes seções:
 | Requisito Associado               | RF-016 - A aplicação deve ter uma página inicial informativa que apresenta o propósito da plataforma e que incentive os usuarios a utilizar a aplicação                                                                                                                                                                                                         |
 | Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EdEjKW06V2BLhjT_FZWbSuoBiH6FZdH0Ntx67gdu59sHgQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q2NhuF |
 
+| *Caso de Teste*                   | *CT12 -  Realizar login como administrador*                                                                                    |
+| :--------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| Requisito Associado               | RF-014 - A aplicação deve permitir que os administradores façam login para terem acesso as sugestões envidas pelo formulario        |
+| Link do vídeo do teste realizado: | [Link - Caso de teste 12](https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EUBoYnHfKEJLtCX70niT-VwBQje7CuWWj4uRX8WBQTFfzg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=a6sthm) |
 
 ## Avaliação dos Testes de Software
 
