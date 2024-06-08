@@ -155,7 +155,7 @@ A documentação dos testes é dividida nas seguintes seções:
 |     **Caso de Teste**     | **CT17 - A aplicação deve contar com um header de navegação rápida**  |
 | :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/index.html <br> 2) Navegue pelas páginas ultilizando o header da aplicação |
-| **Requisitos associados** | RF-004                         |
+| **Requisitos associados** | RNF-002                         |
 |  **Resultado esperado**   | Navegar pelas páginas do site com sucesso |
 |   **Dados de entrada**    | Nenhum |
 |   **Resultado obtido**    | Sucesso                        |
