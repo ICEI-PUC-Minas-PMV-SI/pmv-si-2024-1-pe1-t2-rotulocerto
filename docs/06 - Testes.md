@@ -5,8 +5,6 @@ Neste projeto serão realizados dois tipos de testes:
  - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema.
  - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. 
 
-Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
-
 A documentação dos testes é dividida nas seguintes seções:
 
 - [Testes](#testes)
@@ -23,11 +21,7 @@ A documentação dos testes é dividida nas seguintes seções:
 
 # Teste de Software
 
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
-
 ## Plano de Testes de Software
-
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 |     **Caso de Teste**     | **CT01 - Consultar Receita Por Objetivo**                                                                                                                            |
 | :-----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -140,10 +134,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
-
 # Testes de Usabilidade
 
 O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
@@ -168,9 +158,6 @@ Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as info
 
 Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-
 ## Cenários de Teste de Usabilidade
 
 | Nº do Cenário | Descrição do cenário                                                                                                                                                            |
@@ -178,18 +165,14 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 1             | Você é uma pessoa que deseja saber os valores nutricionais do Pão francês. Encontre no site dentro da aba de todos os alimentos o alimento Pão francês.                         |
 | 2             | Você é uma pessoa que deseja saber os valores nutricionais do Macarrão Cozido, s/ sal. Encontre no site dentro da aba de todos os alimentos o alimento Macarrão Cozido, s/ sal. |
 | 3             | Você é uma pessoa que deseja se orientar sobre o intervalo de peso considerado ideal para ter uma qualidade de vida melhor.                                                     |
-## Perfil dos usuários de testes
-
-1) Estudante de nutrição, 22 anos
 
 ## Registro de Testes de Usabilidade
-
 
 Cenário 1: Você é uma pessoa que deseja saber os valores nutricionais do Pão francês. Encontre no site dentro da aba de todos os alimentos o alimento Pão francês.
 
 | Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 | ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
-| 1 (estudante de nutrição                   | SIM             | 5                    | 16.89 segundos                  |
+| 1 (estudante de nutrição)                   | SIM             | 5                    | 16.89 segundos                  |
 | 2                                          | SIM             | 5                    | 18.49 segundos                  |
 | 3                                          | SIM             | 5                    | 12.27 segundos                  |
 |                                            |                 |                      |                                 |
