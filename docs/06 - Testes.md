@@ -264,6 +264,8 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 2             | Você é uma pessoa que deseja saber os valores nutricionais do Macarrão Cozido, s/ sal. Encontre no site dentro da aba de todos os alimentos o alimento Macarrão Cozido, s/ sal. |
 | 3             | Você é uma pessoa que deseja se orientar sobre o intervalo de peso considerado ideal para ter uma qualidade de vida melhor.                                                     |
 | 4             | Você é uma pessoa que deseja enviar sugestões de melhoria para a plataforma. Encontre no site como você pode enviar sugestões de melhoria e envie uma.                          |
+| 5             | Você é uma pessoa que deseja se orientar sobre os alimentos que são ricos em fibras e proteínas para realizar uma dieta mais saudável                                           |
+
 
 ## Registro de Testes de Usabilidade
 
@@ -324,6 +326,23 @@ Cenário 4: Você é uma pessoa que deseja enviar sugestões de melhoria para a 
     Comentários dos usuários: Encontrar e enviar a sugestão é bem rápida, mas, após clicar em enviar sugestão,
     ficaram um pouco confusos se a sugestão foi realmente enviada, porque o site não retorna nenhuma mensagem de que
     o envio foi feito com sucesso  
+
+Cenário 5: Você é uma pessoa que deseja se orientar sobre os alimentos que são ricos em fibras e proteínas para realizar uma dieta mais saudável.
+    
+
+| Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+| ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
+| 10                                         | SIM             | 5                    | 11.06 segundos                  |
+| 11                                         | SIM             | 5                    | 10.25 segundos                  |
+| 12                                         | SIM             | 5                    | 12.06 segundos                  |
+|                                            |                 |                      |                                 |
+| **Média**                                  | 100%            | 5                    | 11.12 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 9.15 segundos                   |
+
+    Comentários dos usuários: O site tem uma boa interativadidade com seus usuários. No Ranking de alimentos, verifiquei os alimentos que 
+    procurava. Porém, senti a falta de informações sobre alimentos que possam ser adicionados na tabela, para uma melhor conclusão do que incluir
+    em minha dieta.
+
 
 
 
