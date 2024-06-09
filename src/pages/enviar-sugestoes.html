@@ -30,35 +30,25 @@
     <template-header></template-header>
 
     <main class="content">
-      <div class="container">
-          <h2>Enviar sugestão</h2>
-          <form id="form-sugestoes">
-              <div class="grid-container">
-                  <div class="nome">
-                      <label for="nome">Nome Completo</label>
-                      <input type="text" id="nome" name="nome" required />
-                  </div>
-
-                  <div class="email">
-                      <label for="email">Email</label>
-                      <input type="email" id="email" name="email" required />
-                  </div>
-
-                  <div class="sugestao">
-                      <label for="sugestao">Sugestão</label>
-                      <textarea
-                          id="sugestao"
-                          name="sugestao"
-                          placeholder="Escreva sua mensagem"
-                          required
-                      ></textarea>
-                  </div>
-                  <div class="btn-enviar">
-                      <input type="submit" value="Enviar" />
-                  </div>
-              </div>
+      <section id="sugestoes">
+        <h2 class="title">Enviar sugestões</h2>
+          <form id="form-sug"estoes class="flex-container form">
+            <div class="flex-container">
+              <label for="name">Nome
+                <input type="text" id="name" name="name" />
+              </label>
+              <label for="email">Email
+                <input type="email" id="email" name="email" />
+            </div>
+            </label>
+            <label for="sugestao">Sugestão
+              <textarea id="sugestao" name="sugestao"></textarea>
+            </label>
+            <div class="btn-container">
+              <button type="submit">Enviar</button>
+            </div>
           </form>
-      </div>
+      </section>
   </main>
 
     <template-footer></template-footer>

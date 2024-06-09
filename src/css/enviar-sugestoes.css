@@ -5,102 +5,73 @@
     width: 100%;
     padding: 40px 20px;
   }
-
-
-
-.container {
-    display: flex; 
-    text-align: left;
-    flex-direction: column;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-
-
-
-.container h2 {
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-.container label{
-    font-weight: bold;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
-    gap: 10px;
-}
-
-.nome{
-    grid-column: 1;
-    grid-row: 1;
+  .title {
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  
+  .flex-container {
     display: flex;
+    gap: 24px;
     flex-direction: column;
-}
-.nome > label{
-    padding-bottom: 10px;
-}
-.nome > input{
-    border: solid 1px black;
-    border-radius: 6px;
-}
-.email{
-    grid-column: 2;
-    grid-row: 1;
-    display: flex;
-    flex-direction: column;
-}
-.email >label{
-    padding-bottom: 10px;
-}
-.email > input{
-    border: solid 1px black;
-    border-radius: 6px;
-}
-.sugestao{
-	font-family: sans-serif;
-	display: flex;
-	flex-direction: column;
-	width: 400px;
-	gap: 16px;
-    grid-column: 1/3;
-    grid-row: 2;
+  }
+  
+  .form {
+    flex-direction: column !important;
+  }
+  
+  .form label {
     width: 100%;
-}
-.sugestao>label{
-	font-size: 22px;
-	font-weight: bold;
-}
-.sugestao>textarea{
-	padding: 8px 16px;
-	border-radius: 6px;
-	font-size: 18px;
-	resize: none;
-    border: solid 1px black;
-    flex-grow: 1;
-    
-}
-
-
-.btn-enviar{
-    grid-column: 2;
-    grid-row: 3;
-    display: flex;
-    justify-content: end;
-    
-}
-.btn-enviar input{
+  }
+  
+  .form label>input, 
+  .form label>textarea {
+    width: 100%;
+    border: 1px solid #000;
     border-radius: 6px;
-    border: solid 1px black;
-    background-color: #a1c643;
-    margin-bottom: 10px;
-    padding: 5px 25px 5px;
-    font-weight: bold;
-    
-}
+    padding: 8px 16px;
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  
+  .form label>textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  .form>.btn-container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .form>.btn-container>button {
+    width: 100%;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background-color: #fffdfd;
+    font-size: 16px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .flex-container {
+      flex-direction: row;
+    }
+  
+    .form>.btn-container {
+      justify-content: flex-end;
+    }
+  
+    .form>.btn-container>button {
+      max-width: 288px;
+      background-color: #a1c643;
+    }
+  }
+  
+
+
 
 @media (max-width: 768px) {
     .grid-container {
