@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
- 
+
   let storedSugestoes = localStorage.getItem('sugestoes');
+  const main = document.querySelector('main');
+  
   if (storedSugestoes) {
       let data = JSON.parse(storedSugestoes);
 
@@ -10,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
       let currentPage = 1;
 
       function renderSugestoes(page) {
-        const main = document.querySelector('main');
         main.innerHTML = '';  
 
         const start = (page - 1) * itemsPerPage;
@@ -71,6 +72,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
       setupPagination();
   } else {
-      console.log('Nenhuma sugestão encontrada no localStorage.');
+      const h1 = document.createElement('h1');
+      h1.textContent = 'Não há sugestões';
+      main.appendChild(h1);
   }
 });
