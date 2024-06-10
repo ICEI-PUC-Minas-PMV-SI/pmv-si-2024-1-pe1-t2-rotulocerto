@@ -166,7 +166,7 @@ A documentação dos testes é dividida nas seguintes seções:
 | **Requisitos associados** | RNF-003                                                                                                                                                                      |
 |  **Resultado esperado**   | O usuário deve conseguir navegar de maneiras simples e intuitiva                                                                                                                                 |
 |   **Dados de entrada**    | Nenhum                                                                                                                                                                       |
-|   **Resultado obtido**    | Sucesso                                                                                                                                                                      |
+|   **Resultado obtido**    | Sucesso  parcial - atendemos algumas das heurísticas                                                                                                                                                                    |
 
 
 
@@ -259,7 +259,7 @@ A documentação dos testes é dividida nas seguintes seções:
 | *Caso de Teste*                   | *CT18 - Adequação da aplicação às Heuríssticas de Nielsen*                                                                                                                                                                                                                                                                                                                    |
 | :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Requisito Associado               | RNF-003 - A aplicação deve seguir as heurísticas de Nielsen                                                                                                                                                                                                                                                                                                                 |
-| Link do teste realizado: | [Link - Caso de teste 18]([https://sgapucminasbr-my.sharepoint.com/personal/1517072_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EdUPQYK5-BtApwQ3tikQtZABFsAepgZ7IGFTXQMJX9hujw&e=N4hIla&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://sgapucminasbr-my.sharepoint.com/personal/1464466_sga_pucminas_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F1464466_sga_pucminas_br%2FDocuments%2FProjeto%2Fprova%20de%20teste%20heuristicas%2Epdf&parent=%2Fpersonal%2F1464466_sga_pucminas_br%2FDocuments%2FProjeto&ga=1)) |
+| Link do teste realizado: | [Link - Caso de teste 18](https://sgapucminasbr-my.sharepoint.com/personal/1464466_sga_pucminas_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F1464466_sga_pucminas_br%2FDocuments%2FProjeto%2Fprova%20de%20teste%20heuristicas%2Epdf&parent=%2Fpersonal%2F1464466_sga_pucminas_br%2FDocuments%2FProjeto&ga=1) |
 
 
 
