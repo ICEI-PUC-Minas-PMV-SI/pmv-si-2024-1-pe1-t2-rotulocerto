@@ -48,8 +48,30 @@
     order: 1;
 }
 
-.content p {
+.content-novos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.content-novos img {
+    width: 50%;
+    height: 50%;
+    order: 0;
     padding-right: 10px;
+}
+
+
+.content p {
+    padding-left: 10px;
+}
+
+.aditivo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
 }
 
 .artigos {

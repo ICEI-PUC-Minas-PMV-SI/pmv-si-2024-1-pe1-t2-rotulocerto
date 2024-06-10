@@ -224,9 +224,7 @@
         "id": 1,
         "titulo": "Frango Assado com Batata-Doce e Laranja",
         "descricao": "O Frango Assado com Batata-Doce e Laranja é um prato completo e saboroso que combina a suculência do frango com a doçura natural da batata-doce e o toque cítrico da laranja, resultando em uma experiência gastronômica irresistível.",
-        "objetivo": [
-          "Ganho de Massa"
-        ],
+        "objetivo": ["Ganho de Massa"],
         "imagem": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/10/26/577644887-frango-assado-com-batata-doce-laranja.jpg",
         "ingredientes": [
           "frango inteiro (cerca de 1,5 kg)",
@@ -244,9 +242,7 @@
         "id": 2,
         "titulo": "Pão de Queijo Vegano",
         "descricao": "O Pão de Queijo Vegano é uma versão sem laticínios e ovos do tradicional pão de queijo brasileiro, proporcionando uma alternativa saborosa e nutritiva para quem segue uma dieta vegana ou tem restrições alimentares.",
-        "objetivo": [
-          "Vegana"
-        ],
+        "objetivo": ["Vegana"],
         "imagem": "https://www.receiteria.com.br/wp-content/uploads/pao-de-queijo-vegano.jpeg",
         "ingredientes": [
           "1 xícara de chá de batata cozida",
@@ -261,9 +257,7 @@
         "id": 3,
         "titulo": "Crepioca Fit",
         "descricao": "Salada de frutas com banana da terra, laranja bahia e maçã fuji",
-        "objetivo": [
-          "Perda de Gordura"
-        ],
+        "objetivo": ["Perda de Gordura"],
         "imagem": "https://static.itdg.com.br/images/640-400/97ddfd362c4dd10a6d12119c5df6d441/319993-original-1-.jpeg",
         "ingredientes": [
           "1 colher de goma de tapioca",
@@ -276,9 +270,7 @@
         "id": 4,
         "titulo": "Coxinha de Jaca",
         "descricao": "A coxinha de jaca é uma versão vegetariana da tradicional coxinha de frango, que conquista cada vez mais paladares. Substituindo a carne de frango por jaca desfiada, essa receita oferece uma explosão de sabor e textura, além de ser uma opção mais leve e saudável.",
-        "objetivo": [
-          "Vegetariana"
-        ],
+        "objetivo": ["Vegetariana"],
         "imagem": "https://static.itdg.com.br/images/640-400/9bfddfaf396c00b4166089bbaef050bb/364120-original.jpg",
         "ingredientes": [
           "500 g de jaca verde",
@@ -288,25 +280,6 @@
           "temperos a gosto",
           "sal e pimenta a gosto"
         ]
-      }
-    ]
-  },
-  "sugestoes": {
-    "page": 1,
-    "totalPages": 1,
-    "itemsPerPage": 3,
-    "suggestionsList": [
-      {
-        "id": 1,
-        "nome": "João Silva",
-        "email": "joao.silva@example.com",
-        "sugestao": "Gostaria de ver mais receitas veganas no site."
-      },
-      {
-        "id": 2,
-        "nome": "Maria Souza",
-        "email": "maria.souza@example.com",
-        "sugestao": "Que tal adicionar informações sobre os benefícios de cada nutriente?"
       }
     ]
   }
