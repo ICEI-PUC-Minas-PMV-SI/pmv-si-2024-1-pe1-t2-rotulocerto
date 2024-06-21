@@ -38,3 +38,7 @@ uma ferramenta inovadora que visa aumentar a compreensão da população sobre o
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+
+# Link da Aplicação
+
+https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-rotulocerto/src/index.html
