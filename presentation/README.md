@@ -16,4 +16,4 @@ Rótulo Certo
 
 ## Identidade Visual (Marca, Design)
 
-![Logo](./rotulo-certo-layout.png)
+![Layout](./rotulo-certo-layout.png)
