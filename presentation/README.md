@@ -16,4 +16,4 @@ Rótulo Certo
 
 ## Identidade Visual (Marca, Design)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+![Logo](./rotulo-certo-layout.png)
