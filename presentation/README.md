@@ -5,7 +5,7 @@ Na primeira apresentação, definimos o problema que seria abordado no projeto, 
 Na apresentação final, trouxemos os objetivos e o problema que foram resolvidos durante o desenvolvimento da aplicação e também um vídeo que demonstra o funcionamento do site.
 
 
-* [Rótulo Certo - Pitch inicial](./rotulo-certo-pitch-inicial.pdf)
+* [Rótulo Certo - Pitch inicial](rotulo-certo-pitch-inicial.pdf)
 * [Rótulo Certo - Apresentação final](./sample-presentation.pdf)
 * [Rótulo Certo - Video de demonstração](./rotulo-certo-apresentaca-final-video.mp4)
 
