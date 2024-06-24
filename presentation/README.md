@@ -6,7 +6,7 @@ Na apresentação final, trouxemos os objetivos e o problema que foram resolvido
 
 
 * [Rótulo Certo - Pitch inicial](./rotulo-certo-pitch-inicial.pdf)
-* [Rótulo Certo - Apresentação final](./presentation/rotulo-certo-slides-presentation.pdf)
+* [Rótulo Certo - Apresentação final](./rotulo-certo-slides-presentation.pdf)
 * [Rótulo Certo - Video de demonstração](./rotulo-certo-apresentaca-final-video.mp4)
 
 
