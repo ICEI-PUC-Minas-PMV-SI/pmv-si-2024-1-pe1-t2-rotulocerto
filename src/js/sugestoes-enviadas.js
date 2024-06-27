@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (storedSugestoes) {
       let data = JSON.parse(storedSugestoes);
 
-      const suggestionsList = data.suggestionsList;
+      const suggestionsList = data;
       const itemsPerPage = data.itemsPerPage || 5; 
       const totalPages = Math.ceil(suggestionsList.length / itemsPerPage);
       let currentPage = 1;
