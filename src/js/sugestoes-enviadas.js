@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
           sugestaoDiv.classList.add('sugestao');
 
           const nomeP = document.createElement('p');
-          nomeP.innerHTML = `<em>Nome Completo:</em> ${sugestao.nome}`;
+          nomeP.innerHTML = `<em>Nome Completo:</em> ${sugestao.name}`;
           sugestaoDiv.appendChild(nomeP);
 
           const emailP = document.createElement('p');
